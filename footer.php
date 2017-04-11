@@ -1,3 +1,10 @@
+<style>
+	body 
+	{
+		color: black;
+	}
+</style>
+
 <footer>		
     <p> © 2017 Stew20 </p>
     <p> Contact Info: <br>
