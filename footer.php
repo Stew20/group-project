@@ -1,4 +1,4 @@
-<footer>		
+<footer id="footer">		
     <p> © 2017 Stew20 </p>
     <p> Contact Info: <br>
     xxx1234@rit.edu <br>
