@@ -1,3 +1,51 @@
 #footer {
 	background-color: black;
 }
+
+
+body{
+	background-color:rgba(230, 230, 255, 0.4);
+	font-size:18px;
+	
+}
+
+h1{
+   color:#3d3d5c;
+   font-size: 45px;
+   font-weight: bold;
+   text-align: center;
+   }
+   
+  
+   
+   					  
+					  
+.tran{
+      clear: both;
+      margin-right: 0;
+      display: inline-block;
+      transition: 1s;
+      
+
+      } 
+
+.tran:hover{
+			opacity: 0.7;
+    		filter: alpha(opacity=7);
+    		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 18px 0 rgba(0, 0, 0, 0.9);
+  
+    	  }	
+    	  
+    	  
+    	  
+.border1{
+	background-color:#fafafa;
+} 
+
+
+.box1{
+	margin-left:18%;
+	margin-right:15%;
+}
+
+  	  				  
