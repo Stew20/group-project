@@ -1,0 +1,8 @@
+﻿Welcome! 
+If you’re reading this, then you want to learn more about Unix and its applications. Lucky for you, whether you’re a total beginner, a student wanting to “check yourself before you wreck yourself” (as the kids would say) because of an exam coming up, or you’re rather comfortable with Unix and you forgot that one command so you need a quick refresher on it, we’ve got you covered! We can’t turn you from a zero to a hero in Unix, but we are giving you the tools to do that yourself.
+
+
+ Some of the tools provided on this site include, but is not limited to:
+* A large repository of every relevant Unix command
+* Step-by-step tutorials on several applications of Unix (including videos!)
+* Quizzes on the several applications of Unix
