@@ -1,12 +1,27 @@
-#footer {
-	background-color: black;
-}
-
-
 body{
 	background-color:rgba(230, 230, 255, 0.4);
 	font-size:18px;
 	
+}
+
+#page {
+    min-height: 100%;
+    margin-bottom: 10em;
+}
+
+#push {
+    height: 150px;
+}
+
+#footer {
+	background-color: lightgray;
+    height: 10em;
+    padding: 15px;
+}
+
+
+#footerList {
+    list-style-type: none;
 }
 
 h1{

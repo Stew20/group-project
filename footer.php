@@ -1,7 +1,9 @@
-<footer id="footer">		
-    <p> © 2017 Stew20 </p>
-    <p> Contact Info: <br>
-    xxx1234@rit.edu <br>
-    (123)-456-7890</p>
+<footer id="footer">
+    <ul id="footerList">
+        <li> © 2017 Stew20 </li> <br>
+        <li> Contact Info: <br> 
+             xxx1234@rit.edu <br>
+             (123)-456-7890 </li>
+    </ul>
 </footer>
 
