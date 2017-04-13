@@ -1,6 +1,7 @@
 body{
 	background-color:rgba(230, 230, 255, 0.4);
 	font-size:18px;
+	color:#8c6699;
 	
 }
 
@@ -31,7 +32,16 @@ h1{
    text-align: center;
    }
    
+h4{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}   
   
+p{
+    line-height: 150%;  
+    text-align: justify; 	
+	}  
    
    					  
 					  
@@ -61,6 +71,22 @@ h1{
 .box1{
 	margin-left:18%;
 	margin-right:15%;
+	padding-bottom:20px;
+}
+
+
+@media screen and (max-width:450px){
+	.tran:hover{	
+		display:none;
+	    }	
+	.tran{
+		display:none;
+	}   
+	
+	.pic{
+		display:none;
+	} 
+  
 }
 
   	  				  
