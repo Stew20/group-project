@@ -11,18 +11,24 @@ body{
 }
 
 #push {
-    height: 150px;
+    height: 10em;
 }
 
 #footer {
 	background-color: lightgray;
-    height: 10em;
+    height: 15em;
     padding: 15px;
 }
 
 
 #footerList {
     list-style-type: none;
+	text-align: center;
+}
+
+#footerWidth {
+	display: inline-block;
+	padding: 0 20px 0 20px;
 }
 
 h1{
