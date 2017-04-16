@@ -10,7 +10,7 @@ window.document.onload = function()
 			pageForm.setAttribute("method", "post");
 			pageForm.setAttribute("action" , path);
 			var hidden_element = document.createElement("input");
-			hidden_element.setAttribute("name", "pageFrom");
+			hidden_element.setAttribute("name", "pageTo");
 			hidden_element.setAttribute("type", "hidden");
 			hidden_element.setAttribute("value", button.innerHTML.toLowerCase());
 			pageForm.appendChild(hidden_element);
