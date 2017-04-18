@@ -7,15 +7,20 @@
 		include'../header.php';
 	?>
 	<body>
-
-
-		<h1>This is a Heading</h1>
-		<p>This is a paragraph.</p>
-
-	
-
-
 	<?php
+		include "../php_connection.php";
+	   $sql = "select nav_index from 'sidenav_commands'";
+   	$result = $conn->query($sql);
+	   if($result->num_rows > 0){
+	      while($row=$result->FETCH_ASSOC()){
+	         echo "<li>"
+	         echo $row['nav_index'];
+	         echo "</li>";
+	      }
+	   }
+	   else{
+	      echo "0 results, you did something bad";
+	   }
 		include'../footer.php';
 	?>
 	</body>
