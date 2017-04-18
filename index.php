@@ -9,56 +9,15 @@ $_SESSION["sidenav"] = "home";
 </head>
 	<?php
 		include'header.php';
-		include'nav.php';
 	?>
-	<body>
 	<body>
 		<div class="tran">
  	      <img src="assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">
 	    </div>
 	
-        <div id="nav">
-            <ul>
-                <!-- <li><a class="active" href="#home">Home</a></li> -->
-                <!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
-                <li><a href="#home">Home</a></li>
-                <li><a href="#tutorials">Tutorials</a>
-                    <ul>
-                        <li><a href="#tutorial1">1. OS Navigation</a></li>
-                        <li><a href="#tutorial2">2. File Manipulation</a></li>
-                        <li><a href="#tutorial3">3. Filer Permissions</a></li>
-                        <li><a href="#tutorial4">4. Overview</a></li>
-                        <li><a href="#tutorial5">More Tutorials</a></li>	
-                    </ul>
-                </li>
-                <li><a href="#commands">Commands</a>
-                    <ul>
-                        <li><a href="#command1">All Commands</a></li>
-                        <li><a href="#command2">Common Commands</a></li>
-                        <li><a href="#command3">Navigation Commands</a></li>	
-                    </ul>
-                </li>
-                <li><a href="#quizzes">Quizzes</a>
-                    <ul>
-                        <li><a href="#quiz1">Q1. Navigation</a></li>
-                        <li><a href="#quiz2">Q2. Files</a></li>
-                        <li><a href="#quiz3">Q3. Overview</a></li>	
-                    </ul>
-                </li>
-                <li><a href="resources.php">Resources</a>
-                    <ul>
-                        <li><a href="#Recource1">Books</a></li>
-                        <li><a href="#Recource2">PDF's</a></li>
-                        <li><a href="#Recource3">Links</a></li>
-                        <li><a href="#Recource4">Contact Us</a></li>	
-                    </ul>		
-                </li>
-                <!-- <li> <a class="search"> </li> -->
-            </ul>
-        </div> <!-- nav div ends here -->
-
-	
-	
+	<?php
+		include 'nav.php';
+	?>
 
  	    <div id="page">
 			<div class="border1">
