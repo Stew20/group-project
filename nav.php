@@ -8,7 +8,7 @@
 		<ul>
 			<!-- <li><a class="active" href="#home">Home</a></li> -->
 			<!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
-			<li><a href="#home">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="#tutorials">Tutorials</a>
 				<ul class="tutorialsWidth">
 					<li><a href="#tutorial1">1. OS Navigation</a></li>
