@@ -32,11 +32,11 @@
 					<li><a href="#quiz3">Q3. Overview</a></li>	
 				</ul>
 			</li>
-			<li><a href="resources.php">Resources</a>
+			<li><a href="resources/index.php"> Resources </a>
 				<ul class="resourcesWidth">
-					<li><a href="resources.php/#Books">Books</a></li>
-					<li><a href="resources.php/#PDf's">PDFs</a></li>
-					<li><a href="resources.php/#websites">Links</a></li>
+					<li><a href="resources/index.php#Books">Books</a></li>
+					<li><a href="resources/index.php#pdfs">PDFs</a></li>
+					<li><a href="resources/index.php#websites">Links</a></li>
 					<li><a href="#Recource4">Contact Us</a></li>	
 				</ul>		
 			</li>
