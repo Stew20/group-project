@@ -5,11 +5,13 @@ body{
 	
 }
 
+/* Wraps around the entire page content to create space for footer */
 #page {
     min-height: 100%;
     margin-bottom: 10em;
 }
 
+/* Space for footer */
 #push {
     height: 10em;
 }
