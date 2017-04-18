@@ -14,6 +14,7 @@ body{
     height: 10em;
 }
 
+/* CSS for footer */
 #footer {
 	background-color: lightgray;
     padding: 15px;
@@ -21,36 +22,41 @@ body{
 	color: black;
 }
 
-
+/* Centers sand removes and list styles from lists in footer */
 #footerList {
     list-style-type: none;
 	text-align: center;
 }
 
+/* Makes the footer objects appear next to each other and add padding */
 #footerWidth {
 	display: inline-block;
 	padding: 0 20px 0 20px;
 }
 
+/* Padding for body of resources */
 #resourceBody {
     padding: 15px 15px 15px 15px;
 }
 
+/* In order to use ul's as an indent, remove any type of list styles */
 #resourceList {
     list-style-type: none;
 }
 
+/* Class used for centering images */
 .centerImage {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Class used for centering text */
 .centerText {
     text-align: center;
 }
 
-
+/* Class used to left align text */
 .leftText {
     text-align: left;
     text-decoration: none;
