@@ -5,6 +5,7 @@ $_SESSION["sidenav"] = "home";
 <!DOCTYPE html>
 <html lang="en">
 	<?php
+		$path = "./";
 		include'header.php';
 	?>
 	<body>
