@@ -2,7 +2,9 @@
 	<ul>
 	<!-- <li><a class="active" href="#home">Home</a></li> -->
 	<!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
-	<li><a href="index.php">Home</a></li>
+	<?php
+		echo('<li><a href="'.$path.'">Home</a></li>');
+	?>
 	<li><a href="#tutorials">Tutorials</a>
 		<ul class="tutorialsWidth">
 			<?php
@@ -33,7 +35,7 @@
 		</ul>
 	</li>
 	<?php
-	echo ('<li><a href="'.$path.'resources/index.php"> Resources </a>');
+		echo ('<li><a href="'.$path.'resources/index.php"> Resources </a>');
 	?>
 		<ul class="resourcesWidth">
 			<?php
