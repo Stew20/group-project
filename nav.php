@@ -1,3 +1,4 @@
+<?php
 <div id="nav">
 	<ul>
 	<!-- <li><a class="active" href="#home">Home</a></li> -->
@@ -28,10 +29,10 @@
 	</li>
 	<li><a href="resources/index.php"> Resources </a>
 		<ul class="resourcesWidth">
-			<li><a href="index.php/#books">Books</a></li>
-			<li><a href="index.php/#pdfs">PDFs</a></li>
-			<li><a href="index.php/#websites">Links</a></li>
-			<li><a href="#Recource4">Contact Us</a></li>	
+			echo('<li><a href="'.$path.'/resources/index.php/#books">Books</a></li> ');
+			echo('<li><a href="'.$path.'/resources/index.php/#pdfs">PDFs</a></li>');	
+			echo('<li><a href="'.$path.'/resources/index.php/#websites">Links</a></li>');
+			echo('<li><a href="'.$path.'/resources/index.php/#footer">Contact Us</a></li>');	
 		</ul>		
 	</li>
 	<!-- <li> -->
@@ -42,7 +43,7 @@
 	<!-- </li> -->
 	</ul>
 </div> <!-- nav div ends here -->
-
+?>
 <script>
 	// Get the button, and when the user clicks on it, execute myFunction
 	//document.getElementById("myBtn").onclick = function() {myFunction()};
