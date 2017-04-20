@@ -4,9 +4,6 @@ $_SESSION["sidenav"] = "home";
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-</head>
 	<?php
 		include'header.php';
 	?>
