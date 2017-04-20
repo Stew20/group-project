@@ -166,7 +166,7 @@ body{
 
 /* CSS for footer */
 #footer {
-	background-color: rgba(204, 51, 255, 0.5);
+	background-color: #cc00ff;
     padding: 15px;
 	text-align: center;
 	color: black;
