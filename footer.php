@@ -1,6 +1,6 @@
 <footer id="footer">
 			<?php
-				echo('<img src="'.$path.'assets/images/stew20Logo.png" alt="Logo">');
+				echo('<img class="centerImage" src="'.$path.'assets/images/stew20Logo.png" alt="Logo">');
 			?>
             <h4> © 2017 Stew20 </h4>
 			<div class="footerWidth">
