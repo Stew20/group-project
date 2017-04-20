@@ -28,9 +28,9 @@
 	</li>
 	<li><a href="resources/index.php"> Resources </a>
 		<ul class="resourcesWidth">
-			<li><a href="resources/index.php/#books">Books</a></li>
-			<li><a href="resources/index.php/#pdfs">PDFs</a></li>
-			<li><a href="resources/index.php/#websites">Links</a></li>
+			<li><a href="index.php/#books">Books</a></li>
+			<li><a href="index.php/#pdfs">PDFs</a></li>
+			<li><a href="index.php/#websites">Links</a></li>
 			<li><a href="#Recource4">Contact Us</a></li>	
 		</ul>		
 	</li>
