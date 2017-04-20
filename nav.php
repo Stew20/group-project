@@ -1,4 +1,3 @@
-<?php
 <div id="nav">
 	<ul>
 	<!-- <li><a class="active" href="#home">Home</a></li> -->
@@ -6,33 +5,41 @@
 	<li><a href="index.php">Home</a></li>
 	<li><a href="#tutorials">Tutorials</a>
 		<ul class="tutorialsWidth">
-			<li><a href="#tutorial1">1. OS Navigation</a></li>
-			<li><a href="#tutorial2">2. File Manipulation</a></li>
-			<li><a href="#tutorial3">3. File Permissions</a></li>
-			<li><a href="#tutorial4">4. Overview</a></li>
-			<li><a href="#tutorial5">More Tutorials</a></li>	
+			<?php
+				echo('<li><a href="'.$path.'/tutorials/index.php">1. OS Navigation</a></li>');
+				echo('<li><a href="'.$path.'/tutorials/index.php">2. File Manipulation</a></li>');
+				echo('<li><a href="'.$path.'/tutorials/index.php">1. File Permissions</a></li>');
+				echo('<li><a href="'.$path.'/tutorials/index.php">4. Overview</a></li>');
+				echo('<li><a href="'.$path.'/tutorials/index.php">More Tutorials</a></li>');	
+			?>
 		</ul>
 	</li>
 	<li><a href="#commands">Commands</a>
 		<ul class="commandsWidth">
-			<li><a href="#command1">All Commands</a></li>
-			<li><a href="#command2">Common Commands</a></li>
-			<li><a href="#command3">Navigation Commands</a></li>	
+			<?php
+				echo('<li><a href="'.$path.'/commands/command1.php">All Commands</a></li>');
+				echo('<li><a href="'.$path.'/commands/command1.php">Common Commands</a></li>');
+				echo('<li><a href="'.$path.'/commands/command1.php">Navigation Commands</a></li>');
+			?>
 		</ul>
 	</li>
 	<li><a href="#quizzes">Quizzes</a>
 		<ul class="quizzesWidth	">
-			<li><a href="#quiz1">Q1. Navigation</a></li>
-			<li><a href="#quiz2">Q2. Files</a></li>
-			<li><a href="#quiz3">Q3. Overview</a></li>	
+			<?php
+				echo('<li><a href="'.$path.'/quizzes/index.php">Q1. Navigation</a></li>');
+				echo('<li><a href="'.$path.'/quizzes/index.php">Q2. Files</a></li>');
+				echo('<li><a href="'.$path.'/quizzes/index.php">Q3. Overview</a></li>');
+			?>
 		</ul>
 	</li>
 	<li><a href="resources/index.php"> Resources </a>
 		<ul class="resourcesWidth">
-			echo('<li><a href="'.$path.'/resources/index.php/#books">Books</a></li> ');
-			echo('<li><a href="'.$path.'/resources/index.php/#pdfs">PDFs</a></li>');	
-			echo('<li><a href="'.$path.'/resources/index.php/#websites">Links</a></li>');
-			echo('<li><a href="'.$path.'/resources/index.php/#footer">Contact Us</a></li>');	
+			<?php
+				echo('<li><a href="'.$path.'/resources/index.php/#books">Books</a></li> ');
+				echo('<li><a href="'.$path.'/resources/index.php/#pdfs">PDFs</a></li>');	
+				echo('<li><a href="'.$path.'/resources/index.php/#websites">Links</a></li>');
+				echo('<li><a href="'.$path.'/resources/index.php/#footer">Contact Us</a></li>');
+			?>
 		</ul>		
 	</li>
 	<!-- <li> -->
@@ -43,7 +50,6 @@
 	<!-- </li> -->
 	</ul>
 </div> <!-- nav div ends here -->
-?>
 <script>
 	// Get the button, and when the user clicks on it, execute myFunction
 	//document.getElementById("myBtn").onclick = function() {myFunction()};
