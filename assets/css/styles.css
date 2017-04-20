@@ -20,7 +20,7 @@ body{
 	float: left;
 }
 
-#nav li ul, li li ul {
+#nav li ul, #nav li li ul {
 	display: none;
 	position: absolute;
 	font-weight: normal;
