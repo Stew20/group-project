@@ -55,6 +55,6 @@
 			</div>
         </footer>
 		<?php
-			echo(' <script src="'.$path.'assets/jamyscript/swag_the_nav_bar.js"></script> ');
+			echo(' <script src="'.$path.'assets/javascript/swag_the_nav_bar.js"></script> ');
 		?>
 
