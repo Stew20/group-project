@@ -1,8 +1,8 @@
 <footer id="footer">
-            <h4> © 2017 Stew20 </h4>
 			<?php
 				echo('<img src="'.$path.'assets/images/stew20Logo.png" alt="Logo">');
 			?>
+            <h4> © 2017 Stew20 </h4>
 			<div class="footerWidth">
 				<ul class="footerList">
 					<li><h4> Karnowsky Estime </h4></li>
