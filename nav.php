@@ -39,10 +39,10 @@
 	?>
 		<ul class="resourcesWidth">
 			<?php
-				echo('<li><a href="'.$path.'resources/index.php/#books">Books</a></li> ');
-				echo('<li><a href="'.$path.'resources/index.php/#pdfs">PDFs</a></li>');	
-				echo('<li><a href="'.$path.'resources/index.php/#websites">Links</a></li>');
-				echo('<li><a href="'.$path.'resources/index.php/#footer">Contact Us</a></li>');
+				echo('<li><a href="'.$path.'resources/index.php#books">Books</a></li> ');
+				echo('<li><a href="'.$path.'resources/index.php#pdfs">PDFs</a></li>');	
+				echo('<li><a href="'.$path.'resources/index.php#websites">Links</a></li>');
+				echo('<li><a href="'.$path.'resources/index.php#footer">Contact Us</a></li>');
 			?>
 		</ul>		
 	</li>
