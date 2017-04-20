@@ -32,7 +32,9 @@
 			?>
 		</ul>
 	</li>
-	<li><a href="resources/index.php"> Resources </a>
+	<?php
+	echo ('<li><a href="'.$path.'resources/index.php"> Resources </a>');
+	?>
 		<ul class="resourcesWidth">
 			<?php
 				echo('<li><a href="'.$path.'resources/index.php/#books">Books</a></li> ');
