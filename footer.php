@@ -54,4 +54,7 @@
 				</ul>
 			</div>
         </footer>
+		<?php
+			echo(' <script src="'.$path.'assets/jamyscript/swag_the_nav_bar.js"></script> ');
+		?>
 
