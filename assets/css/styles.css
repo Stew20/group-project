@@ -173,13 +173,13 @@ body{
 }
 
 /* Centers sand removes and list styles from lists in footer */
-#footerList {
+.footerList {
     list-style-type: none;
 	text-align: center;
 }
 
 /* Makes the footer objects appear next to each other and add padding */
-#footerWidth {
+.footerWidth {
 	display: inline-block;
 	padding: 0 20px 0 20px;
 }
