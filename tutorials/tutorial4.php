@@ -37,7 +37,7 @@
 				<p>
 			</div>
 			
-			<?php <img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;"> ?>
+			<?php echo('<img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 		</p>
 		
 		<hr>
@@ -54,7 +54,7 @@
 				Following is Output Example:
 				<p>
 			</div>
-			<?php <img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;"> ?>
+			<?php echo('<img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 		</p>
 		
 		<hr>
