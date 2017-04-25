@@ -2,7 +2,7 @@
 <html lang="en">
 	<?php
 		$path = "../";
-		include'header.php';
+		include''.$path.'header.php';
 	?>
 	<head>
 	<title>Command</title>
