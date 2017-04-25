@@ -186,9 +186,8 @@
    </div>		
    </div>	   
 
-        
 	<?php
-		include'footer.php';
-	?>
+		include $path."footer.php";
+	?>		
 	</body>
 </html>
