@@ -79,15 +79,15 @@
 				<input type="radio" name="10" value="C"></input>
 				<input type="radio" name="10" value="D"></input>
 			</div>
-			<button onClick="checkAnswers()">Submit</button>
 		</form>
+		<button onClick="checkAnswers()">Submit</button>
 	</body>
 	<script>
 		var answers = [];
 		var answerKey = [A,B,C,D,A,B,C,D,A,B];
 		var results = {};
 		function verify(){
-			for (var i = 0, l=this.length; i < l; i++)
+			for (var i = 0; i < answers.length; i++)
 			{				
 				if (answers[i] != answerKey[i]) 
 				{ 				
