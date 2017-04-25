@@ -107,7 +107,7 @@
 				var x = document.getElementsByClassName(i.toString());
 				var z;
 				for (z = 0; z < x.length; z++) {
-					if(x[z].chcked)
+					if(x[z].checked)
 					{
 						answers[i - 1] = x[z].value;
 					}
