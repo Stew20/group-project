@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-	$path = "../";
-	include $path."header.php";
+	include'../header.php';
 ?>	
 	<body>
 		<div class="tran">
@@ -93,7 +92,7 @@
          </div>  
    
 	<?php
-		include'footer.php';
+		include'../footer.php';
 	?>
 	</body>
 </html>
