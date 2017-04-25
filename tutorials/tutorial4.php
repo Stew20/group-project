@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<?php
-		$path = "./";
+		$path = "../";
 		include'header.php';
 	?>
 	<head>
