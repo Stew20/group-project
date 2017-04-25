@@ -1,20 +1,18 @@
-<?php
-session_start();
-$_SESSION["sidenav"] = "home";
-?>
 <!DOCTYPE html>
 <html lang="en">
-	<?php
-		$path = "./";
-		include'header.php';
-	?>
+<?php
+	$path = "../";
+	include $path."header.php";
+?>
+	
+	
 	<body>
-		<div class="tran">
- 	      <img src="assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">
-	    </div>
+	<div class="tran">
+ 	   <?php echo('<img src="'.$path.'assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">'); ?>
+	</div>
 	
 	<?php
-		include 'nav.php';
+		include $path.'nav.php';
 	?>
 
 	<h1>Unix commands </h1>
