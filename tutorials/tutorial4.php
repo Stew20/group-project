@@ -16,7 +16,7 @@
 	</div>
 	
 	<?php
-		include'nav.php';
+		include''.$path.'nav.php';
 	?>
 	
 
@@ -81,7 +81,7 @@
 	</div>
 	
 	<?php
-		include'footer.php';
+		include''.$path.'footer.php';
 	?>
         
 	</body>
