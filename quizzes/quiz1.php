@@ -104,7 +104,7 @@
 		function checkAnswers(){
 			for (i = 1; i <= 10; i ++)
 			{
-				answers[i] = document.getElementById(i.toString()).value;
+				answers[i - 1] = document.getElementById(i.toString()).value;
 			}
 			if(answers.length != answerKey.length)
 			{
