@@ -13,7 +13,7 @@
       $result = $conn->query($sql);
       if($result->num_rows > 0){
          while($row=$result->FETCH_ASSOC()){
-            echo "<li>"
+            echo "<li>";
             echo $row['nav_index'];
             echo "</li>";
          }
