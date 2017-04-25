@@ -15,7 +15,7 @@
 		include $path.'nav.php';
 	?>
 
-	<h1>Unix Commands: An Introduction to Common Commands</h1>
+	<h1>Unix Commands</h1>
 	
 	
 	
