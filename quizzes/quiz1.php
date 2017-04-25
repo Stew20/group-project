@@ -84,7 +84,7 @@
 	</body>
 	<script>
 		var answers = [];
-		var answerKey = [A,B,C,D,A,B,C,D,A,B];
+		var answerKey = ["A","B","C","D","A","B","C","D","A","B"];
 		var results = {};
 		function verify(){
 			for (var i = 0; i < answers.length; i++)
