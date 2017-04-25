@@ -7,7 +7,7 @@
 		include'../header.php';
 	?>
 	<body>
-		<form onSubmit="checkAnswers()">
+		<form>
 			<h1>Quiz1</h1>
 			<div>
 				<h2>Question 1</h2>
@@ -79,7 +79,7 @@
 				<input type="radio" name="10" value="C"></input>
 				<input type="radio" name="10" value="D"></input>
 			</div>
-			<input type="submit" value="Submit"></input>
+			<input type="submit" value="Submit" onClick="checkAnswers()"></input>
 		</form>
 	</body>
 	<script>
@@ -100,16 +100,18 @@
 			}       
 		}
 		function checkAnswers(){
-			for i = 0; i < 10; i ++)
+			for (i = 0; i < 10; i ++)
 			{
 				answers[i] = document.getElementById(i).value;
 			}
 			if(answers.length != answerKey.length)
 			{
+				console.log("you did not answer all of the questions");
 				alert("you did not answer all of the questions");
 				return;
 			}
 			verify();
+			console.log(results);
 			alert(results);
 		}
 	</script>
