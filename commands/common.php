@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-	include'../header.php';
+	$path = "../";
+	include $path."header.php";
 ?>	
 	<body>
 		<div class="tran">
- 	      <img src="assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">
+ 	      	<?php echo('<img src="'.$path.'assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">'); ?>
 	    </div>
 
 	<?php
-		include 'nav.php';
+		include $path.'nav.php';
 	?>
 
  	    <div id="page">
@@ -92,7 +93,7 @@
          </div>  
    
 	<?php
-		include'../footer.php';
+		include $path."footer.php";
 	?>
 	</body>
 </html>
