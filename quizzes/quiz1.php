@@ -102,7 +102,7 @@
 		function checkAnswers(){
 			for (i = 0; i < 10; i ++)
 			{
-				answers[i] = document.getElementById(i).value;
+				answers[i] = document.getElementById(i.toString()).value;
 			}
 			if(answers.length != answerKey.length)
 			{
