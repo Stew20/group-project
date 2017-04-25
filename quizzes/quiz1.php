@@ -79,7 +79,7 @@
 				<input type="radio" name="10" value="C"></input>
 				<input type="radio" name="10" value="D"></input>
 			</div>
-			<input type="submit" value="Submit" onClick="checkAnswers()"></input>
+			<button onClick="checkAnswers()">Submit</button>
 		</form>
 	</body>
 	<script>
