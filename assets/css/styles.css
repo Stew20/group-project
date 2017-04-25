@@ -293,6 +293,20 @@ a:active{
 }
 
 
+/*common commands page*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+	}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+	}
+	
+tr:nth-child(even){background-color: #e6e6e6}
+
+
 @media screen and (max-width:450px){
 	.tran:hover{	
 		display:none;
