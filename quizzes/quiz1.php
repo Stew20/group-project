@@ -100,7 +100,7 @@
 			}       
 		}
 		function checkAnswers(){
-			for (i = 0; i < 10; i ++)
+			for (i = 1; i <= 10; i ++)
 			{
 				answers[i] = document.getElementById(i.toString()).value;
 			}
