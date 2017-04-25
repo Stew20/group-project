@@ -99,6 +99,8 @@
 				}
 			}       
 		}
+		
+		
 		function checkAnswers(){
 			for (i = 1; i <= 10; i ++)
 			{
@@ -106,6 +108,7 @@
 			}
 			if(answers.length != answerKey.length)
 			{
+				console.log("answers length = " + answers.length )
 				console.log("you did not answer all of the questions");
 				alert("you did not answer all of the questions");
 				return;
