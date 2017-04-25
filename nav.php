@@ -21,7 +21,7 @@
 			<?php
 				echo('<li><a class="nav_bar_button" href="'.$path.'commands/all.php">All Commands</a></li>');
 				echo('<li><a class="nav_bar_button" href="'.$path.'commands/common.php">Common Commands</a></li>');
-				echo('<li><a class="nav_bar_button" href="'.$path.'commands/command1.php">Navigation Commands</a></li>');
+				echo('<li><a class="nav_bar_button" href="'.$path.'commands/navCommands.php">Navigation Commands</a></li>');
 			?>
 		</ul>
 	</li>
@@ -39,10 +39,10 @@
 	?>
 		<ul class="resourcesWidth">
 			<?php
-				echo('<li><a class="nav_bar_button" href="'.$path.'resources/index.php/#books">Books</a></li> ');
-				echo('<li><a class="nav_bar_button" href="'.$path.'resources/index.php/#pdfs">PDFs</a></li>');	
-				echo('<li><a class="nav_bar_button" href="'.$path.'resources/index.php/#websites">Links</a></li>');
-				echo('<li><a class="nav_bar_button" href="'.$path.'resources/index.php/#footer">Contact Us</a></li>');
+				echo('<li><a class="nav_bar_button" href="'.$path.'resources/index.php#books">Books</a></li> ');
+				echo('<li><a class="nav_bar_button" href="'.$path.'resources/index.php#pdfs">PDFs</a></li>');	
+				echo('<li><a class="nav_bar_button" href="'.$path.'resources/index.php#websites">Links</a></li>');
+				echo('<li><a class="nav_bar_button" href="'.$path.'resources/index.php#footer">Contact Us</a></li>');
 			?>
 		</ul>		
 	</li>
