@@ -12,7 +12,7 @@
 	
 	<body>
 		<div class="tran">
- 	   <img src="assets/images/code3.jpg" alt="picture" style="width:100vw;height:250px;">
+ 	    <?php echo('<img src="'.$path.'assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">'); ?>
 	</div>
 	
 	<?php
@@ -37,7 +37,7 @@
 				<p>
 			</div>
 			
-			<img src="assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">
+			<?php <img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;"> ?>
 		</p>
 		
 		<hr>
@@ -54,7 +54,7 @@
 				Following is Output Example:
 				<p>
 			</div>
-			<img src="assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">
+			<?php <img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;"> ?>
 		</p>
 		
 		<hr>
