@@ -14,7 +14,7 @@ else
 	echo "<ul>";
 	/* tutorials, commands, quizzes, reources */
 	$section_table = "sidenav_".$section;
-	$sql = "select nav_index,selected from '". $section_table ."'";
+	$sql = "select nav_index,selected from ". $section_table ."";
 	$result = $conn->query($sql);
 	if($result->num_rows > 0){
 		while($row=$result->FETCH_ASSOC()){
