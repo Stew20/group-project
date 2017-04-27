@@ -13,7 +13,9 @@
 	
 	<?php
 		include $path.'nav.php';
+		include $path.'sidenav.php';
 	?>
+	
 
 	<h1>Unix Commands</h1>
 	
