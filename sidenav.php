@@ -24,7 +24,7 @@ else
 				// need to add something here in the li for an href so that it auto links to the page it needs to go to, probably additional field in DB
 			}
 			else{
-				echo "<li>"
+				echo "<li>";
 				echo $row['nav_index'];
 				// need to add something here in the li for an href so that it auto links to the page it needs to go to, probably additional field in DB
 			}
