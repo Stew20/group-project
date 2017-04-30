@@ -12,7 +12,9 @@
 	<?php
 		include $path.'nav.php';
 	?>
-	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+		
+		
 	<h1>Unix - OS navigation</h1>
 	<div class="border1">
 	<div class="box1">
@@ -33,7 +35,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">
+	<?php echo('<img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	<p>
 	For a more detailed description of folder contents, flags such as -l can be used. -l gives a “Long” listing of details, including permissions, ownership, creator, modification date, and name.
@@ -44,7 +46,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">
+	<?php echo('<img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	
 	<hr>
@@ -63,7 +65,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">
+	<?php echo('<img src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	
 	<p>
@@ -75,7 +77,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">
+	<?php echo('<img src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	
 	<hr>
@@ -97,7 +99,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">
+	<?php echo('<img src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	
 	
@@ -135,6 +137,24 @@
 	<?php
 		include $path."footer.php";
 	?>
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+    			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        			document.getElementById("myBtn").style.display = "block";
+   			 } else {
+       				 document.getElementById("myBtn").style.display = "none";
+    			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+    			document.body.scrollTop = 0;
+    			document.documentElement.scrollTop = 0;
+		}
+	</script>
 	</body>
 </html>
 	
