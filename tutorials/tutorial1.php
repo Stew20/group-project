@@ -33,7 +33,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot.jpg" alt="picture" style="width:45vw;height:300px;">
+	<img src="assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">
 	</div>
 	<p>
 	For a more detailed description of folder contents, flags such as -l can be used. -l gives a “Long” listing of details, including permissions, ownership, creator, modification date, and name.
@@ -44,7 +44,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot2.jpg" alt="picture" style="width:45vw;height:300px;">
+	<img src="assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">
 	</div>
 	
 	<hr>
@@ -63,7 +63,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot3.jpg" alt="picture" style="width:45vw;height:300px;">
+	<img src="assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">
 	</div>
 	
 	<p>
@@ -75,7 +75,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot4.jpg" alt="picture" style="width:45vw;height:300px;">
+	<img src="assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">
 	</div>
 	
 	<hr>
@@ -97,7 +97,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<img src="assets/images/ScreenShot5.jpg" alt="picture" style="width:45vw;height:300px;">
+	<img src="assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">
 	</div>
 	
 	
