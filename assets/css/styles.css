@@ -292,6 +292,16 @@ a:active{
 	padding-bottom:20px;
 }
 
+/*tutorial page*/
+.commBorder{
+	    	border-left: 8px solid #8585ad;
+    		background-color: #dfe2ec;
+    		padding-left: 10px;
+	}
+	        
+.textColor{
+	    color: #454059;
+	}
 
 /*common commands page*/
 table {
