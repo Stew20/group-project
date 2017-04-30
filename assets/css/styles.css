@@ -355,11 +355,6 @@ th, td {
 } 
 
 
-/*shadow for screen shot image(tutorial page)*/
-.shadow {
-    	box-shadow: 10px 10px 5px #888888;
-	}
-
 
 @media screen and (max-width:500px){
 	.tran:hover{	
