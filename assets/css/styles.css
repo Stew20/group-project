@@ -307,7 +307,28 @@ th, td {
 tr:nth-child(even){background-color: #e6e6e6}
 
 
-@media screen and (max-width:450px){
+/*tutorial page - summary table*/		
+#commTable table, td, th {    
+   			 border: 3px solid #ddd;
+    		 text-align: left;
+		}
+	    
+table {
+   		    border-collapse: collapse;
+    		width: 100%;
+		}
+
+th, td {
+    		padding: 15px;
+		}	
+
+/*shadow for screen shot image(tutorial page)*/
+.shadow {
+    	box-shadow: 10px 10px 5px #888888;
+	}
+
+
+@media screen and (max-width:500px){
 	.tran:hover{	
 		display:none;
 	    }	
