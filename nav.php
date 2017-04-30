@@ -8,7 +8,7 @@
 	<li><a href="#tutorials">Tutorials</a>
 		<ul class="tutorialsWidth">
 			<?php
-				echo('<li><a class="nav_bar_button" href="'.$path.'tutorials/index.php">1. OS Navigation</a></li>');
+				echo('<li><a class="nav_bar_button" href="'.$path.'tutorials/tutorial1.php">1. OS Navigation</a></li>');
 				echo('<li><a class="nav_bar_button" href="'.$path.'tutorials/tutorial2.php">2. File Manipulation</a></li>');
 				echo('<li><a class="nav_bar_button" href="'.$path.'tutorials/tutorial3.php">3. File Permissions</a></li>');
 				echo('<li><a class="nav_bar_button" href="'.$path.'tutorials/tutorial4.php">4. Package Manager </a></li>');
