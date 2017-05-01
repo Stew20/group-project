@@ -50,10 +50,12 @@
   									<td>"Remove a Directory". Removes the empty directory</td>
   								</tr>								
   							</table>
+  							</div>
+							<div>
   							
   							
-  							
-
+							<div class="border1">
+							<div class="box1">
 							<h2>File Commands</h2>
 							<table>
   								<tr>
