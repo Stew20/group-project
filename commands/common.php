@@ -12,11 +12,11 @@
 	<?php
 		include $path.'nav.php';
 	?>
-
+		<h1> Common Commands </h1>
  	    <div id="page">
 			<div class="border1">
 					<div class="box1">
-						<h1> Common Commands </h1>
+						
 							<h2>Directory Commands</h2>
 							<table>
   								<tr>
