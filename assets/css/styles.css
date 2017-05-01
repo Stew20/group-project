@@ -303,9 +303,10 @@ a:active{
 	    color: #454059;
 	}
 
-/*common commands page*/
+/*common commands page and tutorial page - summary table*/
 table {
     border-collapse: collapse;
+    border: 3px solid #ddd;
     width: 100%;
 	}
 
@@ -315,22 +316,7 @@ th, td {
 	}
 	
 tr:nth-child(even){background-color: #e6e6e6}
-
-
-/*tutorial page - summary table*/		
-#commTable table, td, th {    
-   			 border: 3px solid #ddd;
-    		 text-align: left;
-		}
-	    
-#commTable table {
-   		    border-collapse: collapse;
-    		width: 100%;
-		}
-
-#commTable th, td {
-    		padding: 15px;
-		}
+		
 
 /*Create a Scroll To Top Button*/
 #myBtn {
