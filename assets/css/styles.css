@@ -323,12 +323,12 @@ tr:nth-child(even){background-color: #e6e6e6}
     		 text-align: left;
 		}
 	    
-table {
+#commTable table {
    		    border-collapse: collapse;
     		width: 100%;
 		}
 
-th, td {
+#commTable th, td {
     		padding: 15px;
 		}
 
