@@ -1,11 +1,4 @@
-window.document.onload = function()
-{
-	var buttons = window.document.getElementsByClassName('nav_bar_button');
-	for(var i = 0; i < buttons.length; i++)
-	{
-		var button = buttons[i];
-		console.log("onclick function added");
-		button.onclick = function(){
+function nav_button_clicked(){
 			var pageForm = window.document.createElement("form");
 			var path = "./process_nav_button.php";
 			pageForm.setAttribute("method", "post");
@@ -18,5 +11,3 @@ window.document.onload = function()
 			window.document.body.appendChild(pageForm);
 			pageForm.submit();
 		}
-	}
-}
