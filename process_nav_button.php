@@ -33,7 +33,7 @@
 	{
 		$sql4 = "update sections set selected=1 where section_name='" . $destination . "'";
 		$result4 = $conn->query($sql4);
-		if($result4->num_rows > 0){
+		if($result4->affected_rows > 0){
 			header('Location: '.$destination);
 		}
 		else{
