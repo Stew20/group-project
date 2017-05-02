@@ -41,9 +41,9 @@
 				<li> <h3> PDFs </h3></li>
 				<li>
 					<ul>
-						<?php echo(' <li><a href="https://www.tutorialspoint.com/unix/unix_tutorial.pdf"> <img src="'.$path.'assets/images/firstRpdf.png" alt=" go to first PDF Recource" style="width=40px; height=50px;"> </a></li> ');?>
+						<!-- <?php echo(' <li><a href="https://www.tutorialspoint.com/unix/unix_tutorial.pdf"> <img src="'.$path.'assets/images/firstRpdf.png" alt=" go to first PDF Recource" style="width=40px; height=50px;"> </a></li> ');?> -->
 						<li><a href="https://www.tutorialspoint.com/unix/unix_tutorial.pdf"> Unix Tutorail pdf </a></li>
-						<?php echo(' <li><a href="http://downloads.tuxpuc.pucp.edu.pe/manuales/otros/UNIX.PDF"> <img src="'.$path.'assets/images/secondRpdf.png" alt=" go to second PDF Recource" style="width=40px; height=50px;"></a></li> ');?>
+						<!-- <?php echo(' <li><a href="http://downloads.tuxpuc.pucp.edu.pe/manuales/otros/UNIX.PDF"> <img src="'.$path.'assets/images/secondRpdf.png" alt=" go to second PDF Recource" style="width=40px; height=50px;"></a></li> ');?> -->
 						<li><a href="http://downloads.tuxpuc.pucp.edu.pe/manuales/otros/UNIX.PDF"> Teach Yourself Unix pdf </a></li>
 						<li><a href="http://www.maths.manchester.ac.uk/~pjohnson/resources/unixShort/examples-commands.pdf"> Thirty Useful Unix Commands </a></li>
 						<li><a href="https://www.univie.ac.at/cartography/lehre/kvaf/links_und_tutorials/tutorials/unix.pdf"> Basic Unix Tutorail pdf </a></li>
