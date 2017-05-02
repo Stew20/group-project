@@ -57,4 +57,15 @@
 				</ul>
 			</div>
         </footer>
+		<?php
+			if( $path == "./")
+			{
+				echo(' <script src="'.$path.'assets/javascript/nav_bar_level1.js"></script> ');
+			}
+			else
+			{
+				echo(' <script src="'.$path.'assets/javascript/nav_bar_level2.js"></script> ');
+			}
+		
+		?>
 
