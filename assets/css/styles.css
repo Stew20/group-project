@@ -292,6 +292,10 @@ a:active{
 	border: 1px solid black;
 } 
 
+.border1 ul li{
+	list-style-type: none;
+}
+
 
 .box1{
 	margin-left:18%;
