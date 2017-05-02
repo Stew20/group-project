@@ -4,7 +4,7 @@
 	<!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
 	<?php
 		echo('<li><a class="nav_bar_button" sqlid="home" id="'.$path.'index.php" onclick="nav_button_clicked(this)" >Home</a></li>');
-		echo('<li><a class="nav_bar_button" sqlid="tutorials" id="'.$path.'tutorials/index.php" onclick="nav_button_clicked(this)" >Tutorials</a></li>');
+		echo('<li><a class="nav_bar_button" sqlid="tutorials" id="'.$path.'tutorials/index.php" onclick="nav_button_clicked(this)" >Tutorials</a>');
 	?>
 		<ul class="tutorialsWidth">
 			<?php
