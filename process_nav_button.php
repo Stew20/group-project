@@ -4,7 +4,8 @@
 	$sql_dest = $_POST['sqlEntry'];
 	$_SESSION["sidenav"] = $destination;
 
-	echo($destination);
+	echo($destination . "\n");
+	echo($sql_dest . "\n");
 	
 	include "php_connection.php";
 
