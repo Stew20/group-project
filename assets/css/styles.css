@@ -196,7 +196,7 @@ body{
 }
 
 /* In order to use ul's as an indent, remove any type of list styles */
-#resourceList li ul li{
+#resourceList ul li ul li{
     list-style-type: none;
 }
 
