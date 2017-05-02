@@ -4,8 +4,8 @@ window.document.onload = function()
 	for(var i = 0; i < buttons.length; i++)
 	{
 		var button = buttons[i];
+		console.log("onclick function added");
 		button.onclick = function(){
-			console.log("onclick function added");
 			var pageForm = window.document.createElement("form");
 			var path = "./process_nav_button.php";
 			pageForm.setAttribute("method", "post");
