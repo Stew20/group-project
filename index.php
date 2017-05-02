@@ -17,7 +17,7 @@ $_SESSION["sidenav"] = "home";
 		include 'nav.php';
 	?>
 
- 	    <div id="page">
+ 	    <div class="container-fluid">
 			<div class="col-md-2 col-sm-12">
 				<?php 
 					include $path."sidenav.php"
