@@ -12,7 +12,7 @@
 				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/index.php"     onclick="nav_button_clicked(this)" >More Tutorials</a></li>
 		</ul>
 	</li>
-	<li><a class="nav_bar_button" sqlid="commands" id="commands/index.php" onclick="nav_button_clicked(this)" >Commands</a>');
+	<li><a class="nav_bar_button" sqlid="commands" id="commands/index.php" onclick="nav_button_clicked(this)" >Commands</a><!--');-->
 		<ul class="commandsWidth">
 				<li><a class="nav_bar_button" sqlid="commands" id="commands/index.php"       onclick="nav_button_clicked(this)" >All Commands</a></li>
 				<li><a class="nav_bar_button" sqlid="commands" id="commands/common.php"      onclick="nav_button_clicked(this)" >Common Commands</a></li>
@@ -26,7 +26,7 @@
 				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q3. Overview</a></li>
 		</ul>
 	</li>
-	<li><a <a class="nav_bar_button" sqlid="resources" id="resources/index.php" onclick="nav_button_clicked(this)" > Resources </a>
+	<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php" onclick="nav_button_clicked(this)" > Resources </a>
 		<ul class="resourcesWidth">
 				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#books"    onclick="nav_button_clicked(this)" >Books</a></li>
 				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#pdfs"     onclick="nav_button_clicked(this)" >PDFs</a></li>
