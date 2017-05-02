@@ -77,7 +77,7 @@
 	</p>
 	</div>
 	<div class="shadow">
-	<?php echo('<img src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+	<?php echo('<img src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	
 	<hr>
