@@ -19,9 +19,9 @@
 	<li><a href="#commands">Commands</a>
 		<ul class="commandsWidth">
 			<?php
-				echo('<li><a class="nav_bar_button" href="'.$path.'commands/all.php">All Commands</a></li>');
-				echo('<li><a class="nav_bar_button" href="'.$path.'commands/common.php">Common Commands</a></li>');
-				echo('<li><a class="nav_bar_button" href="'.$path.'commands/navCommands.php">Navigation Commands</a></li>');
+				echo('<li><a class="nav_bar_button" id="'.$path.'commands/all.php">All Commands</a></li>');
+				echo('<li><a class="nav_bar_button" id="'.$path.'commands/common.php">Common Commands</a></li>');
+				echo('<li><a class="nav_bar_button" id="'.$path.'commands/navCommands.php">Navigation Commands</a></li>');
 			?>
 		</ul>
 	</li>

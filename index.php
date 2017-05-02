@@ -6,7 +6,7 @@ $_SESSION["sidenav"] = "home";
 <html lang="en">
 	<?php
 		$path = "./";
-		include'header.php';
+		include $path.'header.php';
 	?>
 	<body>
 		<div class="tran">
@@ -18,7 +18,13 @@ $_SESSION["sidenav"] = "home";
 	?>
 
  	    <div id="page">
-			<div class="border1">
+			<div class="col-md-2 col-sm-12">
+				<?php 
+					include $path."sidenav.php"
+				?>
+			</div>
+			<div class=" col-md-10 col-sm-12">
+				<div class="border1">
 					<div class="box1">
 						<h1> Introduction </h1>
 						<p> Welcome! If you’re reading this, then you want to learn more about Unix and its applications. 
@@ -34,8 +40,8 @@ $_SESSION["sidenav"] = "home";
 							<li> * Quizzes on the several applications of Unix </li>
 						</ul>
 					</div>
-			</div>
-            <div class="border1">
+				</div>
+				<div class="border1">
                     <div class="box1">
 						<h1>What is Unix</h1>
                         <p>
@@ -44,20 +50,20 @@ $_SESSION["sidenav"] = "home";
                             “What we wanted to preserve was not just a good environment in which to do programming, but a system around which a fellowship could form. We knew from experience that the essence of communal computing, as supplied by remote-access, time-shared machines, is not just to type programs into a terminal instead of a keypunch, but to encourage close communication.”
                         </p>
                     </div>
-            </div>
-
-            <div class="border1">
+				</div>
+				<div class="border1">
                     <div class="box1">
 						<h1>Where is Unix Today?</h1>
                         <p>
                             Aside from Microsoft’s operating system “Windows”, almost every other system can trace its origin to Unix. Do you own any Apple products or an Android devices? Almost all of them were developed with some parts of Unix. In fact, it’s because the operating system is Unix-based that Apple laptops are popular with many coders. And Linux is essentially a clone of Unix, and Linux-based operating systems are highly popular for their ease of use and the easy accessibility of files. Unix commands are still used today, though the uses are mainly for server operation. 
                         </p>
                     </div>
-            </div>
-            <div id="push"> </div>
+				</div>
+				<div id="push"> </div>
+			</div>
         </div>
 	<?php
-		include'footer.php';
+		include $path.'footer.php';
 	?>
 	</body>
 </html>

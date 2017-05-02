@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	$destination = $_POST['pageTo'];
 	$_SESSION["sidenav"] = $destination;
 
@@ -15,7 +16,7 @@
 				$sql3 = "update sections set selected=1 where section_name='" . $destination . "'";
 				$result = $conn->query($sql3);
 				if($result3->num_rows > 0){
-					// intentionally left blank
+					header('Location: '.$destination);
 				}
 				else{
 					echo("result3 failure");
