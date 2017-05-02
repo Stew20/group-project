@@ -25,15 +25,21 @@
 					<ul>
 						<div class="floatLeft">
 							<?php echo('<li> <img src="'.$path.'assets/images/unixInANutshell.jpg" alt="Unix in a Nutshell"> <br></li>'); ?>
-							<li class="floatRight"> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print. </li>
+						</div>
+						<div class="floatRight">
+							<li> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print. </li>
 						</div>
 						<div class="floatLeft">
 							<?php echo('<li> <img src="'.$path.'assets/images/learningTheUnix.jpg" alt=" Learning the Unix Operating System"> <br> </li> ');?>
-							<li class="floatRight"> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </li>
+						</div>
+						<div class="floatRight">
+							<li> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </li>
 						</div>
 						<div class="floatLeft">
 							<?php echo('<li> <img src="'.$path.'assets/images/unixForDummies.jpg" alt="Unix for Dummies"> <br> </li> ');?>
-							<li class="floatRight"> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print.  </li>
+						</div>
+						<div class="floatRight">
+							<li> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print.  </li>
 						</div>
 					</ul>
 				</li>

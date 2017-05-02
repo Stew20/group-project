@@ -215,6 +215,7 @@ body{
 
 .floatRight {
 	text-align: right;
+	display: inline-block;
 }
 
 /* Class used for centering text */
