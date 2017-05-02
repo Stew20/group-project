@@ -57,6 +57,7 @@ $_SESSION["sidenav"] = "home";
         </div>
 	<?php
 		include $path.'footer.php';
+		echo(' <script src="'.$path.'assets/javascript/nav_bar_level1.js"></script> ');
 	?>
 	</body>
 </html>
