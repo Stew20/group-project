@@ -21,7 +21,7 @@
 	</li>
 	<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Quizzes</a>
 		<ul class="quizzesWidth	">
-				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q1. Navigation</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/quiz1.php" onclick="nav_button_clicked(this)" >Q1. Navigation</a></li>
 				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q2. Files</a></li>
 				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q3. Overview</a></li>
 		</ul>
