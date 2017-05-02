@@ -2,6 +2,7 @@
 	session_start();
 	$destination = $_POST['pageTo'];
 	$_SESSION["sidenav"] = $destination;
+	console.log($destination);
 
 	include "php_connection.php";
 
