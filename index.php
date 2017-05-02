@@ -10,7 +10,7 @@ $_SESSION["sidenav"] = "home";
 	?>
 	<body>
 		<div class="tran">
- 	      <img src="assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">
+ 	      <img src="assets/images/code3.jpg" alt="picture" style="width:100%; height:400px;">
 	    </div>
 	
 	<?php
