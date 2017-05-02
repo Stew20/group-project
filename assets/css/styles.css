@@ -57,6 +57,10 @@ body{
 
 }
 
+#selected {
+	background-color: yellow;
+}
+
 /**
 	CSS used to adjust widths of dropdown menus	
 **/
