@@ -18,7 +18,7 @@
 
 <ul id="resourceList">
 	<li>
-		<div id="books">
+		<div id="border1">
 			<ul>
 			<li> <h3> Books </h3></li>
 				<li>
@@ -36,7 +36,7 @@
 	</li>
 	
 	<li>
-		<div id="pdfs">
+		<div id="border1">
 			<ul>
 				<li> <h3> PDFs </h3></li>
 				<li>
@@ -54,7 +54,7 @@
 	</li>
 	
 	<li>
-		<div id="websites">
+		<div id="border1">
 			<ul>
 				<li> <h3> Websites </h3></li>
 				<li>
