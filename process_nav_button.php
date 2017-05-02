@@ -14,7 +14,7 @@
 			$result2 = $conn->query($sql2);
 			if($result2->affected_rows > 0){
 				$sql3 = "update sections set selected=1 where section_name='" . $destination . "'";
-				$result = $conn->query($sql3);
+				$result3 = $conn->query($sql3);
 				if($result3->num_rows > 0){
 					header('Location: '.$destination);
 				}
@@ -31,7 +31,14 @@
 	}
 	else
 	{
-		echo("result failure");
-		die();
+		$sql4 = "update sections set selected=1 where section_name='" . $destination . "'";
+		$result4 = $conn->query($sql4);
+		if($result4->num_rows > 0){
+			header('Location: '.$destination);
+		}
+		else{
+			echo("result4 failure");
+			die();
+		}
 	}
 ?>
