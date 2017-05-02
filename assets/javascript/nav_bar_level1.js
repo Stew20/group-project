@@ -12,7 +12,7 @@ function nav_button_clicked(obj){
 			var hidden_element2 = document.createElement("input");
 			hidden_element2.setAttribute("name", "sqlEntry");
 			hidden_element2.setAttribute("type", "text");
-			hidden_element2.setAttribute("value", obj..getAttribute("sqlid").toLowerCase());
+			hidden_element2.setAttribute("value", obj.getAttribute("sqlid").toLowerCase());
 			pageForm.appendChild(hidden_element2);
 			
 			window.document.body.appendChild(pageForm);
