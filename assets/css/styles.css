@@ -263,14 +263,6 @@ a:hover{
 a:active{
 		  color: #B0C4DE;
 		  text-decoration: underline;
-		 }
-	
-.box1 ul {
-	list-style-type: none;
-}
-
-.box1 ul li {
-	padding: 5px 5px 5px 5px;
 }
    
    					  
@@ -310,6 +302,15 @@ a:active{
 	margin-right:15%;
 	padding-bottom:20px;
 }
+
+.box1 ul {
+	list-style-type: none;
+}
+
+.box1 ul li {
+	padding: 5px 5px 5px 5px;
+}
+
 
 /*tutorial page*/
 .commBorder{
