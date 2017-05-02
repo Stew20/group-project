@@ -2,8 +2,9 @@
 	session_start();
 	$destination = $_POST['pageTo'];
 	$_SESSION["sidenav"] = $destination;
-	console.log($destination);
 
+	echo($destination);
+	
 	include "php_connection.php";
 
 	$sql = "select id from sections where selected=1";
