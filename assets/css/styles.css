@@ -208,6 +208,14 @@ body{
 	padding: 20px 0 5px 0;
 }
 
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
 /* Class used for centering text */
 .centerText {
     text-align: center;
