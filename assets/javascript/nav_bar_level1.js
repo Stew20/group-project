@@ -8,6 +8,13 @@ function nav_button_clicked(obj){
 			hidden_element.setAttribute("type", "text");
 			hidden_element.setAttribute("value", obj.id.toLowerCase());
 			pageForm.appendChild(hidden_element);
+			
+			var hidden_element2 = document.createElement("input");
+			hidden_element2.setAttribute("name", "sqlEntry");
+			hidden_element2.setAttribute("type", "text");
+			hidden_element2.setAttribute("value", obj.sqlid.toLowerCase());
+			pageForm.appendChild(hidden_element2);
+			
 			window.document.body.appendChild(pageForm);
 			pageForm.submit();
 		}
