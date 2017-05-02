@@ -213,7 +213,7 @@ body{
 }
 
 .floatRight {
-	float: right;
+	text-align: right;
 }
 
 /* Class used for centering text */
