@@ -17,13 +17,7 @@ $_SESSION["sidenav"] = "home";
 		include 'nav.php';
 	?>
 
- 	    <div class="container-fluid">
-			<div class="col-md-2 col-sm-12">
-				<?php 
-					include $path."sidenav.php"
-				?>
-			</div>
-			<div class=" col-md-10 col-sm-12">
+ 	    <div id="page">
 				<div class="border1">
 					<div class="box1">
 						<h1> Introduction </h1>
@@ -60,7 +54,6 @@ $_SESSION["sidenav"] = "home";
                     </div>
 				</div>
 				<div id="push"> </div>
-			</div>
         </div>
 	<?php
 		include $path.'footer.php';
