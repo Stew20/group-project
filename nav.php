@@ -2,52 +2,36 @@
 	<ul>
 	<!-- <li><a class="active" href="#home">Home</a></li> -->
 	<!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
-	<?php
-		echo('<li><a class="nav_bar_button" sqlid="home" id="'.$path.'index.php" onclick="nav_button_clicked(this)" >Home</a></li>');
-		echo('<li><a class="nav_bar_button" sqlid="tutorials" id="'.$path.'tutorials/index.php" onclick="nav_button_clicked(this)" >Tutorials</a>');
-	?>
+	<li><a class="nav_bar_button" sqlid="home" id="index.php" onclick="nav_button_clicked(this)" >Home</a></li>
+	<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/index.php" onclick="nav_button_clicked(this)" >Tutorials</a>
 		<ul class="tutorialsWidth">
-			<?php
-				echo('<li><a class="nav_bar_button" sqlid="tutorials" id="'.$path.'tutorials/tutorial1.php" onclick="nav_button_clicked(this)" >1. OS Navigation</a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="tutorials" id="'.$path.'tutorials/tutorial2.php" onclick="nav_button_clicked(this)" >2. File Manipulation</a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="tutorials" id="'.$path.'tutorials/tutorial3.php" onclick="nav_button_clicked(this)" >3. File Permissions</a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="tutorials" id="'.$path.'tutorials/tutorial4.php" onclick="nav_button_clicked(this)" >4. Package Manager </a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="tutorials" id="'.$path.'tutorials/index.php"     onclick="nav_button_clicked(this)" >More Tutorials</a></li>');	
-			?>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial1.php" onclick="nav_button_clicked(this)" >1. OS Navigation</a></li>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial2.php" onclick="nav_button_clicked(this)" >2. File Manipulation</a></li>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial3.php" onclick="nav_button_clicked(this)" >3. File Permissions</a></li>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial4.php" onclick="nav_button_clicked(this)" >4. Package Manager </a></li>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/index.php"     onclick="nav_button_clicked(this)" >More Tutorials</a></li>
 		</ul>
 	</li>
-	<?php
-	echo('<li><a class="nav_bar_button" sqlid="commands" id="'.$path.'commands/index.php" onclick="nav_button_clicked(this)" >Commands</a>');
-	?>
+	<li><a class="nav_bar_button" sqlid="commands" id="commands/index.php" onclick="nav_button_clicked(this)" >Commands</a>');
 		<ul class="commandsWidth">
-			<?php
-				echo('<li><a class="nav_bar_button" sqlid="commands" id="'.$path.'commands/index.php"       onclick="nav_button_clicked(this)" >All Commands</a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="commands" id="'.$path.'commands/common.php"      onclick="nav_button_clicked(this)" >Common Commands</a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="commands" id="'.$path.'commands/navCommands.php" onclick="nav_button_clicked(this)" >Navigation Commands</a></li>');
-			?>
+				<li><a class="nav_bar_button" sqlid="commands" id="commands/index.php"       onclick="nav_button_clicked(this)" >All Commands</a></li>
+				<li><a class="nav_bar_button" sqlid="commands" id="commands/common.php"      onclick="nav_button_clicked(this)" >Common Commands</a></li>
+				<li><a class="nav_bar_button" sqlid="commands" id="commands/navCommands.php" onclick="nav_button_clicked(this)" >Navigation Commands</a></li>
 		</ul>
 	</li>
-	<?php
-	echo('<li><a class="nav_bar_button" sqlid="quizzes" id="'.$path.'quizzes/index.php" onclick="nav_button_clicked(this)" >Quizzes</a>');
-	?>
+	<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Quizzes</a>
 		<ul class="quizzesWidth	">
-			<?php
-				echo('<li><a class="nav_bar_button" sqlid="quizzes" id="'.$path.'quizzes/index.php" onclick="nav_button_clicked(this)" >Q1. Navigation</a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="quizzes" id="'.$path.'quizzes/index.php" onclick="nav_button_clicked(this)" >Q2. Files</a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="quizzes" id="'.$path.'quizzes/index.php" onclick="nav_button_clicked(this)" >Q3. Overview</a></li>');
-			?>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q1. Navigation</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q2. Files</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q3. Overview</a></li>
 		</ul>
 	</li>
-	<?php
-		echo ('<li><a <a class="nav_bar_button" sqlid="resources" id="'.$path.'resources/index.php" onclick="nav_button_clicked(this)" > Resources </a>');
-	?>
+	<li><a <a class="nav_bar_button" sqlid="resources" id="resources/index.php" onclick="nav_button_clicked(this)" > Resources </a>
 		<ul class="resourcesWidth">
-			<?php
-				echo('<li><a class="nav_bar_button" sqlid="resources" id="'.$path.'resources/index.php#books"    onclick="nav_button_clicked(this)" >Books</a></li> ');
-				echo('<li><a class="nav_bar_button" sqlid="resources" id="'.$path.'resources/index.php#pdfs"     onclick="nav_button_clicked(this)" >PDFs</a></li>');	
-				echo('<li><a class="nav_bar_button" sqlid="resources" id="'.$path.'resources/index.php#websites" onclick="nav_button_clicked(this)" >Links</a></li>');
-				echo('<li><a class="nav_bar_button" sqlid="resources" id="'.$path.'resources/index.php#footer"   onclick="nav_button_clicked(this)" >Contact Us</a></li>');
-			?>
+				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#books"    onclick="nav_button_clicked(this)" >Books</a></li>
+				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#pdfs"     onclick="nav_button_clicked(this)" >PDFs</a></li>
+				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#websites" onclick="nav_button_clicked(this)" >Links</a></li>
+				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#footer"   onclick="nav_button_clicked(this)" >Contact Us</a></li>
 		</ul>		
 	</li>
 	<!-- <li> -->
