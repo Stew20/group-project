@@ -12,7 +12,7 @@
 		while($row=$result->FETCH_ASSOC()){
 			$sql2 = "update sections set selected=0 where id=". $row['id'] . "";
 			$result2 = $conn->query($sql2);
-			if($result2->num_rows > 0){
+			if($result2->affected_rows > 0){
 				$sql3 = "update sections set selected=1 where section_name='" . $destination . "'";
 				$result = $conn->query($sql3);
 				if($result3->num_rows > 0){
