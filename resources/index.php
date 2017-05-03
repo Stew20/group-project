@@ -25,13 +25,13 @@
                             <p> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print.  </p>
                         </div>
                         <div class="resourceDisplay">
-                            <?php echo('<img src="'.$path.'assets/images/learningTheUnix.jpg" alt=" Learning the Unix Operating System">');?>
+                            <?php echo('<img src="'.$path.'assets/images/learningTheUnix.jpg" width="234px" height="346px" alt=" Learning the Unix Operating System">');?>
                         </div>
                         <div class="resourceDisplayText">
                             <p> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </p>
                         </div>
                         <div class="resourceDisplay">
-                            <?php echo('<img src="'.$path.'assets/images/unixForDummies.jpg" alt="Unix for Dummies">');?>
+                            <?php echo('<img src="'.$path.'assets/images/unixForDummies.jpg" width="234px" height="346px" alt="Unix for Dummies">');?>
                         </div> 
                         <div class="resourceDisplayText">
                             <p> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print. </p>
