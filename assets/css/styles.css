@@ -203,7 +203,7 @@ body{
 }
 
 .resourceDisplay {
-	display: inline-block;
+	text-align: left;
 }
 
 /* Class used for centering images */
