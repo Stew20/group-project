@@ -223,6 +223,7 @@ body{
 .resourceDisplayText {
     display:inline-block;
     vertical-align: top;
+    width: 50%;
 }
 
 /* Class used for centering text */
