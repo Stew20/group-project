@@ -11,7 +11,7 @@ $_SESSION["sidenav"] = "home";
 	<body>
 		<div class="tran" style = "height: 400px;">
  	      <img src="assets/images/code3.jpg" alt="picture" style="width:99vw; height:400px;">
-	    </div>
+	  </div>
 
 	<?php
 		include 'nav.php';
