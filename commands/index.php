@@ -17,7 +17,8 @@
 		include $path.'sidenav.php';
 	?>
 	
-
+	<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+		
 	<h1>Unix Commands</h1>
 	
 	
