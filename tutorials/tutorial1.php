@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 	<script src="back_to_top.js"></script>
-	
+</head>	
 <?php
 	$path = "../";
 	include $path."header.php";
