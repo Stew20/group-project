@@ -21,12 +21,18 @@
 		<div class="border1">
 			<ul>
                 <li> <h3> Books </h3></li>
-				<?php echo('<li> <img src="'.$path.'assets/images/unixInANutshell.jpg" alt="Unix in a Nutshell"> <br></li>'); ?>
-				<li> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print. </li>
-				<?php echo('<li> <img src="'.$path.'assets/images/learningTheUnix.jpg" alt=" Learning the Unix Operating System"> <br> </li> ');?>
-				<li> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </li>
-				<?php echo('<li> <img src="'.$path.'assets/images/unixForDummies.jpg" alt="Unix for Dummies"> <br> </li> ');?>
-				<li> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print.  </li>
+                <li>
+                    <div class="resourceDisplay">
+                        <ul>
+                            <?php echo('<li> <img src="'.$path.'assets/images/unixInANutshell.jpg" alt="Unix in a Nutshell"> <br></li>'); ?>
+                            <li> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print. </li>
+                            <?php echo('<li> <img src="'.$path.'assets/images/learningTheUnix.jpg" alt=" Learning the Unix Operating System"> <br> </li> ');?>
+                            <li> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </li>
+                            <?php echo('<li> <img src="'.$path.'assets/images/unixForDummies.jpg" alt="Unix for Dummies"> <br> </li> ');?>
+                            <li> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print.  </li>
+                        </ul>
+                    </div>
+                </li>
 			</ul>
 		</div>
 	</li>
