@@ -19,7 +19,7 @@
 		<div class="border1">
                  <h3> Books </h3>
                         <div class="resourceDisplay">
-                            <?php echo('<img src="'.$path.'assets/images/unixInANutshell.jpg" alt="Unix in a Nutshell">'); ?>
+                            <?php echo('<a href="https://www.amazon.com/Unix-Nutshell-Fourth-Arnold-Robbins/dp/0596100299"> <img src="'.$path.'assets/images/unixInANutshell.jpg" alt="Unix in a Nutshell"> </a>'); ?>
                         </div>
                         <div class="resourceDisplayText">
                             <p> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print.  </p>
