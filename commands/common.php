@@ -12,6 +12,9 @@
 	<?php
 		include $path.'nav.php';
 	?>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+		
 		<h1> Common Commands </h1>
  	    <div id="page">
 			<div class="border1">
