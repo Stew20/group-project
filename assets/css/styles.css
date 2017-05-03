@@ -27,6 +27,7 @@ body{
 
 #nav li {
 	float: left;
+	cursor: pointer;
 }
 
 #nav li ul, #nav li li ul {
@@ -78,20 +79,20 @@ body{
 	bottom: 50px;
 }
 .tutorialsWidth li a{
-	width: 8.5em;
+	width: 9.5em;
 	float: left;
 }
 
 .commandsWidth li a {
-	width: 9.25em;
+	width: 10.5em;
 }
 
 .quizzesWidth li a {
-	width: 6.25em;
+	width: 7em;
 }
 
 .resourcesWidth li a {
-	width: 4.5em;
+	width: 6em;
 }
 
 .active {
