@@ -33,7 +33,10 @@
                             <?php echo(' <a href="https://www.amazon.com/Learning-UNIX-Operating-System-Fifth/dp/0596002610"> <img src="'.$path.'assets/images/learningTheUnix.jpg" width="234px" height="346px" alt=" Learning the Unix Operating System"> </a>');?>
                         </div>
                         <div class="resourceDisplayText">
-                            <p class="italics"> "If you are new to Unix, this concise book will tell you just what you need to get started and no more. Unix was one of the first operating systems written in C, a high-level programming language, and its natural portability and low price made it a popular choice among universities. Initially, two main dialects of Unix existed: one produced by AT&T known as System V, and one developed at UC Berkeley and known as BSD. In recent years, many other dialects have been created, including the highly popular Linux operating system and the new Mac OS X (a derivative of BSD).Learning the Unix Operating System is a handy book for someone just starting with Unix or Linux, and it's an ideal primer for Mac and PC users of the Internet who need to know a little about Unix on the systems they visit..."</p>
+                            <p class="italics"> "If you are new to Unix, this concise book will tell you just what you need to get started and no more. Unix was one of the first operating systems written in C, a high-level programming language, and its natural portability and low price made it a popular choice among universities..."</p>
+                            
+                            <p class="italics"> "...Learning the Unix Operating System is a handy book for someone just starting with Unix or Linux, and it's an ideal primer for Mac and PC users of the Internet who need to know a little about Unix on the systems they visit..."</p>
+                            
                             <p> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </p>
                         </div>
                         <div class="resourceDisplay">
