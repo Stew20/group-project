@@ -9,8 +9,8 @@ $_SESSION["sidenav"] = "home";
 		include $path.'header.php';
 	?>
 	<body>
-		<div class="tran" style = "height: 400px;">
- 	      <img src="assets/images/code3.jpg" alt="picture" style="width:99vw; height:400px;">
+		<div class="disappear" style = "height: 400px;">
+ 	      <img class="tran" src="assets/images/code3.jpg" alt="picture" style="width:99vw; height:400px;">
 	  </div>
 
 	<?php
