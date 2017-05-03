@@ -226,6 +226,10 @@ body{
     width: 70%;
 }
 
+.italics {
+    font-style: italic;
+}
+
 /* Class used for centering text */
 .centerText {
     text-align: center;
