@@ -16,6 +16,8 @@ $_SESSION["sidenav"] = "home";
 	<?php
 		include 'nav.php';
 	?>
+	
+		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
 
  	    <div id="page">
 				<div class="border1">
