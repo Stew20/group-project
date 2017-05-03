@@ -55,7 +55,7 @@
                             
 		</div>
 	
-	<li>
+
 		<div class="border1">
 			<ul>
 				<li> <h3> PDFs </h3></li>
@@ -71,9 +71,7 @@
 				</li>
 			</ul>
 		</div>
-	</li>
 	
-	<li>
 		<div class="border1">
 			<ul>
 				<li> <h3> Websites </h3></li>
@@ -87,9 +85,7 @@
 				</li>	
 			</ul>
 		</div>
-	</li>
 	
-</ul>
 <?php
 	include $path."footer.php";
 ?>
