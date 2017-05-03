@@ -37,9 +37,15 @@
                             <p> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </p>
                         </div>
                         <div class="resourceDisplay">
-                            <?php echo('<img src="'.$path.'assets/images/unixForDummies.jpg" width="234px" height="346px" alt="Unix for Dummies">');?>
+                            <?php echo('<a href="https://www.amazon.com/UNIX-Dummies-John-R-Levine/dp/0764541471"> <img src="'.$path.'assets/images/unixForDummies.jpg" width="234px" height="346px" alt="Unix for Dummies"> </a>');?>
                         </div> 
                         <div class="resourceDisplayText">
+                            <p class="italics"> "UNIX For Dummies has been the standard for beginning UNIX references for nearly ten years, and this latest edition continues that tradition of success"</p>
+                            
+                            <p class="italics"> "This unparalled resource is updated to cover the latest applications of UNIX technology, including Linux and Mac desktops as well as how UNIX works with Microsoft server software" </p>
+                            
+                            <p class="italics"> "Thorough coverage of how to handle UNIX installation, file management, software, utilities, networks, Internet access, and other basic tasks..." </p>
+                            
                             <p> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print. </p>
                         </div>
                             
