@@ -216,15 +216,22 @@ body{
     width: 25%;
 }
 
+/* Used for resources books images */
 .resourceDisplay {
     display:inline-block;
     padding: 10px 10px 5px 5px;
 }
 
+/* Used for resources books text*/
 .resourceDisplayText {
     display:inline-block;
     vertical-align: top;
     width: 70%;
+}
+
+/* Use to turn font black for specific tags*/
+.black {
+    color: black;
 }
 
 .italics {

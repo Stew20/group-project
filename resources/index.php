@@ -26,7 +26,7 @@
 
                             <p class="italics"> "The latest edition of this bestselling reference brings Unix into the 21st century. It's been reworked to keep current with the broader state of Unix in today's world and highlight the strengths of this operating system in all its various flavors..." </p>
                             
-                            <p> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print.  </p>
+                            <p class="black"> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print.  </p>
                             
                         </div>
                         <div class="resourceDisplay">
@@ -37,7 +37,7 @@
                             
                             <p class="italics"> "...Learning the Unix Operating System is a handy book for someone just starting with Unix or Linux, and it's an ideal primer for Mac and PC users of the Internet who need to know a little about Unix on the systems they visit..."</p>
                             
-                            <p> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </p>
+                            <p class="black"> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </p>
                         </div>
                         <div class="resourceDisplay">
                             <?php echo('<a href="https://www.amazon.com/UNIX-Dummies-John-R-Levine/dp/0764541471"> <img src="'.$path.'assets/images/unixForDummies.jpg" width="234px" height="346px" alt="Unix for Dummies"> </a>');?>
@@ -49,7 +49,7 @@
                             
                             <p class="italics"> "Thorough coverage of how to handle UNIX installation, file management, software, utilities, networks, Internet access, and other basic tasks..." </p>
                             
-                            <p> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print. </p>
+                            <p class="black"> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print. </p>
                         </div>
                             
 		</div>
