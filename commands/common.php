@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="back_to_top.js"></script>	
 <?php
 	$path = "../";
 	include $path."header.php";
