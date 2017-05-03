@@ -23,9 +23,9 @@
                         </div>
                         <div class="resourceDisplayText">
                             <p> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print.  </p>
-                            <p class="italics"> "As an open operating system, Unix can be improved on by anyone and everyone: individuals, companies, universities, and more. As a result, the very nature of Unix has been altered over the years by numerous extensions formulated in an assortment of versions. Today, Unix encompasses everything from Sun's Solaris to Apple's Mac OS X and more varieties of Linux than you can easily name.
+                            <p class="italics"> "As an open operating system, Unix can be improved on by anyone and everyone: individuals, companies, universities, and more. As a result, the very nature of Unix has been altered over the years by numerous extensions formulated in an assortment of versions. Today, Unix encompasses everything from Sun's Solaris to Apple's Mac OS X and more varieties of Linux than you can easily name." </p>
 
-                            The latest edition of this bestselling reference brings Unix into the 21st century. It's been reworked to keep current with the broader state of Unix in today's world and highlight the strengths of this operating system in all its various flavors."</p>
+                            <p class="italics"> "The latest edition of this bestselling reference brings Unix into the 21st century. It's been reworked to keep current with the broader state of Unix in today's world and highlight the strengths of this operating system in all its various flavors..." </p>
                             
                         </div>
                         <div class="resourceDisplay">
