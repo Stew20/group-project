@@ -220,6 +220,11 @@ body{
     display:inline-block;
 }
 
+.resourceDisplayText {
+    display:inline-block;
+    vertical-align: top;
+}
+
 /* Class used for centering text */
 .centerText {
     text-align: center;
