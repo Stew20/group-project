@@ -202,10 +202,6 @@ body{
     padding: 15px 30px 10px 30px;
 }
 
-.resourceDisplay {
-	text-align: left;
-}
-
 /* Class used for centering images */
 .centerImage {
     display: block;
@@ -220,10 +216,8 @@ body{
     width: 25%;
 }
 
-.resourceDisplay li {
+.resourceDisplay {
     display:inline-block;
-    text-align: right;
-    width: 50%;
 }
 
 /* Class used for centering text */

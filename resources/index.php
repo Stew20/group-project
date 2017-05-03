@@ -16,26 +16,28 @@
 <p id="resourceBody"> Below is a list of many resources that were used or referenced to while creating this website. We also included many other Books, PDF's, and Links to other websites for your convenience in case you wanted to check out more works related to Unix. We at Stew20 appreciate and encourage your enthusiasm to learn more about this subject! </p>
     
 
-<ul id="resourceList">
-	<li>
 		<div class="border1">
-			<ul>
-                <li> <h3> Books </h3></li>
-                <li>
-                    <div class="resourceDisplay">
-                        <ul>
-                            <?php echo('<li> <img src="'.$path.'assets/images/unixInANutshell.jpg" alt="Unix in a Nutshell"> <br></li>'); ?>
-                            <li> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print. </li>
-                            <?php echo('<li> <img src="'.$path.'assets/images/learningTheUnix.jpg" alt=" Learning the Unix Operating System"> <br> </li> ');?>
-                            <li> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </li>
-                            <?php echo('<li> <img src="'.$path.'assets/images/unixForDummies.jpg" alt="Unix for Dummies"> <br> </li> ');?>
-                            <li> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print.  </li>
-                        </ul>
-                    </div>
-                </li>
-			</ul>
+                 <h3> Books </h3>
+                        <div class="resourceDisplay">
+                            <?php echo('<img src="'.$path.'assets/images/unixInANutshell.jpg" alt="Unix in a Nutshell">'); ?>
+                        </div>
+                        <div class="resourceDisplay">
+                            <p> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print.  </p>
+                        </div>
+                        <div class="resourceDisplay">
+                            <?php echo('<img src="'.$path.'assets/images/learningTheUnix.jpg" alt=" Learning the Unix Operating System">');?>
+                        </div>
+                        <div class="resourceDisplay">
+                            <p> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </p>
+                        </div>
+                        <div class="resourceDisplay">
+                            <?php echo('<img src="'.$path.'assets/images/unixForDummies.jpg" alt="Unix for Dummies">');?>
+                        </div> 
+                        <div class="resourceDisplay">
+                            <p> Levine, John R., and Margaret Levine. Young. Unix for Dummies. Hoboken, NJ: John Wiley & Sons, 2013. Print. </p>
+                        </div>
+                            
 		</div>
-	</li>
 	
 	<li>
 		<div class="border1">
