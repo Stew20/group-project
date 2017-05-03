@@ -211,6 +211,7 @@ body{
 .floatLeft {
 	display: inline-block;
     vertical-align: top;
+    width: 25%;
 }
 
 /* Class used for centering text */
