@@ -211,6 +211,7 @@ body{
 .floatLeft {
 	text-align: left;
 	display: inline-block;
+    vertical-align: top;
 }
 
 .floatRight {
