@@ -22,16 +22,18 @@
                             <?php echo('<a href="https://www.amazon.com/Unix-Nutshell-Fourth-Arnold-Robbins/dp/0596100299"> <img src="'.$path.'assets/images/unixInANutshell.jpg" alt="Unix in a Nutshell"> </a>'); ?>
                         </div>
                         <div class="resourceDisplayText">
-                            <p> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print.  </p>
                             <p class="italics"> "As an open operating system, Unix can be improved on by anyone and everyone: individuals, companies, universities, and more. As a result, the very nature of Unix has been altered over the years by numerous extensions formulated in an assortment of versions. Today, Unix encompasses everything from Sun's Solaris to Apple's Mac OS X and more varieties of Linux than you can easily name." </p>
 
                             <p class="italics"> "The latest edition of this bestselling reference brings Unix into the 21st century. It's been reworked to keep current with the broader state of Unix in today's world and highlight the strengths of this operating system in all its various flavors..." </p>
                             
+                            <p> Robbins, Arnold. UNIX in a Nutshell:. Beijing: O'Reilly, 2005. Print.  </p>
+                            
                         </div>
                         <div class="resourceDisplay">
-                            <?php echo('<img src="'.$path.'assets/images/learningTheUnix.jpg" width="234px" height="346px" alt=" Learning the Unix Operating System">');?>
+                            <?php echo(' <a href="https://www.amazon.com/Learning-UNIX-Operating-System-Fifth/dp/0596002610"> <img src="'.$path.'assets/images/learningTheUnix.jpg" width="234px" height="346px" alt=" Learning the Unix Operating System"> </a>');?>
                         </div>
                         <div class="resourceDisplayText">
+                            <p class="italics"> "If you are new to Unix, this concise book will tell you just what you need to get started and no more. Unix was one of the first operating systems written in C, a high-level programming language, and its natural portability and low price made it a popular choice among universities. Initially, two main dialects of Unix existed: one produced by AT&T known as System V, and one developed at UC Berkeley and known as BSD. In recent years, many other dialects have been created, including the highly popular Linux operating system and the new Mac OS X (a derivative of BSD).Learning the Unix Operating System is a handy book for someone just starting with Unix or Linux, and it's an ideal primer for Mac and PC users of the Internet who need to know a little about Unix on the systems they visit..."</p>
                             <p> Peek, Jerry D., Grace Todino, and John Strang. Learning the UNIX Operating System. Sebastopol, CA: O'Reilly, 2002. Print. </p>
                         </div>
                         <div class="resourceDisplay">
