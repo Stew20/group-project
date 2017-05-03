@@ -214,6 +214,10 @@ body{
     width: 25%;
 }
 
+.resourceDisplay li {
+    display:inline-block;
+}
+
 /* Class used for centering text */
 .centerText {
     text-align: center;
