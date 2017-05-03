@@ -202,12 +202,12 @@ body{
     padding: 15px 30px 10px 30px;
 }
 
-#border1 ul li {
-	list-style-type: none;
+.resourceDisplay ul li {
+	text-align: center;
 }
 
 /* In order to use ul's as an indent, remove any type of list styles */
-#resourceDisplay ul li{
+#resourceDisplay{
     text-align: center;
 }
 
