@@ -6,9 +6,11 @@
 		include $path.'header.php';
 	?>
 	<body>
-		<div class="disappear" style = "height: 400px;">
- 	      <img class="tran" src="assets/images/code3.jpg" alt="picture" style="width:99vw; height:400px;">
-	  </div>
+		<div class = "background">
+		<div class="imgContainer" >
+				<img class="imgResp" src="../assets/images/banner_words.png" alt="picture">
+		 </div>
+	</div>
 
 	<?php
 		include $path.'nav.php';
