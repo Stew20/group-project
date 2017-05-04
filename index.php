@@ -55,7 +55,7 @@ $_SESSION["sidenav"] = "home";
                         </p>
                     </div>
 				</div>
-				<div id="push"> </div>
+				
         </div>
 	<?php
 		include $path.'footer.php';
