@@ -22,6 +22,9 @@ $_SESSION["sidenav"] = "home";
 		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
 
  	    <div id="page">
+                <form action="kelvin.ist.rit.edu/~stew20/group-project/gs/index.php">
+                <input type="button" value="Get Started!" />
+            </form>
 				<div class="border1">
 					<div class="box1">
                         <h1>What is Unix</h1>
