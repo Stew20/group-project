@@ -270,6 +270,9 @@ h5{
     text-align: left;
 } 
 
+
+
+
 p{
     line-height: 150%;
     text-align: justify;
@@ -348,6 +351,7 @@ a:active{
 	    	border-left: 8px solid #8585ad;
     		background-color: #dfe2ec;
     		padding-left: 10px;
+		font-size: 25px;
 	}
 
 .textColor{
