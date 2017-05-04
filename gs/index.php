@@ -30,42 +30,43 @@
 				<div class="border1">
                     <div class="box1">
 						<h1> Windows </h1>
+                        <p>
 						<p>
                             There are two steps to use Unix on your Windows machine: 
                             1) You'll need to login to an Unix server through a Secure Shell client (<a href="../commands/ssh.php">SSH</a>)
-                            2) You'll have to use a ssh-enabled ftp client to transfer files onto and off of the server (<a href="../commands/sftp.php">SFTP</a>)
+                            2) You'll have to use a ssh-enabled ftp client to transfer files onto and off of the server (<a href="../commands/sftp.php">SFTP</a>)</p>
                             
                             
-                            - Logging Into a Unix Server with a SSH client -
+                            <p>- Logging Into a Unix Server with a SSH client -</p>
                             
-                            In order to complete the first step of logging into a Unix server, you will need to download a SSH client. A free client for windows is a program called PuTTY - You can download it <a href="http://www.putty.org/">here</a>.
+                            <p>In order to complete the first step of logging into a Unix server, you will need to download a SSH client. A free client for windows is a program called PuTTY - You can download it <a href="http://www.putty.org/">here</a>.</p>
                             
-                            There's no special installation instructions for this program.
+                        <p>There's no special installation instructions for this program.</p>
                             
-                            Once you have it installed and running, you'll first be prompted to enter the hostname of the Unix/Linux server, then you'll need to enter your username and password to said server once you're prompted to do so. 
+                            <p>Once you have it installed and running, you'll first be prompted to enter the hostname of the Unix/Linux server, then you'll need to enter your username and password to said server once you're prompted to do so. </p>
                             
-                            After entering your credentials, if you don't see a line saying 'ACCESS DENIED', then congradulations! You've successfully started to use PuTTY.
+                            <p>After entering your credentials, if you don't see a line saying 'ACCESS DENIED', then congradulations! You've successfully started to use PuTTY.</p>
                             
-                            *IMPORTANT NOTE - If you don't see your passowrd as you're typing it, that's perfectly ok. By design, you don't see the characters of your password for security reasons.*
+                            <p>*IMPORTANT NOTE - If you don't see your passowrd as you're typing it, that's perfectly ok. By design, you don't see the characters of your password for security reasons.*</p>
                             
-                            <img src="../assets/images/putty.JPG" alt="picture" style="width:45vw;height:676px;">
+                            <p><img src="../assets/images/putty.JPG" alt="picture" style="width:45vw;height:676px;"></p>
                             
                             
-                            - Transferring Files with a SFTP client -
+                        <p>- Transferring Files with a SFTP client -</p>
                             
-                            In order to transfer files on and off the server, you must download a SFTP client. There are two popular choices that are both free of cost. They're relatively similar, and you'll notice the slight differences later on. We recommend trying both one at a time and see what you prefer, as we'll provide instructions for downloading and using both clients. For both clients, there are no special instructions while installing, so please use the default settings.
+                            <p>In order to transfer files on and off the server, you must download a SFTP client. There are two popular choices that are both free of cost. They're relatively similar, and you'll notice the slight differences later on. We recommend trying both one at a time and see what you prefer, as we'll provide instructions for downloading and using both clients. For both clients, there are no special instructions while installing, so please use the default settings.</p>
                             
-                            The first client is FileZilla - which you can download <a href="https://filezilla-project.org/download.php?type=client">here.</a>
+                            <p>The first client is FileZilla - which you can download <a href="https://filezilla-project.org/download.php?type=client">here.</a></p>
                             
-                            One window will pop-up, and here you'll enter the host server name, along with your username and password to the server. Once you've successfully logged in, you'll be able to simply drag and drop files from the server (right) to your machine (left) and vice-versa.
+                            <p>One window will pop-up, and here you'll enter the host server name, along with your username and password to the server. Once you've successfully logged in, you'll be able to simply drag and drop files from the server (right) to your machine (left) and vice-versa.</p>
                             
-                            <img src="../assets/images/zilla.JPG" alt="picture" style="width:45vw;height:650px;">
+                            <p><img src="../assets/images/zilla.JPG" alt="picture" style="width:45vw;height:650px;"></p>
                             
-                            The second client is WinSCP - which you can download <a href="https://winscp.net/eng/download.php">here.</a>
+                            <p>The second client is WinSCP - which you can download <a href="https://winscp.net/eng/download.php">here.</a></p>
                             
-                            When you open WinSCP, there will be two windows that pop-up. One the login window where you enter the server name along with your username and password. Once you've successfully logged in, you'll be able to access that second window where you transfer files from your machine (left) to the server (right) and vice-versa. 
+                            <p>When you open WinSCP, there will be two windows that pop-up. One the login window where you enter the server name along with your username and password. Once you've successfully logged in, you'll be able to access that second window where you transfer files from your machine (left) to the server (right) and vice-versa.</p>
                             
-                            <img src="../assets/images/winActual.JPG" alt="picture" style="width:45vw;height:650px;">  
+                            <p><img src="../assets/images/winActual.JPG" alt="picture" style="width:45vw;height:650px;"></p> 
                         </p>
                         
                     </div>
