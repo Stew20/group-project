@@ -17,7 +17,7 @@
 					<li><h4> Patrick Lennon </h4></li>
 					<li> Contact Info: <br> 
 						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+					</li>
 				</ul>
 			</div>
 			
@@ -26,7 +26,7 @@
 					<li><h4> Jason Beaulieu </h4></li>
 					<li> Contact Info: <br> 
 						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+					</li>
 				</ul>
 			</div>
 			
@@ -35,7 +35,7 @@
 					<li><h4> YaLing Lian </h4></li>
 					<li> Contact Info: <br> 
 						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+					</li>
 				</ul>
 			</div>
 			
@@ -44,7 +44,7 @@
 					<li><h4> Eric Cen </h4></li>
 					<li> Contact Info: <br> 
 						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+					</li>
 				</ul>
 			</div>
 			
@@ -53,7 +53,7 @@
 					<li><h4> Alex King </h4></li>
 					<li> Contact Info: <br> 
 						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+					</li>
 				</ul>
 			</div>
         </footer>
