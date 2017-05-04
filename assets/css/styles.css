@@ -270,9 +270,6 @@ h5{
     text-align: left;
 } 
 
-h6{
-   font-size:25px;
-}
 
 
 p{
@@ -353,6 +350,7 @@ a:active{
 	    	border-left: 8px solid #8585ad;
     		background-color: #dfe2ec;
     		padding-left: 10px;
+		font-size:25px;
 	}
 
 .textColor{
