@@ -23,7 +23,7 @@ $_SESSION["sidenav"] = "home";
 
  	    <div id="page">
                 <form action="kelvin.ist.rit.edu/~stew20/group-project/gs/index.php">
-                <input type="button" value="Get Started!" />
+                <input type="submit" value="Get Started!" />
             </form>
 				<div class="border1">
 					<div class="box1">
