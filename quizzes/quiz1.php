@@ -23,7 +23,7 @@
 				<input type="radio" name="1" class="1" value="C">pwd</input><br/>
 				<input type="radio" name="1" class="1" value="D">none of the above</input>
 				</div>
-			<button id="feedback" onclick="window.location.href='http://kelvin.ist.rit.edu/~stew20/group-project/tutorials/tutorial1.php'" style="margin-right:30px; ">Go Back Tutorial</button>
+			<button id="feedback" onclick="window.location.href='../../tutorials/tutorial1.php'" style="margin-right:30px; ">Go Back Tutorial</button>
 			</div>
 			<div>
 				<h5>Question 2: What command is used to change directories?</h5>
@@ -33,7 +33,7 @@
 				<input type="radio" name="2" class="2" value="C">pwd</input><br/>
 				<input type="radio" name="2" class="2" value="D">none of the above</input>
 				</div>
-			<button id="feedback" onclick="window.location.href='http://kelvin.ist.rit.edu/~stew20/group-project/tutorials/tutorial1.php'" style="margin-right:30px; ">Go Back Tutorial</button>
+			
 			</div>
 			<div>
 				
@@ -53,7 +53,7 @@
 				<input type="radio" name="4" class="4" value="C">pwd</input><br/>
 				<input type="radio" name="4" class="4" value="D">none of the above</input>
 				</div>
-			<button id="feedback" onclick="window.location.href='http://kelvin.ist.rit.edu/~stew20/group-project/tutorials/tutorial1.php'" style="margin-right:30px; ">Go Back Tutorial</button>
+			
 			</div>
 			<div>
 				<h5>Question 5: How would change directory to my parent directory</h5>
@@ -63,7 +63,7 @@
 				<input type="radio" name="5" class="5" value="C">the full file path is needed</input><br/>
 				<input type="radio" name="5" class="5" value="D">cant be done</input>
 				</div>
-			<button id="feedback" onclick="window.location.href='http://kelvin.ist.rit.edu/~stew20/group-project/tutorials/tutorial1.php'" style="margin-right:30px; ">Go Back Tutorial</button>
+			
 			</div>
 			
 		</form>
