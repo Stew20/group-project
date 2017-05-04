@@ -310,7 +310,7 @@ a:active{
 .border1{
 	background-color:#fafafa;
 	margin: 5% 10% 1% 10%;
-	padding: 1% 1% 5% 1%;
+	padding: 1% 1% 1% 1%;
 	border: 1px solid black;
 }
 
@@ -320,8 +320,9 @@ a:active{
 
 
 .box1{
-	margin-left:8%;
-	margin-right:8%;
+	margin-left:6%;
+	margin-right:6%;
+	margin-bottom:6%
 	
 }
 
