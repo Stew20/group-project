@@ -306,7 +306,7 @@ h5{
 p{
     line-height: 150%;
     text-align: justify;
-    margin: 5%;
+    margin: 5px;
 	}
 
 	@media screen and (max-width: 750px){
