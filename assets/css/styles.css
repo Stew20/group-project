@@ -28,12 +28,23 @@ body{
 	position: relative;
 	top: 30px;
 	margin-bottom: 25px;
+	height: 134px;
+	width: 400px;
 }
 @media screen and (max-width: 750px){
 	.background{
 		background-image: url('');
 		height: auto;
 		background-color: #6C648B;
+	}
+	.imgResp{
+		max-width: 100%;
+		padding: 0px;
+		position: relative;
+		top: 30px;
+		margin-bottom: 25px;
+		height: auto;
+		width: auto;		
 	}
 }
 
