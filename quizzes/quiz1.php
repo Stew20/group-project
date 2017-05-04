@@ -51,6 +51,7 @@
 			</div>
 		</form>
 		<button onClick="checkAnswers()">Submit</button>
+	<div id="push"> </div>
 	<?php
 	include $path."footer.php";
 	?>
