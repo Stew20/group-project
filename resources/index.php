@@ -15,8 +15,16 @@
 		include $path.'nav.php';
 	?>
 	<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
-
-	<p id="resourceBody"> Below is a list of many resources that were used or referenced to while creating this website. We also included many other Books, PDF's, and Links to other websites for your convenience in case you wanted to check out more works related to Unix. We at Stew20 appreciate and encourage your enthusiasm to learn more about this subject! </p>
+    
+	<!--<p id="resourceBody"> Below is a list of many resources that were used or referenced to while creating this website. We also included many other Books, PDF's, and Links to other websites for your convenience in case you wanted to check out more works related to Unix. We at Stew20 appreciate and encourage your enthusiasm to learn more about this subject! </p> -->
+    <div class="border1">
+					<div class="box1">
+                        <!--<h1> New to Unix? No Problem! </h1>-->
+                        <p>
+                            Below is a list of many resources that were used or referenced to while creating this website. We also included many other Books, PDF's, and Links to other websites for your convenience in case you wanted to check out more works related to Unix. We at Stew20 appreciate and encourage your enthusiasm to learn more about this subject!
+                        </p>
+					</div>
+				</div>
 
 
 	<div class="border1">
