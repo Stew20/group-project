@@ -18,9 +18,9 @@
 			<div>
 				<h5>Question 1: What command is used to list a directories contents?</h5>
 				<div class="textColor">
-				<input type="radio" name="1" class="1" value="A">ls</input>
-				<input type="radio" name="1" class="1" value="B">cd</input>
-				<input type="radio" name="1" class="1" value="C">pwd</input>
+				<input type="radio" name="1" class="1" value="A">ls</input><br/>
+				<input type="radio" name="1" class="1" value="B">cd</input><br/>
+				<input type="radio" name="1" class="1" value="C">pwd</input><br/>
 				<input type="radio" name="1" class="1" value="D">none of the above</input>
 				</div>
 			</div>
