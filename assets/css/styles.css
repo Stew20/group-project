@@ -262,6 +262,14 @@ h4{
 	text-align: center;
 }
 
+/*size for quiz font size*/
+h5{ 
+    color::#3d3d5c;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+} 
+
 p{
     line-height: 150%;
     text-align: justify;
