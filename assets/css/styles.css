@@ -29,7 +29,7 @@ body{
 }
 @media only screen and (max-width: 650px){
 	.background{
-		height: 20em;
+		height: auto;
 		background-color: #6C648B;
 	}
 }
