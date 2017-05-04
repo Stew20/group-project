@@ -52,7 +52,7 @@
 			</div>
 			
 		</form>
-		<button onClick="checkAnswers()">Submit</button>
+		<button class="button" onClick="checkAnswers()">Submit</button>
 		</div>
 	<div id="push"> </div>
 	<?php
