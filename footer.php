@@ -8,7 +8,7 @@
 					<li><h4> Karnowsky Estime </h4></li>
 					<li> Contact Info: <br> 
 						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+					</li>
 				</ul>
 			</div>
 			
