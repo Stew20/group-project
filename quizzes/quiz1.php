@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
-</head>
-	<?php
-		include'../header.php';
-	?>
+<?php
+	$path = "../";
+	include $path."header.php";
+?>
 	<body>
 		<form>
 			<h1>Quiz1: OS Navigation</h1>
@@ -46,6 +44,9 @@
 			</div>
 		</form>
 		<button onClick="checkAnswers()">Submit</button>
+	<?php
+	include $path."footer.php";
+	?>
 	</body>
 	<script>
 		var answers = [];
