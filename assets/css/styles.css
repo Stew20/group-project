@@ -390,18 +390,22 @@ tr:nth-child(even){background-color: #e6e6e6}
 /*Create Submit Button */
 .button {
     background-color: #5c5c8a; 
-    border-radius:5%;
     color: white;
+    border-radius:5%;
+    font-size: 15px;
     padding: 10px 27px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
+    margin: 1em 1em;
     cursor: pointer;
-    -webkit-transition-duration: 0.5s; 
-    transition-duration: 0.5s;
+    -webkit-transition-duration: 1s; 
+    transition-duration: 1s;
     box-shadow: 0 8px 16px 0 rgba(209, 209, 224,0.5), 0 6px 20px 0 rgb(209, 209, 224);
+    margin-left:45%;
+    margin-right:50%;
+
+}
 
 @media screen and (max-width:500px){
 	.tran:hover{
