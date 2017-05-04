@@ -9,14 +9,17 @@ $_SESSION["sidenav"] = "home";
 		include $path.'header.php';
 	?>
 	<body>
-		<div class="disappear" style = "height: 400px;">
- 	      <img class="tran" src="assets/images/code3.jpg" alt="picture" style="width:99vw; height:400px;">
-	  </div>
+		<div class = "background" style = "height: 350px;">
+			<div class="imgContainer" >
+
+	 	      <img class="imgResp" src="banner_words.png" alt="picture">
+		   </div>
+		</div>
 
 	<?php
 		include 'nav.php';
 	?>
-	
+
 		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
 
  	    <div id="page">
@@ -55,7 +58,7 @@ $_SESSION["sidenav"] = "home";
                         </p>
                     </div>
 				</div>
-				
+
         </div>
 
 	<?php

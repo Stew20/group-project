@@ -64,6 +64,31 @@
 			background-color: #EDFFCA;
 			color: #6C648B;
 		}
+
+		.background {
+	    background-image: url(assets/images/banner_image.jpg);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+		}
+
+		.imgContainer{
+    	text-align: center;
+		}
+
+		.imgResp {
+	    max-width: 100%;
+	    padding: 0px;
+			position: relative;
+			top: 30px;
+		}
+		@media only screen and (max-width: 650px){
+			.background{
+    		height: 20em;
+				background-color: #6C648B;
+			}
+		}
+
+
 		/**
 			need an @ media Query at 471px, or 540 if we add a search icon
 		**/
@@ -71,10 +96,12 @@
 	</head>
 
 	<body>
-		<div class="disappear" style = "height: 400px;">
- 	      <img class="tran" src="assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">
-	    </div>
+		<div class = "background" style = "height: 350px;">
+			<div class="imgContainer" >
 
+	 	      <img class="imgResp" src="banner_words.png" alt="picture">
+		   </div>
+		</div>
         <div id="nav">
             <ul>
                 <!-- <li><a class="active" href="#home">Home</a></li> -->

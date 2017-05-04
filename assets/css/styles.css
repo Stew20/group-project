@@ -8,6 +8,33 @@ body{
 }
 
 /**
+	CSS Used to to style the banner image
+**/
+
+.background {
+	background-image: url(assets/images/banner_image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.imgContainer{
+	text-align: center;
+}
+
+.imgResp {
+	max-width: 100%;
+	padding: 0px;
+	position: relative;
+	top: 30px;
+}
+@media only screen and (max-width: 650px){
+	.background{
+		height: 20em;
+		background-color: #6C648B;
+	}
+}
+
+/**
 	CSS used to style the navbar
 **/
 
@@ -263,12 +290,12 @@ h4{
 }
 
 /*size for quiz font size*/
-h5{ 
+h5{
     color::#3d3d5c;
     font-size: 25px;
     font-weight: bold;
     text-align: left;
-} 
+}
 
 
 
@@ -333,7 +360,7 @@ a:active{
 	margin-left:8%;
 	margin-right:8%;
 	margin-bottom:7%
-	
+
 }
 
 .box1 ul {
@@ -400,7 +427,7 @@ tr:nth-child(even){background-color: #e6e6e6}
 
 /*Create Submit Button */
 .button {
-    background-color: #5c5c8a; 
+    background-color: #5c5c8a;
     color: white;
     border-radius:5%;
     font-size: 15px;
@@ -410,7 +437,7 @@ tr:nth-child(even){background-color: #e6e6e6}
     display: inline-block;
     margin: 1em 1em;
     cursor: pointer;
-    -webkit-transition-duration: 1s; 
+    -webkit-transition-duration: 1s;
     transition-duration: 1s;
     box-shadow: 0 8px 16px 0 rgba(209, 209, 224,0.5), 0 6px 20px 0 rgb(209, 209, 224);
     margin-left:45%;
