@@ -3,7 +3,7 @@
 	<!-- <li><a class="active" href="#home">Home</a></li> -->
 	<!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
 	<li><a class="nav_bar_button" sqlid="home" id="index.php" onclick="nav_button_clicked(this)" >Home</a></li>
-    <li><a class="nav_bar_button" sqlid="getting-started" id="getting-started/index.php" onclick="nav_button_clicked(this)" >Getting Started</a></li>
+    <li><a class="nav_bar_button" sqlid="gs" id="gs/index.php" onclick="nav_button_clicked(this)" >Getting Started</a></li>
 	<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/index.php" onclick="nav_button_clicked(this)" >Tutorials</a>
 		<ul class="tutorialsWidth">
 				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial1.php" onclick="nav_button_clicked(this)" >1. OS Navigation</a></li>
