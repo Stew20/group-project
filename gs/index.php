@@ -1,7 +1,3 @@
-<?php
-session_start();
-$_SESSION["sidenav"] = "home";
-?>
 <!DOCTYPE html>
 <html lang="en">
 	<?php
