@@ -15,7 +15,7 @@ body{
 	background-image: url('../images/banner_image.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 350px;
+	height: 10em;
 }
 
 .imgContainer{
