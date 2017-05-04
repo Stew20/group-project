@@ -21,7 +21,7 @@
 	<div class="box1">
 	<h2>List</h2>
 	<div class = "commBorder">
-	<h6>ls</h6>
+	<p>ls</p>
 	</div>
 	<p>
 	The ls command is used for listing the contents of a directory, and can be used to show the properties and permissions of files and folders inside the parent. 
@@ -54,7 +54,7 @@
 	
 	<h2>Change Directory</h2>
 	<div class = "commBorder">
-	<h6>cd</h6>
+	<p>cd</p>
 	</div>
 	<p>
 	cd is used to change the current working directory. A working directory is where the user 
@@ -86,7 +86,7 @@
 	
 	<h2>Print Working Directory</h2>
 	<div class = "commBorder">
-	<h6>pwd</h6>
+	<p>pwd</p>
 	</div>
 	<p>
 	pwd does exactly what it says. It will print out the current working directory of the user to the terminal. This is helpful when navigating through a deep directory structure with many similarly named folders.
