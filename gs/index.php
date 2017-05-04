@@ -30,6 +30,7 @@
 				<div class="border1">
                     <div class="box1">
 						<h1> Windows </h1>
+                        <p>
 						<p>
                             There are two steps to use Unix on your Windows machine: 
                             1) You'll need to login to an Unix server through a Secure Shell client (<a href="../commands/ssh.php">SSH</a>)
@@ -67,7 +68,7 @@
                             
                             <p><img src="../assets/images/winActual.JPG" alt="picture" style="width:45vw;height:650px;"></p> 
                         
-                    </div>
+                    </p>
                     </div>
 				</div>
 				<div class="border1">
