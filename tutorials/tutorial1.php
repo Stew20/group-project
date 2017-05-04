@@ -102,7 +102,8 @@
 	<div class="shadow">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
-	
+		
+	<hr>
 	
 	
 	<h2>Summary</h2>
