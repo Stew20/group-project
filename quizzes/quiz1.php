@@ -27,9 +27,9 @@
 			<div>
 				<h5>Question 2: What command is used to change directories?</h5>
 				<div class="textColor">
-				<input type="radio" name="2" class="2" value="A">ls</input>
-				<input type="radio" name="2" class="2" value="B">cd</input>
-				<input type="radio" name="2" class="2" value="C">pwd</input>
+				<input type="radio" name="2" class="2" value="A">ls</input><br/>
+				<input type="radio" name="2" class="2" value="B">cd</input><br/>
+				<input type="radio" name="2" class="2" value="C">pwd</input><br/>
 				<input type="radio" name="2" class="2" value="D">none of the above</input>
 				</div>
 			</div>
@@ -37,27 +37,27 @@
 				
 				<h5>Question 3: What command displays the current location in the filesystem?</h5>
 				<div class="textColor">
-				<input type="radio" name="3" class="3" value="A">ls</input>
-				<input type="radio" name="3" class="3" value="B">cd</input>
-				<input type="radio" name="3" class="3" value="C">pwd</input>
+				<input type="radio" name="3" class="3" value="A">ls</input><br/>
+				<input type="radio" name="3" class="3" value="B">cd</input><br/>
+				<input type="radio" name="3" class="3" value="C">pwd</input><br/>
 				<input type="radio" name="3" class="3" value="D">none of the above</input>
 				</div>
 			</div>
 			<div>
 				<h5>Question 4: Select none of the above</h5>
 				<div class="textColor">
-				<input type="radio" name="4" class="4" value="A">ls</input>
-				<input type="radio" name="4" class="4" value="B">cd</input>
-				<input type="radio" name="4" class="4" value="C">pwd</input>
+				<input type="radio" name="4" class="4" value="A">ls</input><br/>
+				<input type="radio" name="4" class="4" value="B">cd</input><br/>
+				<input type="radio" name="4" class="4" value="C">pwd</input><br/>
 				<input type="radio" name="4" class="4" value="D">none of the above</input>
 				</div>
 			</div>
 			<div>
 				<h5>Question 5: How would change directory to my parent directory</h5>
 				<div class="textColor">
-				<input type="radio" name="5" class="5" value="A">cd ..</input>
-				<input type="radio" name="5" class="5" value="B">cd ~ </input>
-				<input type="radio" name="5" class="5" value="C">the full file path is needed</input>
+				<input type="radio" name="5" class="5" value="A">cd ..</input><br/>
+				<input type="radio" name="5" class="5" value="B">cd ~ </input><br/>
+				<input type="radio" name="5" class="5" value="C">the full file path is needed</input><br/>
 				<input type="radio" name="5" class="5" value="D">cant be done</input>
 				</div>
 			</div>
