@@ -13,6 +13,7 @@
 		include $path.'nav.php';
 	?>	
 		<form>
+			<div class="border1">
 			<h1>Quiz1: OS Navigation</h1>
 			<div>
 				<h2>Question 1: What command is used to list a directories contents?</h2>
@@ -48,6 +49,7 @@
 				<input type="radio" name="5" class="5" value="B">cd ~ </input>
 				<input type="radio" name="5" class="5" value="C">the full file path is needed</input>
 				<input type="radio" name="5" class="5" value="D">cant be done</input>
+			</div>
 			</div>
 		</form>
 		<button onClick="checkAnswers()">Submit</button>
