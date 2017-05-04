@@ -5,6 +5,13 @@
 	include $path."header.php";
 ?>
 	<body>
+	<div class="tran">
+ 	      <?php echo('<img src="'.$path.'assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">'); ?>
+	</div>
+	
+	<?php
+		include $path.'nav.php';
+	?>	
 		<form>
 			<h1>Quiz1: OS Navigation</h1>
 			<div>
