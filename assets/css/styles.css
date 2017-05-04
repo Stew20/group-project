@@ -305,6 +305,7 @@ h5{
 p{
     line-height: 150%;
     text-align: justify;
+    margin: 0;
 	}
 
 	@media screen and (max-width: 750px){
@@ -312,6 +313,7 @@ p{
 			text-align: left;
 		}
 	}
+
 
 a:link{
 		color: #6C648B;

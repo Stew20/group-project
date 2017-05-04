@@ -30,7 +30,6 @@
 				<div class="border1">
                     <div class="box1">
 						<h1> Windows </h1>
-                        <p>
 						<p>
                             There are two steps to use Unix on your Windows machine: 
                             1) You'll need to login to an Unix server through a Secure Shell client (<a href="../commands/ssh.php">SSH</a>)
@@ -67,7 +66,7 @@
                             <p>When you open WinSCP, there will be two windows that pop-up. One the login window where you enter the server name along with your username and password. Once you've successfully logged in, you'll be able to access that second window where you transfer files from your machine (left) to the server (right) and vice-versa.</p>
                             
                             <p><img src="../assets/images/winActual.JPG" alt="picture" style="width:45vw;height:650px;"></p> 
-                        </p>
+                        
                         
                     </div>
 				</div>
@@ -75,38 +74,35 @@
                     <div class="box1">
 						<h1> Mac </h1>
                         <p>
-                            Using Unix commands on a Mac is actually much simplier than on a Windows computer. The reason why is because the Operating System on Mac devices are based on Unix, meaning that you don't need to download any extra software if you don't want to. So where do you use commands and transfer files? The answer is the Terminal.
+                            Using Unix commands on a Mac is actually much simplier than on a Windows computer. The reason why is because the Operating System on Mac devices are based on Unix, meaning that you don't need to download any extra software if you don't want to. So where do you use commands and transfer files? The answer is the Terminal.</p>
                             
-                            - Using the Terminal -
+                        <p> - Using the Terminal -</p>
                             
-                            Firstly, to access the Terminal you go to Applications -> Utilities -> Terminal.app
+                            <p>Firstly, to access the Terminal you go to Applications -> Utilities -> Terminal.app</p>
                             
-                            From there, to SSH into a server you simply type the command: ssh username@hostname - CY
-                            Where username is your username, and hostname is the server name.
+                            <p>From there, to SSH into a server you simply type the command: ssh username@hostname - CY
+                                Where username is your username, and hostname is the server name.</p>
                             
-                            Simple, right?
+                            <p>Simple, right?
                             If you ever need help, just type in the command: man ssh
-                            (man being short for manual)
+                                (man being short for manual)</p>
                             
                             
-                            To transfer files, you can go about it one of two ways:
+                        <p>To transfer files, you can go about it one of two ways:</p>
                             
-                            1) From the command line / Terminal
+                        <p>1) From the command line / Terminal</p>
                             
-                            Here you use the command: scp: file_on_mac username@hostname: file_on_server
-                            Where file_on_mac is the file you want to move the file_on_server to, or vice-versa.
+                            <p>Here you use the command: scp: file_on_mac username@hostname: file_on_server
+                                Where file_on_mac is the file you want to move the file_on_server to, or vice-versa.</p>
                             
-                            If you ever need help or wantto learn more about the srp command, enter: man srp
-                            into the command line.
+                            <p>If you ever need help or wantto learn more about the srp command, enter: man srp
+                            into the command line.</p>
                             
-                            2) From FileZilla
+                        <p>2) From FileZilla</p>
                             
-                            Just like with Windows, you can use FileZilla to transfer files in case you don't want to use the Terminal.
+                            <p>Just like with Windows, you can use FileZilla to transfer files in case you don't want to use the Terminal.</p>
                             
-                            Again, you can download it <a href="https://filezilla-project.org/download.php?type=client">here.</a>
-                            
-                            
-                        </p>
+                            <p>Again, you can download it <a href="https://filezilla-project.org/download.php?type=client">here.</a></p>
                     </div>
 				</div>
 				
