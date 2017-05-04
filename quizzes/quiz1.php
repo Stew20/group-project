@@ -5,13 +5,15 @@
 	include $path."header.php";
 ?>
 	<body>
-	<div class="tran">
- 	      <?php echo('<img src="'.$path.'assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">'); ?>
-	</div>
-	
+		<div class = "background">
+			<div class="imgContainer" >
+					<img class="imgResp" src="../assets/images/banner_words.png" alt="picture">
+			 </div>
+		</div>
+
 	<?php
 		include $path.'nav.php';
-	?>	
+	?>
 		<form>
 			<div class="border1">
 			<h1>Quiz1: OS Navigation</h1>
@@ -23,7 +25,7 @@
 				<input type="radio" name="1" class="1" value="C">pwd</input><br/>
 				<input type="radio" name="1" class="1" value="D">none of the above</input>
 				</div>
-			
+
 			</div>
 			<div>
 				<h5>Question 2: What command is used to change directories?</h5>
@@ -33,10 +35,10 @@
 				<input type="radio" name="2" class="2" value="C">pwd</input><br/>
 				<input type="radio" name="2" class="2" value="D">none of the above</input>
 				</div>
-			
+
 			</div>
 			<div>
-				
+
 				<h5>Question 3: What command displays the current location in the filesystem?</h5>
 				<div class="textColor">
 				<input type="radio" name="3" class="3" value="A">ls</input><br/>
@@ -53,7 +55,7 @@
 				<input type="radio" name="4" class="4" value="C">pwd</input><br/>
 				<input type="radio" name="4" class="4" value="D">none of the above</input>
 				</div>
-			
+
 			</div>
 			<div>
 				<h5>Question 5: How would change directory to my parent directory</h5>
@@ -63,9 +65,9 @@
 				<input type="radio" name="5" class="5" value="C">the full file path is needed</input><br/>
 				<input type="radio" name="5" class="5" value="D">cant be done</input>
 				</div>
-			
+
 			</div>
-			
+
 		</form>
 		<button class="button" onClick="checkAnswers()">Submit</button>
 		</div>
@@ -80,19 +82,19 @@
 		var results = {};
 		function verify(){
 			for (var i = 0; i < answers.length; i++)
-			{				
-				if (answers[i] != answerKey[i]) 
-				{ 				
+			{
+				if (answers[i] != answerKey[i])
+				{
 					results[i] = "Incorrect, please retry this question";
 				}
 				else
 				{
 					results[i] = "Correct!";
 				}
-			}       
+			}
 		}
-		
-		
+
+
 		function checkAnswers(){
 			for (i = 1; i <= 10; i ++)
 			{
