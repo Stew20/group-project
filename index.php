@@ -9,7 +9,7 @@ $_SESSION["sidenav"] = "home";
 		include $path.'header.php';
 	?>
 	<body>
-		<div class = "background" style = "height: 350px;">
+		<div class = "background">
 			<div class="imgContainer" >
 	 	      <img class="imgResp" src="assets/images/banner_words.png" alt="picture">
 		   </div>
