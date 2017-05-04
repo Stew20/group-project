@@ -23,7 +23,7 @@
 				<input type="radio" name="1" class="1" value="C">pwd</input><br/>
 				<input type="radio" name="1" class="1" value="D">none of the above</input>
 				</div>
-			<button id="feedback" onclick="window.location.href='../../tutorials/tutorial1.php'" style="margin-right:30px; ">Go Back Tutorial</button>
+			<button id="feedback" onclick="window.location.href='/tutorial1.php'" style="margin-right:30px; ">Go Back Tutorial</button>
 			</div>
 			<div>
 				<h5>Question 2: What command is used to change directories?</h5>
