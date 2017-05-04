@@ -50,9 +50,10 @@
 				<input type="radio" name="5" class="5" value="C">the full file path is needed</input>
 				<input type="radio" name="5" class="5" value="D">cant be done</input>
 			</div>
-			</div>
+			
 		</form>
 		<button onClick="checkAnswers()">Submit</button>
+		</div>
 	<div id="push"> </div>
 	<?php
 	include $path."footer.php";
