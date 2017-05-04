@@ -25,6 +25,7 @@
 	
 	<div class="border1">
 	<div class="box1">
+	<h2>All Commands</h2>
 	<table>
   		<tr>
     			<th>Command</th>
