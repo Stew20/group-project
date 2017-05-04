@@ -67,7 +67,7 @@
                             
                             <p><img src="../assets/images/winActual.JPG" alt="picture" style="width:45vw;height:650px;"></p> 
                         
-                        
+                    </div>
                     </div>
 				</div>
 				<div class="border1">
@@ -103,6 +103,7 @@
                             <p>Just like with Windows, you can use FileZilla to transfer files in case you don't want to use the Terminal.</p>
                             
                             <p>Again, you can download it <a href="https://filezilla-project.org/download.php?type=client">here.</a></p>
+                        </p>
                     </div>
 				</div>
 				
