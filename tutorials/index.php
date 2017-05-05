@@ -9,9 +9,11 @@
 	?>
     
 <body>
-    <div class="tran">
- 	      <?php echo('<img src="'.$path.'assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">'); ?>
-	</div>
+    <div class = "background">
+       <div class="imgContainer" >
+          <img class="imgResp" src="../assets/images/banner_words.png" alt="picture" >
+       </div>
+    </div>
 	
 	<?php
 		include $path.'nav.php';
