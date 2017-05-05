@@ -4,6 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
 </head>
 	<?php
+        $path = "../";
 		include'../header.php';
 	?>
     
@@ -15,6 +16,7 @@
 	<?php
 		include $path.'nav.php';
 	?>
+    
 	<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
     
 	<?php
