@@ -31,6 +31,8 @@
       else{
          echo "0 results, you did something bad";
       }
+    ?>
+    
     <?php
 		include'../footer.php';
 	?>
