@@ -21,21 +21,28 @@
     
 	<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
     
-	<?php
-      include "../php_connection.php";
-      $sql = "select nav_index from sidenav_tutorials";
-      $result = $conn->query($sql);
-      if($result->num_rows > 0){
-         while($row=$result->FETCH_ASSOC()){
-            echo "<li>";
-            echo $row['nav_index'];
-            echo "</li>";
-         }
-      }
-      else{
-         echo "0 results, you did something bad";
-      }
-    ?>
+    <div id="page">
+        <div class="border1">
+            <div class="box1">
+                <h1> Other Tutorials </h1>
+        <?php
+          include "../php_connection.php";
+          $sql = "select nav_index from sidenav_tutorials";
+          $result = $conn->query($sql);
+          if($result->num_rows > 0){
+             while($row=$result->FETCH_ASSOC()){
+                echo "<li>";
+                echo $row['nav_index'];
+                echo "</li>";
+             }
+          }
+          else{
+             echo "0 results, you did something bad";
+          }
+        ?>
+            </div>
+        </div>
+    </div>
     
     <?php
 		include'../footer.php';
