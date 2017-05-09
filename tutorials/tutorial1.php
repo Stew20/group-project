@@ -39,7 +39,7 @@
 	</div>
 
 	<div class="ridge">
-	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot.png" style="width:45vw;height:300px;">'); ?>
     	</div>
 	
 	<div id="backgrd" class="backColor">
