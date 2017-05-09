@@ -37,7 +37,7 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<div class="shadow">
+	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	<p>
@@ -48,7 +48,7 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<div class="shadow">
+	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 
@@ -67,7 +67,7 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<div class="shadow">
+	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 
@@ -79,7 +79,7 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<div class="shadow">
+	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 
@@ -101,7 +101,7 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<div class="shadow">
+	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 
