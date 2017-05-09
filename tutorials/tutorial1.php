@@ -37,15 +37,9 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<a href="#myPopup" data-rel="popup" data-position-to="window">
+
 	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
-	</div>
-	</a>
-	<div data-role="popup" id="myPopup">
-      	<p>Output Result!</p> 
-      	<a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-      	<img src="assets/images/ScreenShot.jpg" style="width:650px;height:450px;" alt="Skaret View">
     	</div>
 		
 	<p>
@@ -56,18 +50,11 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<a href="#myPopup" data-rel="popup" data-position-to="window">
+
 	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
-	</a>
-	<div data-role="popup" id="myPopup">
-      	<p>Output Result!</p> 
-      	<a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-      	<img src="assets/images/ScreenShot2.jpg" style="width:650px;height:450px;" alt="Skaret View">
-    	</div>
-		
-		
+	</a>		
 	<hr>
 
 	<h2>Change Directory</h2>
@@ -83,16 +70,9 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<a href="#myPopup" data-rel="popup" data-position-to="window">
 	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
-	</a>
-	<div data-role="popup" id="myPopup">
-      	<p>Output Result!</p> 
-      	<a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-      	<img src="assets/images/ScreenSho3t.jpg" style="width:650px;height:450px;" alt="Skaret View">
-    	</div>	
 		
 	<p>
 	cd followed by two periods ( .. ) is used to navigate up one folder to the parent folder.
@@ -102,16 +82,9 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<a href="#myPopup" data-rel="popup" data-position-to="window">
 	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
-	</a>
-	<div data-role="popup" id="myPopup">
-     	<p>Output Result!</p> 
-      	<a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-      	<img src="assets/images/ScreenShot4.jpg" style="width:650px;height:450px;" alt="Skaret View">
-    	</div>	
 	<hr>
 
 
@@ -130,16 +103,10 @@
 	Following is Output Example:
 	</p>
 	</div>
-	<a href="#myPopup" data-rel="popup" data-position-to="window">
+	
 	<div class="ridge">
 	<?php echo('<img src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
-	</a>
-	<div data-role="popup" id="myPopup">
-      	<p>Output Result!</p> 
-      	<a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
-      	<img src="assets/images/ScreenShot5.jpg" style="width:650px;height:450px;" alt="Skaret View">
-    	</div>	
 	<hr>
 
 
