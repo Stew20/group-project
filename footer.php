@@ -16,7 +16,7 @@
 				<ul class="footerList">
 					<li><h4> Patrick Lennon </h4></li>
 					<li> 
-						 pnl1108rit.edu <br>
+						 pnl1108@rit.edu <br>
 					</li>
 				</ul>
 			</div>
