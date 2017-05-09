@@ -20,11 +20,10 @@ $_SESSION["sidenav"] = "home";
 	?>
 
 		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
-
+        <button id="myBtn2" class="button" type="submit" value="Get Started!" />
  	    <div id="page">
-                <!--<form action="gs/index.php">
-                <input type="submit" value="Get Started!" />
-            </form>-->
+            <form action="gs/index.php">
+            </form>
 				<div class="border1">
 					<div class="box1">
                         <h1>What is Unix</h1>
