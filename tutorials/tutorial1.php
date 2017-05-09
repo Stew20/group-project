@@ -39,8 +39,14 @@
 	</div>
 
 	<div class="ridge">
-	<?php echo('<img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
     	</div>
+	
+	<div id="backgrd" class="backColor">
+  	<span class="close">&times;</span>
+  	<img class="backColor-image" id="img1">
+  	<div id="caption"></div>
+	</div>	
 		
 	<p>
 	For a more detailed description of folder contents, flags such as -l can be used. -l gives a “Long” listing of details, including permissions, ownership, creator, modification date, and name.
@@ -52,9 +58,9 @@
 	</div>
 
 	<div class="ridge">
-	<?php echo('<img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
-	</a>		
+			
 	<hr>
 
 	<h2>Change Directory</h2>
@@ -71,7 +77,7 @@
 	</p>
 	</div>
 	<div class="ridge">
-	<?php echo('<img src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 		
 	<p>
@@ -83,7 +89,7 @@
 	</p>
 	</div>
 	<div class="ridge">
-	<?php echo('<img src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	<hr>
 
@@ -105,7 +111,7 @@
 	</div>
 	
 	<div class="ridge">
-	<?php echo('<img src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 	<hr>
 
