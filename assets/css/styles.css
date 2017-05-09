@@ -468,6 +468,15 @@ tr:nth-child(even){background-color: #e6e6e6}
 
 }
 
+
+/*tutorials images border*/		
+.ridge {
+		border-style: ridge;
+		width:45vw;
+		height:300px;
+		border-color:#d0d0e1;
+}
+
 @media screen and (max-width:500px){
 	.tran:hover{
 		display:none;
