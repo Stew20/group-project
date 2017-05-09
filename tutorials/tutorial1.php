@@ -60,6 +60,12 @@
 	<div class="ridge">
 	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
+		
+	<div id="backgrd" class="backColor">
+  	<span class="close">&times;</span>
+  	<img class="backColor-image" id="img1">
+  	<div id="caption"></div>
+	</div>	
 			
 	<hr>
 
@@ -80,6 +86,12 @@
 	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
 		
+	<div id="backgrd" class="backColor">
+  	<span class="close">&times;</span>
+  	<img class="backColor-image" id="img1">
+  	<div id="caption"></div>
+	</div>
+		
 	<p>
 	cd followed by two periods ( .. ) is used to navigate up one folder to the parent folder.
 	</p>
@@ -91,6 +103,12 @@
 	<div class="ridge">
 	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
+		
+	<div id="backgrd" class="backColor">
+  	<span class="close">&times;</span>
+  	<img class="backColor-image" id="img1">
+  	<div id="caption"></div>
+	</div>	
 	<hr>
 
 
@@ -113,6 +131,11 @@
 	<div class="ridge">
 	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 	</div>
+	<div id="backgrd" class="backColor">
+  	<span class="close">&times;</span>
+  	<img class="backColor-image" id="img1">
+  	<div id="caption"></div>
+	</div>	
 	<hr>
 
 
