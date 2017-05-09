@@ -7,7 +7,7 @@
 				<ul class="footerList">
 					<li><h4> Karnowsky Estime </h4></li>
 					<li>
-						 xxx1234@rit.edu <br>
+						 kxe8741@rit.edu <br>
 					</li>
 				</ul>
 			</div>
@@ -16,7 +16,7 @@
 				<ul class="footerList">
 					<li><h4> Patrick Lennon </h4></li>
 					<li> 
-						 xxx1234@rit.edu <br>
+						 pnl1108rit.edu <br>
 					</li>
 				</ul>
 			</div>
@@ -25,7 +25,7 @@
 				<ul class="footerList">
 					<li><h4> Jason Beaulieu </h4></li>
 					<li> 
-						 xxx1234@rit.edu <br>
+						 jxb7623@rit.edu <br>
 					</li>
 				</ul>
 			</div>
@@ -34,7 +34,7 @@
 				<ul class="footerList">
 					<li><h4> YaLing Lian </h4></li>
 					<li>
-						 xxx1234@rit.edu <br>
+						 yxl4427@rit.edu <br>
 					</li>
 				</ul>
 			</div>
@@ -43,7 +43,7 @@
 				<ul class="footerList">
 					<li><h4> Eric Cen </h4></li>
 					<li>
-						 xxx1234@rit.edu <br>
+						 exc1652@rit.edu <br>
 					</li>
 				</ul>
 			</div>
@@ -52,7 +52,7 @@
 				<ul class="footerList">
 					<li><h4> Alex King </h4></li>
 					<li> 
-						 xxx1234@rit.edu <br>
+						 axk9936@rit.edu <br>
 					</li>
 				</ul>
 			</div>
