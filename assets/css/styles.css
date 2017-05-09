@@ -474,7 +474,7 @@ tr:nth-child(even){background-color: #e6e6e6}
 		border-style: ridge;
 		width:45vw;
 		height:300px;
-		border-color:#d0d0e1;
+		border-color:#808080;
 }
 
 @media screen and (max-width:500px){
