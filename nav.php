@@ -33,7 +33,7 @@
 				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#pdfs"     onclick="nav_button_clicked(this)" >PDFs</a></li>
 				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#websites" onclick="nav_button_clicked(this)" >Links</a></li>
 				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#footer"   onclick="nav_button_clicked(this)" >Contact Us</a></li>
-		</ul>		
+		</ul>
 	</li>
 	<!-- <li> -->
 			<!-- <a href="#home"> -->
@@ -48,18 +48,7 @@
 	//document.getElementById("myBtn").onclick = function() {myFunction()};
 
 	/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
-	function myFunction() {
+	function myFunction(){
 		document.getElementById("myDropdown").classList.toggle("show");
 	}
 </script>
-
-
-
-
-
-
-
-
-
-
-
