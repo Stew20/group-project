@@ -7,20 +7,20 @@
         $path = "../";
 		include'../header.php';
 	?>
-    
+
 <body>
     <div class = "background">
        <div class="imgContainer" >
           <img class="imgResp" src="../assets/images/banner_words.png" alt="picture" >
        </div>
     </div>
-	
+
 	<?php
 		include $path.'nav.php';
 	?>
-    
+
 	<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
-    
+
     <div id="page">
         <div class="border1">
             <div class="box1">
@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-    
+
     <?php
 		include'../footer.php';
 	?>

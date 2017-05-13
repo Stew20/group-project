@@ -21,7 +21,7 @@
 		<h1>Unix - OS navigation</h1>
 		<div class="border1">
 			<div class="box1">
-				<h2>Permissions</h2>
+				<h2>Change Permissions</h2>
 				<div class = "commBorder">
 					<p>Chmod</p>
 				</div>
@@ -95,7 +95,7 @@
 
 				<hr>
 
-				<h2>Group Owner</h2>
+				<h2>Change Group Owner</h2>
 				<div class = "commBorder">
 					<p>Chgrp</p>
 				</div>
