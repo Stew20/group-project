@@ -11,7 +11,7 @@ body{
 	CSS Used to to style the banner image
 **/
 
-.background {
+.background{
 	background-image: url('../images/banner_image.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body{
 	text-align: center;
 }
 
-.imgResp {
+.imgResp{
 	max-width: 100%;
 	padding: 0px;
 	position: relative;
@@ -56,7 +56,7 @@ body{
 	font-size: 1.1em;
 }
 
-#nav ul {
+#nav ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -64,18 +64,18 @@ body{
 	background-color: #6C648B;
 }
 
-#nav li {
+#nav li{
 	float: left;
 	cursor: pointer;
 }
 
-#nav li ul, #nav li li ul {
+#nav li ul, #nav li li ul{
 	display: none;
 	position: absolute;
 	font-weight: normal;
 }
 
-#nav li li {
+#nav li li{
 	display: block;
 	float: none;
 	background-color: #6C648B;
@@ -104,7 +104,7 @@ body{
 
 }
 
-#selected {
+#selected{
 	background-color: yellow;
 }
 
@@ -122,19 +122,19 @@ body{
 	float: left;
 }
 
-.commandsWidth li a {
+.commandsWidth li a{
 	width: 10.5em;
 }
 
-.quizzesWidth li a {
+.quizzesWidth li a{
 	width: 7em;
 }
 
-.resourcesWidth li a {
+.resourcesWidth li a{
 	width: 6em;
 }
 
-.active {
+.active{
 	background-color: #EDFFCA;
 	color: #6C648B;
 }
@@ -152,7 +152,7 @@ body{
 
 @media only screen and (max-width: 750px){
 
-	#nav ul {
+	#nav ul{
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
@@ -161,24 +161,24 @@ body{
 		text-align: center;
 	}
 
-	#nav li {
+	#nav li{
 		float: none;
 	}
 
-	#nav li ul, #nav li li ul {
+	#nav li ul, #nav li li ul{
 		display: none;
 		position: absolute;
 		font-weight: normal;
 	}
 
-	#nav li li {
+	#nav li li{
 		display: block;
 		float: none;
 		background-color: #6C648B;
 		border: 0;
 	}
 
-	#nav li a {
+	#nav li a{
 		display: block;
 		color: #EDFFCA;
 		padding: 14px 16px;
@@ -207,18 +207,18 @@ body{
 }
 
 /* Wraps around the entire page content to create space for footer */
-#page {
+#page{
     min-height: 100%;
     margin-bottom: 10em;
 }
 
 /* Space for footer */
-#push {
+#push{
     height: 10em;
 }
 
 /* CSS for footer */
-#footer {
+#footer{
 	background-color: #7a719e;
     padding: 15px;
 	text-align: center;
@@ -226,45 +226,45 @@ body{
 }
 
 /* Centers sand removes and list styles from lists in footer */
-.footerList {
+.footerList{
     list-style-type: none;
 	text-align: center;
 }
 
 /* Makes the footer objects appear next to each other and add padding */
-.footerWidth {
+.footerWidth{
 	display: inline-block;
 	padding: 0 20px 0 20px;
 }
 
 /* Padding for body of resources */
-#resourceBody {
+#resourceBody{
     padding: 15px 30px 10px 30px;
 }
 
 /* Class used for centering images */
-.centerImage {
+.centerImage{
     display: block;
     margin-left: auto;
     margin-right: auto;
 	padding: 20px 0 5px 0;
 }
 
-.floatLeft {
+.floatLeft{
 	display: inline-block;
     vertical-align: top;
     width: 25%;
 }
 
 /* Used for resources books images */
-.resourceDisplay {
+.resourceDisplay{
     display:inline-block;
     padding: 10px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
 
 /* Used for resources books text*/
-.resourceDisplayText {
+.resourceDisplayText{
     display:inline-block;
     vertical-align: top;
     width: 70%;
@@ -273,21 +273,21 @@ body{
 }
 
 /* Use to turn font black for specific tags*/
-.black {
+.black{
     color: black;
 }
 
-.italics {
+.italics{
     font-style: italic;
 }
 
 /* Class used for centering text */
-.centerText {
+.centerText{
     text-align: center;
 }
 
 /* Class used to left align text */
-.leftText {
+.leftText{
     text-align: left;
     text-decoration: none;
 }
@@ -386,20 +386,20 @@ a:active{
 
 }
 
-.box1 ul {
+.box1 ul{
 	list-style-type: none;
 }
 
-.box1 ul li {
+.box1 ul li{
 	padding: 5px 5px 5px 5px;
 }
 
 
 /*tutorial page*/
 .commBorder{
-	    	border-left: 8px solid #8585ad;
-    		background-color: #dfe2ec;
-    		padding-left: 10px;
+    	border-left: 8px solid #8585ad;
+		background-color: #dfe2ec;
+		padding-left: 10px;
 		font-size:25px;
 	}
 
@@ -408,17 +408,17 @@ a:active{
 	}
 
 /*common commands page and tutorial page - summary table*/
-table, td, th {
+table, td, th{
    		border: 3px solid #ddd;
     		 text-align: left;
 		}
 
-table {
+table{
     border-collapse: collapse;
     width: 100%;
 	}
 
-th, td {
+th, td{
     text-align: left;
     padding: 12px;
 	}
@@ -427,7 +427,7 @@ tr:nth-child(even){background-color: #e6e6e6}
 
 
 /*Create a Scroll To Top Button*/
-#myBtn {
+#myBtn{
   display: none;
   position: fixed;
   bottom: 20px;
@@ -444,12 +444,12 @@ tr:nth-child(even){background-color: #e6e6e6}
 }
 
 
-#myBtn:hover {
+#myBtn:hover{
   background-color:  #666699;
 }
 
 /*Create Submit Button */
-.button {
+.button{
     background-color: #5c5c8a;
     color: white;
     border-radius:5%;
@@ -469,51 +469,51 @@ tr:nth-child(even){background-color: #e6e6e6}
 }
 
 
-/*tutorials images border*/		
-.ridge {
+/*tutorials images border*/
+.ridge{
 		border-style: ridge;
 		width:45vw;
 		height:300px;
 		border-color:#808080;
 }
 
-/*tutorial images*/	
-#Img {
+/*tutorial images*/
+#Img{
     cursor: pointer;
     transition: 0.3s;
 }
 
-#Img:hover {
+#Img:hover{
 	opacity: 0.7;
 }
 
 
 /* background of enlarge images*/
-.backColor {
-    display: none; 
-    position: fixed;  
+.backColor{
+    display: none;
+    position: fixed;
     padding-top: 100px;
     width: 100%;
     height: 100%;
     left: 0;
-    top: 0; 
+    top: 0;
     z-index: 1;
     overflow: auto;
-    background-color: rgba(0,0,0,0.7);     
+    background-color: rgba(0,0,0,0.7);
 }
 
 
 /* image size*/
-.backColor-image {
+.backColor-image{
     margin: auto;
     display: block;
     max-width: 700px;
     width: 80%;
-    
+
 }
 
 /* Caption of image */
-#caption {
+#caption{
     margin: auto;
     display: block;
     width: 80%;
@@ -525,20 +525,20 @@ tr:nth-child(even){background-color: #e6e6e6}
 }
 
 /* Add Animation */
-.backColor-image, #caption {    
+.backColor-image, #caption{
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
 
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+@-webkit-keyframes zoom{
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
 }
 
-@keyframes zoom {
-    from {transform:scale(0)} 
+@keyframes zoom{
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
 
@@ -553,7 +553,7 @@ tr:nth-child(even){background-color: #e6e6e6}
     transition: 0.3s;
 }
 
-.close:hover,.close:focus {
+.close:hover,.close:focus{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -561,7 +561,7 @@ tr:nth-child(even){background-color: #e6e6e6}
 
 /* 100% image Width on smaller screens */
 @media only screen and (max-width: 700px){
-    .backColor-image {
+    .backColor-image{
         width: 100%;
     }
 }
@@ -569,7 +569,7 @@ tr:nth-child(even){background-color: #e6e6e6}
 @media screen and (max-width:500px){
 	.tran:hover{
 		display:none;
-	    }
+	}
 	.tran{
 		display:none;
 	}
