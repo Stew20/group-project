@@ -1,154 +1,97 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
-	<title>Homepage</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-		<style>
-		#nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #6C648B;
-		}
-
-		#nav li {
-			float: left;
-		}
-
-		#nav li ul, li li ul {
-			display: none;
-			position: absolute;
-			font-weight: normal;
-		}
-
-		#nav li li {
-			display: block;
-			float: none;
-			background-color: #6C648B;
-			border: 0;
-		}
-
-		#nav li a {
-			display: block;
-			color: #EDFFCA;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
-
-		#nav li a:hover:not(.active) {
-			background-color: #EDFFCA;
-			color: #6C648B;
-		}
-
-		#nav li:hover ul{
-			display: block;
-		}
-
-		#nav li ul a{
-			float: left;
-
-		}
-
-		.home{
-			padding: 0 0;
-			width: 46px;
-			height: 46px;
-			bottom: 50px;
-		}
-
-		.active {
-			background-color: #EDFFCA;
-			color: #6C648B;
-		}
-
-		.background {
-	    background-image: url(assets/images/banner_image.jpg);
-	    background-size: cover;
-	    background-repeat: no-repeat;
-			height: 350px;
-		}
-
-		.imgContainer{
-    	text-align: center;
-		}
-
-		.imgResp {
-	    max-width: 100%;
-	    padding: 0px;
-			position: relative;
-			top: 30px;
-		}
-		@media only screen and (max-width: 650px){
-			.background{
-    		height: 20em;
-				background-color: #6C648B;
-			}
-		}
-
-
-		/**
-			need an @ media Query at 471px, or 540 if we add a search icon
-		**/
-	</style>
-	</head>
-
+	<meta charset=utf-8 />
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css"> <script type="text/javascript" src="./assets/javascript/back_to_top.js"></script><script type="text/javascript" src="./assets/javascript/hamburger.js"></script></head>
 	<body>
 		<div class = "background">
 			<div class="imgContainer" >
-	 	      <img class="imgResp" src="assets/images/banner_words.png" alt="picture">
+	 	      <img class="imgResp" src="assets/images/banner_words.png" alt="picture" >
 		   </div>
 		</div>
-        <div id="nav">
-            <ul>
-                <!-- <li><a class="active" href="#home">Home</a></li> -->
-                <!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
-                <li><a href="#home">Home</a></li>
-                <li><a href="#tutorials">Tutorials</a>
-                    <ul>
-                        <li><a href="#tutorial1">1. OS Navigation</a></li>
-                        <li><a href="#tutorial2">2. File Manipulation</a></li>
-                        <li><a href="#tutorial3">3. Filer Permissions</a></li>
-                        <li><a href="#tutorial4">4. Overview</a></li>
-                        <li><a href="#tutorial5">More Tutorials</a></li>
-                    </ul>
-                </li>
-                <li><a href="#commands">Commands</a>
-                    <ul>
-                        <li><a href="#command1">All Commands</a></li>
-                        <li><a href="#command2">Common Commands</a></li>
-                        <li><a href="#command3">Navigation Commands</a></li>
-                    </ul>
-                </li>
-                <li><a href="#quizzes">Quizzes</a>
-                    <ul>
-                        <li><a href="#quiz1">Q1. Navigation</a></li>
-                        <li><a href="#quiz2">Q2. Files</a></li>
-                        <li><a href="#quiz3">Q3. Overview</a></li>
-                    </ul>
-                </li>
-                <li><a href="resources.php">Resources</a>
-                    <ul>
-                        <li><a href="#Recource1">Books</a></li>
-                        <li><a href="#Recource2">PDF's</a></li>
-                        <li><a href="#Recource3">Links</a></li>
-                        <li><a href="#Recource4">Contact Us</a></li>
-                    </ul>
-                </li>
-                <!-- <li> <a class="search"> </li> -->
-            </ul>
-        </div> <!-- nav div ends here -->
 
+	<div id="nav">
+	<ul>
+	<!-- <li><a class="active" href="#home">Home</a></li> -->
+	<!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
+	<li><a class="nav_bar_button" sqlid="home" id="index.php" onclick="nav_button_clicked(this)" >Home</a></li>
+    <li><a class="nav_bar_button" sqlid="gs" id="gs/index.php" onclick="nav_button_clicked(this)" >Getting Started</a></li>
+	<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/index.php" onclick="nav_button_clicked(this)" >Tutorials</a>
+		<ul class="tutorialsWidth">
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial1.php" onclick="nav_button_clicked(this)" >1. OS Navigation</a></li>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial2.php" onclick="nav_button_clicked(this)" >2. File Manipulation</a></li>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial3.php" onclick="nav_button_clicked(this)" >3. File Permissions</a></li>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/tutorial4.php" onclick="nav_button_clicked(this)" >4. Package Manager </a></li>
+				<li><a class="nav_bar_button" sqlid="tutorials" id="tutorials/index.php"     onclick="nav_button_clicked(this)" >More Tutorials</a></li>
+		</ul>
+	</li>
+	<li><a class="nav_bar_button" sqlid="commands" id="commands/index.php" onclick="nav_button_clicked(this)" >Commands</a><!--');-->
+		<ul class="commandsWidth">
+				<li><a class="nav_bar_button" sqlid="commands" id="commands/index.php"       onclick="nav_button_clicked(this)" >All Commands</a></li>
+				<li><a class="nav_bar_button" sqlid="commands" id="commands/common.php"      onclick="nav_button_clicked(this)" >Common Commands</a></li>
+				<li><a class="nav_bar_button" sqlid="commands" id="commands/navCommands.php" onclick="nav_button_clicked(this)" >Navigation Commands</a></li>
+		</ul>
+	</li>
+	<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Quizzes</a>
+		<ul class="quizzesWidth	">
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/quiz1.php" onclick="nav_button_clicked(this)" >Q1. Navigation</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q2. Files</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q3. Overview</a></li>
+		</ul>
+	</li>
+	<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php" onclick="nav_button_clicked(this)" > Resources </a>
+		<ul class="resourcesWidth">
+				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#books"    onclick="nav_button_clicked(this)" >Books</a></li>
+				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#pdfs"     onclick="nav_button_clicked(this)" >PDFs</a></li>
+				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#websites" onclick="nav_button_clicked(this)" >Links</a></li>
+				<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php#footer"   onclick="nav_button_clicked(this)" >Contact Us</a></li>
+		</ul>
+	</li>
+	<!-- <li> -->
+			<!-- <a href="#home"> -->
+			<!-- <img id="search" src="searchButton.png" alt = "Search Button" style= "width: 46px; height: 46px; padding: 0 0;"> -->
+		<!-- </a> -->
 
+	<!-- </li> -->
+	</ul>
 
+	<div class="hamburger" onclick="mobileNav(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+</div> <!-- nav div ends here -->
+<script>
+	// Get the button, and when the user clicks on it, execute myFunction
+	//document.getElementById("myBtn").onclick = function() {myFunction()};
 
+	/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+	function myFunction(){
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+</script>
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+        <!--<button id="gsbtn" class="button" type="submit" value="Get Started!" />-->
  	    <div id="page">
-			<div class="border1">
-				<h1> Introduction </h1>
+            <form action="gs/index.php">
+            </form>
+				<div class="border1">
 					<div class="box1">
+                        <h1>What is Unix</h1>
+                        <p>
+                            The story of Unix began in 1969 when Bell Laboratories resigned themselves from working on a time-sharing operating system called Multics with MIT and General Electric. The head researchers of Bell Laboratories, Ken Thompson and Dennis Ritchie, loved the idea of Multics but hated the execution of creating it, so they took the task of developing it into their own hands. The result was a hierarchical file system with a command-line interpreter that came to be known as Unix. From then on, Unix kept growing. By the 1980’s Unix was seen as a viable all-purpose operating system since in total it was less than 20,000 lines of code and it could run on almost every machine available. In the 1980’s Dennis Ritchie said the vision he and Ken Thompson had for Unix:
+
+                            “What we wanted to preserve was not just a good environment in which to do programming, but a system around which a fellowship could form. We knew from experience that the essence of communal computing, as supplied by remote-access, time-shared machines, is not just to type programs into a terminal instead of a keypunch, but to encourage close communication.”
+                        </p>
+					</div>
+				</div>
+				<div class="border1">
+                    <div class="box1">
+						<h1> Introduction </h1>
 						<p> Welcome! If you’re reading this, then you want to learn more about Unix and its applications.
 						Lucky for you, whether you’re a total beginner, a student wanting to “check yourself before you wreck yourself” (as the kids would say)
 						because of an exam coming up, or you’re rather comfortable with Unix and you forgot that one command so you need a quick refresher on it, we’ve got you covered!
@@ -161,86 +104,75 @@
 							<li> * Step-by-step tutorials on several applications of Unix (including videos!) </li>
 							<li> * Quizzes on the several applications of Unix </li>
 						</ul>
-					</div>
-			</div>
-            <div class="border1">
-                <h1>What is Unix</h1>
-                    <div class="box1">
-                        <p>
-                            The story of Unix began in 1969 when Bell Laboratories resigned themselves from working on a time-sharing operating system called Multics with MIT and General Electric. The head researchers of Bell Laboratories, Ken Thompson and Dennis Ritchie, loved the idea of Multics but hated the execution of creating it, so they took the task of developing it into their own hands. The result was a hierarchical file system with a command-line interpreter that came to be known as Unix. From then on, Unix kept growing. By the 1980’s Unix was seen as a viable all-purpose operating system since in total it was less than 20,000 lines of code and it could run on almost every machine available. In the 1980’s Dennis Ritchie said the vision he and Ken Thompson had for Unix:
-
-                            “What we wanted to preserve was not just a good environment in which to do programming, but a system around which a fellowship could form. We knew from experience that the essence of communal computing, as supplied by remote-access, time-shared machines, is not just to type programs into a terminal instead of a keypunch, but to encourage close communication.”
-                        </p>
                     </div>
-            </div>
-
-            <div class="border1">
-                <h1>Where is Unix Today?</h1>
+				</div>
+				<div class="border1">
                     <div class="box1">
+						<h1>Where is Unix Today?</h1>
                         <p>
                             Aside from Microsoft’s operating system “Windows”, almost every other system can trace its origin to Unix. Do you own any Apple products or an Android devices? Almost all of them were developed with some parts of Unix. In fact, it’s because the operating system is Unix-based that Apple laptops are popular with many coders. And Linux is essentially a clone of Unix, and Linux-based operating systems are highly popular for their ease of use and the easy accessibility of files. Unix commands are still used today, though the uses are mainly for server operation.
                         </p>
                     </div>
-            </div>
-            <div id="push"> </div>
+				</div>
+
         </div>
 
-        <footer id="footer">
-            <h4> © 2017 Stew20 </h4>
-			<div id="footerWidth">
-				<ul id="footerList">
-					<h4> Karnowsky Estime </h4>
-					<li> Contact Info: <br>
-						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+	<footer id="footer">
+			<img class="centerImage" src="./assets/images/stew20Logo.png" alt="Logo">            <h4> © 2017 Stew20 </h4>
+			<div class="footerWidth">
+				<ul class="footerList">
+					<li><h4> Karnowsky Estime </h4></li>
+					<li>
+						 kxe8741@rit.edu <br>
+					</li>
 				</ul>
 			</div>
 
-			<div id="footerWidth">
-				<ul id="footerList">
-					<h4> Patrick Lennon </h4>
-					<li> Contact Info: <br>
-						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+			<div class="footerWidth">
+				<ul class="footerList">
+					<li><h4> Patrick Lennon </h4></li>
+					<li>
+						 pnl1108@rit.edu <br>
+					</li>
 				</ul>
 			</div>
 
-			<div id="footerWidth">
-				<ul id="footerList">
-					<h4> Jason Beaulieu </h4>
-					<li> Contact Info: <br>
-						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+			<div class="footerWidth">
+				<ul class="footerList">
+					<li><h4> Jason Beaulieu </h4></li>
+					<li>
+						 jxb7623@rit.edu <br>
+					</li>
 				</ul>
 			</div>
 
-			<div id="footerWidth">
-				<ul id="footerList">
-					<h4> YaLing Lian </h4>
-					<li> Contact Info: <br>
-						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+			<div class="footerWidth">
+				<ul class="footerList">
+					<li><h4> YaLing Lian </h4></li>
+					<li>
+						 yxl4427@rit.edu <br>
+					</li>
 				</ul>
 			</div>
 
-			<div id="footerWidth">
-				<ul id="footerList">
-					<h4> Eric Cen </h4>
-					<li> Contact Info: <br>
-						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+			<div class="footerWidth">
+				<ul class="footerList">
+					<li><h4> Eric Cen </h4></li>
+					<li>
+						 exc1652@rit.edu <br>
+					</li>
 				</ul>
 			</div>
 
-			<div id="footerWidth">
-				<ul id="footerList">
-					<h4> Alex King </h4>
-					<li> Contact Info: <br>
-						 xxx1234@rit.edu <br>
-						 (123)-456-7890 </li>
+			<div class="footerWidth">
+				<ul class="footerList">
+					<li><h4> Alex King </h4></li>
+					<li>
+						 axk9936@rit.edu <br>
+					</li>
 				</ul>
 			</div>
         </footer>
-
+		 <script src="./assets/javascript/nav_bar_level1.js"></script>
 	</body>
 </html>
