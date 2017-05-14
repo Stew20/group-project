@@ -18,7 +18,7 @@
 		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
 
 
-		<h1>Unix - OS navigation</h1>
+		<h1>Unix - File Manipulation</h1>
 		<div class="border1">
 			<div class="box1">
 				<h2>Change Permissions</h2>
@@ -26,11 +26,11 @@
 					<p>Chmod</p>
 				</div>
 				<p>
-					The ls command is used for listing the contents of a directory, and can be used to show the properties and permissions of files and folders inside the parent.
+					The Chmod command is used to change the access permissions of files and directories/folders. It can also alter special mode flags.
 				</p>
 
 				<p>
-					Typing “ls” in the terminal will print out all files and folders in the parent folder.
+					Just Typing “Chmod” in the terminal will provide many
 				</p>
 
 				<div class="textColor">
