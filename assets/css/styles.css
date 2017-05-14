@@ -22,7 +22,7 @@ body{
 	text-align: center;
 }
 
-.imgResp{
+.imgResp, .headerResp{
 	max-width: 100%;
 	padding: 0px;
 	position: relative;
@@ -189,7 +189,6 @@ body{
 
 	#nav{
 		width: 100%;
-		float: right;
 	}
 
 	#nav ul{
@@ -200,6 +199,14 @@ body{
 		background-color: #6C648B;
 		text-align: left;
 		width: 175px;
+	}
+
+	.hamburger{
+		display: inline-block;
+	}
+
+	headerResp{
+		
 	}
 
 	#nav li{
@@ -359,7 +366,7 @@ p{
     line-height: 150%;
     text-align: justify;
     margin: 5px;
-	}
+}
 
 	@media screen and (max-width: 750px){
 		p{
@@ -400,11 +407,11 @@ a:active{
       }
 
 .tran:hover{
-			opacity: 0.7;
-    		filter: alpha(opacity=7);
-    		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 18px 0 rgba(0, 0, 0, 0.9);
+	opacity: 0.7;
+	filter: alpha(opacity=7);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 18px 0 rgba(0, 0, 0, 0.9);
 
-    	  }
+	}
 
 
 
