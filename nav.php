@@ -42,6 +42,12 @@
 
 	<!-- </li> -->
 	</ul>
+
+	<div class="hamburger" onclick="mobileNav(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
 </div> <!-- nav div ends here -->
 <script>
 	// Get the button, and when the user clicks on it, execute myFunction
