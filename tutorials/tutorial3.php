@@ -18,12 +18,12 @@
 		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
 
 
-		<h1>Unix - OS navigation</h1>
+		<h1>Unix - File Permissions</h1>
 		<div class="border1">
 			<div class="box1">
-				<h2>List</h2>
+				<h2>Permissions</h2>
 				<div class = "commBorder">
-					<p>ls</p>
+					<p>Chmod</p>
 				</div>
 				<p>
 					The ls command is used for listing the contents of a directory, and can be used to show the properties and permissions of files and folders inside the parent.
@@ -71,9 +71,9 @@
 
 				<hr>
 
-				<h2>Change Directory</h2>
+				<h2>Group Owner</h2>
 				<div class = "commBorder">
-					<p>cd</p>
+					<p>Chgrp</p>
 				</div>
 				<p>
 					cd is used to change the current working directory. A working directory is where the user
@@ -114,9 +114,9 @@
 				<hr>
 
 
-				<h2>Print Working Directory</h2>
+				<h2>change user ownership</h2>
 				<div class = "commBorder">
-					<p>pwd</p>
+					<p>Chown</p>
 				</div>
 				<p>
 					pwd does exactly what it says. It will print out the current working directory of the user to the terminal. This is helpful when navigating through a deep directory structure with many similarly named folders.
