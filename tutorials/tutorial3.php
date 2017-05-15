@@ -22,11 +22,13 @@
 	<div class="border1">
 	<div class="box1">
 	
-	<p>Permission are assigned to files in three categories:</p>
+	<div class="textColor">Permission are assigned to files in three categories:</div>
 	• Owner- The username to which the file belong.<br>
 	• Group - Who is a member of the group that a file belong to, can perform on the file.<br>
 	• Others - Everyone else on the system.
-	<p>Permissions for each of these categories:</p>
+		
+		
+	<div class="textColor">Permissions for each of these categories:</div>
 	• r(read)- Username can read the contents.<br>
 	• w(write)- Username can add or delete contents.<br>
 	• x(execute)- Can execute the file.
@@ -41,7 +43,7 @@
 	</p>
 	
 	<h2>Permissions Table</h2>
-	
+	<div class="textColor">Symbolic Mode</div>
 		<div id="commTable">
 	<table>
   		<tr>
@@ -67,7 +69,7 @@
 	</table>
 		</div>	
 		 
-		 
+	<div class="textColor">Numerical Mode</div>	 
 	<div id="commTable">
 	<table>
   		<tr>
@@ -133,7 +135,7 @@
 	</p>
 	</div>
 	<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot6.png" style="width:45vw;height:300px;">'); ?>
+	<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot6.png" style="width:45vw;height:300px;">'); ?>
 			    </div>
 
 				<div id="backgrd" class="backColor">
@@ -242,40 +244,7 @@
 					span.onclick = function() { 
 					modal.style.display = "none";
 					}
-					// Get the background modal
-					var modal = document.getElementById('backgrd4');
-					// Get the image and insert it inside the modal
-					var img = document.getElementById('Img4');
-					var img1 = document.getElementById("img44");
-					var captionText = document.getElementById("caption4");
-					img.onclick = function(){
-					modal.style.display = "block";
-					img1.src = this.src;
-					captionText.innerHTML = this.alt;
-					}
-					// closes the modal
-					var span = document.getElementsByClassName("close")[3];	
-					//close the modal
-					span.onclick = function() { 
-					modal.style.display = "none";
-					}	
-					// Get the background modal
-					var modal = document.getElementById('backgrd5');
-					// Get the image and insert it inside the modal
-					var img = document.getElementById('Img5');
-					var img1 = document.getElementById("img55");
-					var captionText = document.getElementById("caption5");
-					img.onclick = function(){
-					modal.style.display = "block";
-					img1.src = this.src;
-					captionText.innerHTML = this.alt;
-					}
-					// closes the modal
-					var span = document.getElementsByClassName("close")[4];
-					span.onclick = function() { 
-					modal.style.display = "none";
-					}
-				</script>
+			
 
 			</script>
 				<hr>
