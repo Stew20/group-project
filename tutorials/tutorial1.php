@@ -60,13 +60,13 @@
 				</div>
 
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img2" src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
 
-				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
+				<div id="backgrd2" class="backColor">
+				<span class="close">&times;</span>
+				<img class="backColor-image" id="img22">
+				<div id="caption2"></div>
 				</div>
 
 				<hr>
@@ -85,13 +85,13 @@
 					</p>
 				</div>
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img3" src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
 
-				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
+				<div id="backgrd3" class="backColor">
+				<span class="close">&times;</span>
+				<img class="backColor-image" id="img33">
+				<div id="caption3"></div>
 				</div>
 
 				<p>
@@ -103,14 +103,14 @@
 					</p>
 				</div>
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img4" src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
 
-				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
-				</div>
+				<div id="backgrd4" class="backColor">
+				<span class="close">&times;</span>
+				<img class="backColor-image" id="img44">
+				<div id="caption4"></div>
+				</div>	
 				<hr>
 
 
@@ -131,48 +131,15 @@
 				</div>
 
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img5" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
-				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
+		 		<div id="backgrd5" class="backColor">
+  				<span class="close">&times;</span>
+  				<img class="backColor-image" id="img55">
+  				<div id="caption5"></div>
 				</div>
-				<hr>
-
-				<h2>Summary</h2>
-				<div id="commTable">
-					<table>
-				  		<tr>
-				    		<th>Command</th>
-				    		<th>Function</th>
-				  		</tr>
-
-				  		<tr>
-				    		<td>ls</td>
-				    		<td>List Directories and Files</td>
-				  		</tr>
-
-				  		<tr>
-				    		<td>cd </td>
-				    		<td>change to the Directory</td>
-				  		</tr>
-
-						<tr>
-							<td>pwd</td>
-							<td>Display the current working Directory</td>
-				 	 	</tr>
-					</table>
-
-				</div>
-
-			</div>
-
-		</div>
-		
-		
-		
-		<script>
+				
+			<script>
 			// Get the background modal
 			var modal = document.getElementById('backgrd');
 
@@ -288,7 +255,42 @@
 			modal.style.display = "none";
 			}
 
-		</script>
+			</script>
+				<hr>
+
+				<h2>Summary</h2>
+				<div id="commTable">
+					<table>
+				  		<tr>
+				    		<th>Command</th>
+				    		<th>Function</th>
+				  		</tr>
+
+				  		<tr>
+				    		<td>ls</td>
+				    		<td>List Directories and Files</td>
+				  		</tr>
+
+				  		<tr>
+				    		<td>cd </td>
+				    		<td>change to the Directory</td>
+				  		</tr>
+
+						<tr>
+							<td>pwd</td>
+							<td>Display the current working Directory</td>
+				 	 	</tr>
+					</table>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+		
+		
+
 
 		<div id="push"> </div>
 		<?php
