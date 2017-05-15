@@ -533,6 +533,14 @@ tr:nth-child(even){background-color: #e6e6e6}
 }
 
 
+.ridge {
+		border-style: ridge;
+		width:45vw;
+		height:300px;
+		border-color:#d0d0e1;
+}
+
+
 /*tutorial images*/	
 #Img {
     cursor: pointer;
