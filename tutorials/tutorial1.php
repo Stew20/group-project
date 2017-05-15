@@ -60,7 +60,7 @@
 				</div>
 
 				<div class="ridge">
-					<?php echo('<img id="Img2" src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img2" src="'.$path.'assets/images/ScreenShot2.png" style="width:45vw;height:300px;">'); ?>
 				</div>
 
 				<div id="backgrd2" class="backColor">
@@ -85,7 +85,7 @@
 					</p>
 				</div>
 				<div class="ridge">
-					<?php echo('<img id="Img3" src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img3" src="'.$path.'assets/images/ScreenShot3.png"  style="width:45vw;height:300px;">'); ?>
 				</div>
 
 				<div id="backgrd3" class="backColor">
@@ -103,7 +103,7 @@
 					</p>
 				</div>
 				<div class="ridge">
-					<?php echo('<img id="Img4" src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img4" src="'.$path.'assets/images/ScreenShot4.png"  style="width:45vw;height:300px;">'); ?>
 				</div>
 
 				<div id="backgrd4" class="backColor">
@@ -131,7 +131,7 @@
 				</div>
 
 				<div class="ridge">
-					<?php echo('<img id="Img5" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img5" src="'.$path.'assets/images/ScreenShot5.png"  style="width:45vw;height:300px;">'); ?>
 				</div>
 		 		<div id="backgrd5" class="backColor">
   				<span class="close">&times;</span>
