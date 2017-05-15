@@ -168,11 +168,11 @@
 
 					// Get the image and insert it inside the modal
 					var img = document.getElementById('Img2');
-					var img22 = document.getElementById("img22");
+					var img1 = document.getElementById("img22");
 					var captionText = document.getElementById("caption2");
 					img.onclick = function(){
 					modal.style.display = "block";
-					img22.src = this.src;
+					img1.src = this.src;
 					captionText.innerHTML = this.alt;
 					}
 
@@ -192,11 +192,11 @@
 
 					// Get the image and insert it inside the modal
 					var img = document.getElementById('Img3');
-					var img33 = document.getElementById("img33");
+					var img1 = document.getElementById("img33");
 					var captionText = document.getElementById("caption3");
 					img.onclick = function(){
 					modal.style.display = "block";
-					img33.src = this.src;
+					img1.src = this.src;
 					captionText.innerHTML = this.alt;
 					}
 
@@ -215,11 +215,11 @@
 
 					// Get the image and insert it inside the modal
 					var img = document.getElementById('Img4');
-					var img44 = document.getElementById("img44");
+					var img1 = document.getElementById("img44");
 					var captionText = document.getElementById("caption4");
 					img.onclick = function(){
 					modal.style.display = "block";
-					img44.src = this.src;
+					img1.src = this.src;
 					captionText.innerHTML = this.alt;
 					}
 					// closes the modal
@@ -235,11 +235,11 @@
 
 					// Get the image and insert it inside the modal
 					var img = document.getElementById('Img5');
-					var img55 = document.getElementById("img55");
+					var img1 = document.getElementById("img55");
 					var captionText = document.getElementById("caption5");
 					img.onclick = function(){
 					modal.style.display = "block";
-					img55.src = this.src;
+					img1.src = this.src;
 					captionText.innerHTML = this.alt;
 					}
 
