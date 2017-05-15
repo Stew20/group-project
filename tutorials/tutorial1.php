@@ -50,30 +50,6 @@
 				</div>
 
 
-				<script>
-					// Get the background modal
-					var modal = document.getElementById('backgrd');
-
-					// Get the image and insert it inside the modal
-					var img = document.getElementById('Img');
-					var img1 = document.getElementById("img1");
-					var captionText = document.getElementById("caption");
-					img.onclick = function(){
-				    	modal.style.display = "block";
-				    	img1.src = this.src;
-				    	captionText.innerHTML = this.alt;
-					}
-
-					// Get the <span> element that closes the modal
-					var span = document.getElementsByClassName("close")[0];
-
-					// When the user clicks on <span> (x), close the modal
-					span.onclick = function() {
-				    	modal.style.display = "none";
-					}
-				</script>
-
-
 				<p>
 					For a more detailed description of folder contents, flags such as -l can be used. -l gives a “Long” listing of details, including permissions, ownership, creator, modification date, and name.
 				</p>
@@ -193,6 +169,126 @@
 			</div>
 
 		</div>
+		
+		
+		
+		<script>
+			// Get the background modal
+			var modal = document.getElementById('backgrd');
+
+			// Get the image and insert it inside the modal
+			var img = document.getElementById('Img');
+			var img1 = document.getElementById("img1");
+			var captionText = document.getElementById("caption");
+			img.onclick = function(){
+			modal.style.display = "block";
+			img1.src = this.src;
+			captionText.innerHTML = this.alt;
+			}
+
+			//  closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// close the modal
+			span.onclick = function() {
+			modal.style.display = "none";
+			}
+			
+			
+			// Get the background modal
+			var modal = document.getElementById('backgrd2');
+
+			// Get the image and insert it inside the modal
+			var img = document.getElementById('Img2');
+			var img1 = document.getElementById("img22");
+			var captionText = document.getElementById("caption2");
+			img.onclick = function(){
+    			modal.style.display = "block";
+    			img22.src = this.src;
+    			captionText.innerHTML = this.alt;
+			}
+	
+	
+			//closes the modal
+			var span = document.getElementsByClassName("close")[1];
+	
+	
+			//close the modal
+			span.onclick = function() { 
+    			modal.style.display = "none";
+			}
+	
+		
+			// Get the background modal
+			var modal = document.getElementById('backgrd3');
+
+			// Get the image and insert it inside the modal
+			var img = document.getElementById('Img3');
+			var img1 = document.getElementById("img33");
+			var captionText = document.getElementById("caption3");
+			img.onclick = function(){
+    			modal.style.display = "block";
+    			img22.src = this.src;
+    			captionText.innerHTML = this.alt;
+			}
+	
+	
+			//closes the modal
+			var span = document.getElementsByClassName("close")[2];
+	
+	
+			//close the modal
+			span.onclick = function() { 
+    			modal.style.display = "none";
+			}
+		
+			// Get the background modal
+			var modal = document.getElementById('backgrd4');
+
+			// Get the image and insert it inside the modal
+			var img = document.getElementById('Img4');
+			var img1 = document.getElementById("img44");
+			var captionText = document.getElementById("caption4");
+			img.onclick = function(){
+    			modal.style.display = "block";
+    			img22.src = this.src;
+    			captionText.innerHTML = this.alt;
+			}
+			
+			// closes the modal
+			var span = document.getElementsByClassName("close")[3];	
+	
+	
+			//close the modal
+			span.onclick = function() { 
+    			modal.style.display = "none";
+			}
+	
+		
+			// Get the background modal
+			var modal = document.getElementById('backgrd5');
+
+			// Get the image and insert it inside the modal
+			var img = document.getElementById('Img5');
+			var img1 = document.getElementById("img55");
+			var captionText = document.getElementById("caption5");
+			img.onclick = function(){
+			modal.style.display = "block";
+			img22.src = this.src;
+			captionText.innerHTML = this.alt;
+			}
+
+
+
+
+			// closes the modal
+			var span = document.getElementsByClassName("close")[4];
+
+			span.onclick = function() { 
+			modal.style.display = "none";
+			}
+
+		</script>
 
 		<div id="push"> </div>
 		<?php
