@@ -11,7 +11,7 @@ $_SESSION["sidenav"] = "home";
 	<body>
 		<div class = "background" style ="height: 10em;">
 			<div style="text-align: center;" >
-	 	      <img class="imgResp" src="assets/images/banner_words.png" alt="picture" style="top:39px;">
+	 	      <img class="imgResp" src="../assets/images/banner_words.png" alt="picture" style="top:39px;">
 		   </div>
 		</div>
 
