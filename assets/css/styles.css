@@ -35,7 +35,6 @@ body{
 @media screen and (max-width: 750px){
 	.background{
 		background-image: url('');
-		height: auto;
 		background-color: #6C648B;
 	}
 	.imgResp{
