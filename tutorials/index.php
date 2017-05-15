@@ -36,27 +36,7 @@
                     <li> <a href="tutorial7.php"> The File System </a></li>
                     <li> <a href="tutorial8.php"> Daemons </a></li>
                     <li> <a href="tutorial9.php"> Manual Commands </a></li>
-                </ul>
-        <!--
-        
-          /*
-          include "../php_connection.php";
-          $sql = "select nav_index from sidenav_tutorials";
-          $result = $conn->query($sql);
-          if($result->num_rows > 0){
-             while($row=$result->FETCH_ASSOC()){
-                echo "<li>";
-                echo $row['nav_index'];
-                echo "</li>";
-             }
-          }
-          else{
-             echo "0 results, you did something bad";
-          }
-          */
-        -->
-            
-        
+                </ul>            
             </div>
         </div>
     </div>
