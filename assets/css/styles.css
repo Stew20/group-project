@@ -533,51 +533,45 @@ tr:nth-child(even){background-color: #e6e6e6}
 }
 
 
-/*tutorials images border*/
-.ridge{
-		border-style: ridge;
-		width:45vw;
-		height:300px;
-		border-color:#808080;
-}
-
-/*tutorial images*/
-#Img{
+/*tutorial images*/	
+#Img {
     cursor: pointer;
     transition: 0.3s;
 }
 
-#Img:hover{
+#Img:hover {
 	opacity: 0.7;
 }
 
 
 /* background of enlarge images*/
-.backColor{
-    display: none;
-    position: fixed;
+.backColor {
+    display: none; 
+    position: fixed;  
     padding-top: 100px;
     width: 100%;
     height: 100%;
     left: 0;
-    top: 0;
+    top: 0; 
     z-index: 1;
     overflow: auto;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.7); 
+     
+    
 }
 
 
 /* image size*/
-.backColor-image{
+.backColor-image {
     margin: auto;
     display: block;
     max-width: 700px;
     width: 80%;
-
+    
 }
 
 /* Caption of image */
-#caption{
+#caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -589,20 +583,20 @@ tr:nth-child(even){background-color: #e6e6e6}
 }
 
 /* Add Animation */
-.backColor-image, #caption{
+.backColor-image, #caption {    
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
 
-@-webkit-keyframes zoom{
-    from {-webkit-transform:scale(0)}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
 }
 
-@keyframes zoom{
-    from {transform:scale(0)}
+@keyframes zoom {
+    from {transform:scale(0)} 
     to {transform:scale(1)}
 }
 
@@ -617,18 +611,117 @@ tr:nth-child(even){background-color: #e6e6e6}
     transition: 0.3s;
 }
 
-.close:hover,.close:focus{
+.close:hover,.close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
 }
 
+
+#Img2 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Img2:hover {
+	opacity: 0.7;
+}
+
+
+/* Caption of image */
+#caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    padding: 10px 0;
+    height: 150px;
+    color: #ccc;
+}
+
+
+
+#Img3 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Img3:hover {
+	opacity: 0.7;
+}
+
+
+/* Caption of image */
+#caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    padding: 10px 0;
+    height: 150px;
+    color: #ccc;
+}
+
+
+
+#Img4 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Img4:hover {
+	opacity: 0.7;
+}
+
+
+/* Caption of image */
+#caption4 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    padding: 10px 0;
+    height: 150px;
+    color: #ccc;
+}
+
+
+
+
+#Img5 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Img5:hover {
+	opacity: 0.7;
+}
+
+
+/* Caption of image */
+#caption5 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    padding: 10px 0;
+    height: 150px;
+    color: #ccc;
+}
+
+
 /* 100% image Width on smaller screens */
 @media only screen and (max-width: 700px){
-    .backColor-image{
+    .backColor-image {
         width: 100%;
     }
 }
+
+
 
 @media screen and (max-width:500px){
 	.tran:hover{
