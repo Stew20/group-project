@@ -149,9 +149,9 @@ body{
 
 .hamburger{
   	cursor: pointer;
-	float: right;
 	display: none;
 	margin-right: .4em;
+	float: right;
 }
 
 .bar1, .bar2, .bar3{
@@ -190,7 +190,7 @@ body{
 	#nav{
 	    top: 0px;
 	    position: fixed;
-	    /*width: 100%;*/
+	    width: 100%;
 	    /* display: none; */
 	    background-color: #6C648B;
 	    transition: .5s;
