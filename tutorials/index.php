@@ -38,7 +38,8 @@
                     <li> <a href="tutorial9.php"> Manual Commands </a></li>
                 </ul>
         <!--
-        <?php
+        
+          /*
           include "../php_connection.php";
           $sql = "select nav_index from sidenav_tutorials";
           $result = $conn->query($sql);
@@ -52,6 +53,7 @@
           else{
              echo "0 results, you did something bad";
           }
+          */
         -->
             
         
