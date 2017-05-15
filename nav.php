@@ -1,4 +1,5 @@
 <div id="nav">
+	<li id="getStarted" style="width: 175px; height: 39px; top: -10px;"><a style=" top: -15px; padding-top:7px; "sqlid="gs" id="gs/index.php" onclick="nav_button_clicked(this)" >Getting Started</a></li>
 	<ul id="nav-inner">
 	<!-- <li><a class="active" href="#home">Home</a></li> -->
 	<!-- <li><a class="home" href="#home"><img src = "HomeButton2.png" alt = "Home Button" style = "width: 35px; height: 35px;"> </li></a> -->
