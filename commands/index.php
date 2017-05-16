@@ -66,6 +66,10 @@
             <td><a href="touch.php" class="command">touch</a></td>
     			<td>Used to update both the access and the modification date of a directory or file. Allows you to edit the file on the command line without having to open the file.</td>
   		</tr>
+        <tr>
+            <td><a href="head.php" class="command">head</a></td>
+    			<td>Outputs the first 10 lines of a file to the command line. Very useful to help save time by previewing a file without opening it.</td>
+  		</tr>
 
   		<tr>
             <td><a href="tail.php" class="command">tail</a></td>
