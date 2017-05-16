@@ -21,7 +21,7 @@
 		<h1>Unix - File Manipulation</h1>
 		<div class="border1">
 			<div class="box1">
-				<h2>Change Permissions</h2>
+				<h2>Make Directory</h2>
 				<div class = "commBorder">
 					<p>mkdir</p>
 				</div>
@@ -74,15 +74,6 @@
 				</script>
 
 
-				<p>
-					For a more detailed description of folder contents, flags such as -l can be used. -l gives a “Long” listing of details, including permissions, ownership, creator, modification date, and name.
-				</p>
-				<div class="textColor">
-					<p>
-						Following is Output Example:
-					</p>
-				</div>
-
 				<div class="ridge">
 					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
@@ -95,16 +86,16 @@
 
 				<hr>
 
-				<h2>Change Delete</h2>
+				<h2>Delete</h2>
 				<div class = "commBorder">
 					<p>rm</p>
 				</div>
 				<p>
-					rm is used to delete files or directoriesrrent working directory.
+					The rm command is used to delete files or directories in the current working directory.
 				</p>
 
 				<p>
-					A name for the file should follow the rm command 
+					The name for the intended file should follow the rm command
 				</p>
 
 				<div class="textColor">
@@ -123,7 +114,7 @@
 				</div>
 
 				<p>
-					cd followed by two periods ( .. ) is used to navigate up one folder to the parent folder.
+					rm followed by -d allows the user to delete directories.
 				</p>
 				<div class="textColor">
 					<p>
@@ -142,15 +133,15 @@
 				<hr>
 
 
-				<h2>Change User Ownership</h2>
+				<h2>Remove directory</h2>
 				<div class = "commBorder">
-					<p>pwd</p>
+					<p>rmdir</p>
 				</div>
 				<p>
-					pwd does exactly what it says. It will print out the current working directory of the user to the terminal. This is helpful when navigating through a deep directory structure with many similarly named folders.
+					The rmDir command is used to delete  directories in the current working directory.
 				</p>
 				<p>
-					pwd is one of the few main Unix commands that is used by itself, without any options.
+					The name for the intended directory should follow the rm command
 				</p>
 				<div class="textColor">
 					<p>
