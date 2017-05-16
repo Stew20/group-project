@@ -126,7 +126,25 @@
 				</div>
 
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img" src="'.$path.'assets/images/vim1_img.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+				</div>
+				<div id="backgrd" class="backColor">
+					<span class="close">&times;</span>
+					<img class="backColor-image" id="img1">
+					<div id="caption"></div>
+				</div>
+
+				<div class="ridge">
+					<?php echo('<img id="Img" src="'.$path.'assets/images/vim2_img.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+				</div>
+				<div id="backgrd" class="backColor">
+					<span class="close">&times;</span>
+					<img class="backColor-image" id="img1">
+					<div id="caption"></div>
+				</div>
+
+				<div class="ridge">
+					<?php echo('<img id="Img" src="'.$path.'assets/images/vim3_img.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
 				<div id="backgrd" class="backColor">
 					<span class="close">&times;</span>
