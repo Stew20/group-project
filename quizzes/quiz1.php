@@ -115,8 +115,12 @@
 				return;
 			}
 			verify();
-			console.log(results);
-			alert(results);
+			var strResult;
+			for(int i = 0; i < results.length; i++)
+			{
+				strResult += (i.toString() + ": " + results[i] + "\n");
+			}
+			console.log(strResult);
 		}
 	</script>
 </html>
