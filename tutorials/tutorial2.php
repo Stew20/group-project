@@ -77,62 +77,47 @@
 
 				<hr>
 
-				<h2>Delete</h2>
+				<h2>Touch</h2>
 				<div class = "commBorder">
-					<p>rm</p>
+					<p>touch</p>
 				</div>
 				<p>
-					The rm command is used to delete files or directories in the current working directory.
+					The touch command is used to create new empty files in the current working directory.
 				</p>
-
 				<p>
-					The name for the intended file should follow the rm command.
+					The name for the intended file(s) should follow the touch command.
 				</p>
-
+				<h2> touch file1 file2 file3 </h2>
 				<div class="textColor">
 					<p>
 						Following is Output Example:
 					</p>
 				</div>
+
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
-
 				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
-				</div>
-
-				<p>
-					rm followed by -d allows the user to delete directories.
-				</p>
-				<div class="textColor">
-					<p>
-						Following is Output Example:
-					</p>
-				</div>
-				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
-				</div>
-
-				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
+					<span class="close">&times;</span>
+					<img class="backColor-image" id="img1">
+					<div id="caption"></div>
 				</div>
 				<hr>
 
-
-				<h2>Remove Directory</h2>
+				<h2>Text Editor</h2>
 				<div class = "commBorder">
-					<p>rmdir</p>
+					<p>vim</p>
 				</div>
 				<p>
-					The rmdir command is used to delete  directories in the current working directory.
+					The vim command provides the user with a text editor to edit the desired file.
 				</p>
 				<p>
-					The name for the intended directory should follow the rmdir command.
+					The name for the intended file should follow the vim command.
+				</p>
+				<p>
+					Once inside the text editor interface the user is able to press "I" to insert text.
+					If the user wants to leave, they can press escape and ":wq" to save their work and quit,
+					":q" to just quit without saving the changes, or ":w" to just save the changes.
 				</p>
 				<div class="textColor">
 					<p>
@@ -144,44 +129,10 @@
 					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
 				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
+					<span class="close">&times;</span>
+					<img class="backColor-image" id="img1">
+					<div id="caption"></div>
 				</div>
-				<hr>
-
-				<h2>Move</h2>
-				<div class = "commBorder">
-					<p>mv</p>
-				</div>
-				<p>
-					The mv command is used to move or rename files.
-				</p>
-				<p>
-					The name for the intended file path should follow the mv command.
-				</p>
-				<div class="textColor">
-					<p>
-						Following is Output Example:
-					</p>
-				</div>
-
-				<h2>mv myfile.txt destination-directory</h2>
-				<p>
-					Moves the file myfile.txt to the directory destination-directory.
-				</p>
-
-				<h2> mv myfile.txt ../ </h2>
-				<p>
-					Attempts to move the file myfile.txt into the parent directory.
-				</p>
-
-				<h2> mv computer\ hope.txt computer\ hope\ 2.txt </h2>
-				<p>
-					Renames the file "computer hope.txt" to "computer hope 2.txt". Here, the
-					file names contain spaces, so the spaces are escaped with a backslash,
-					which protects the words in the file name from being interpreted as separate command arguments.
-				</p>
 				<hr>
 
 				<h2>Touch</h2>
@@ -241,6 +192,114 @@
 					<div id="caption"></div>
 				</div>
 				<hr>
+
+				<h2>Delete</h2>
+				<div class = "commBorder">
+					<p>rm</p>
+				</div>
+				<p>
+					The rm command is used to delete files or directories in the current working directory.
+				</p>
+
+				<p>
+					The name for the intended file should follow the rm command.
+				</p>
+
+				<div class="textColor">
+					<p>
+						Following is Output Example:
+					</p>
+				</div>
+				<div class="ridge">
+					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+				</div>
+
+				<div id="backgrd" class="backColor">
+				  	<span class="close">&times;</span>
+				  	<img class="backColor-image" id="img1">
+				  	<div id="caption"></div>
+				</div>
+
+				<p>
+					rm followed by -d allows the user to delete directories.
+				</p>
+				<div class="textColor">
+					<p>
+						Following is Output Example:
+					</p>
+				</div>
+				<div class="ridge">
+					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+				</div>
+
+				<div id="backgrd" class="backColor">
+				  	<span class="close">&times;</span>
+				  	<img class="backColor-image" id="img1">
+				  	<div id="caption"></div>
+				</div>
+				<hr>
+
+				<h2>Move</h2>
+				<div class = "commBorder">
+					<p>mv</p>
+				</div>
+				<p>
+					The mv command is used to move or rename files.
+				</p>
+				<p>
+					The name for the intended file path should follow the mv command.
+				</p>
+				<div class="textColor">
+					<p>
+						Following is Output Example:
+					</p>
+				</div>
+
+				<h2>mv myfile.txt destination-directory</h2>
+				<p>
+					Moves the file myfile.txt to the directory destination-directory.
+				</p>
+
+				<h2> mv myfile.txt ../ </h2>
+				<p>
+					Attempts to move the file myfile.txt into the parent directory.
+				</p>
+
+				<h2> mv computer\ hope.txt computer\ hope\ 2.txt </h2>
+				<p>
+					Renames the file "computer hope.txt" to "computer hope 2.txt". Here, the
+					file names contain spaces, so the spaces are escaped with a backslash,
+					which protects the words in the file name from being interpreted as separate command arguments.
+				</p>
+				<hr>
+
+				<h2>Remove Directory</h2>
+				<div class = "commBorder">
+					<p>rmdir</p>
+				</div>
+				<p>
+					The rmdir command is used to delete  directories in the current working directory.
+				</p>
+				<p>
+					The name for the intended directory should follow the rmdir command.
+				</p>
+				<div class="textColor">
+					<p>
+						Following is Output Example:
+					</p>
+				</div>
+
+				<div class="ridge">
+					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+				</div>
+				<div id="backgrd" class="backColor">
+					<span class="close">&times;</span>
+					<img class="backColor-image" id="img1">
+					<div id="caption"></div>
+				</div>
+				<hr>
+
+
 
 				<h2>Summary</h2>
 				<div id="commTable">
