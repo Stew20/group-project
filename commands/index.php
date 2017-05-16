@@ -117,11 +117,11 @@
 		</tr>
 		<tr>
             <td><a href="chown.php" class="command">chown</a></td>
-    			<td>MISSING</td>
+    			<td>Allows the user to change the owner and the group of a file or directory.</td>
 		</tr>
 		<tr>
             <td><a href="find.php" class="command">find</a></td>
-    			<td>MISSING</td>
+    			<td>Helps the user find a directory</td>
 		</tr>
 		<tr>
             <td><a href="mkdir.php" class="command">mkdir</a></td>
