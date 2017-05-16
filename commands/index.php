@@ -29,7 +29,7 @@
 	<div class="box1">
 	<h2>All Commands</h2>
 	<form>
-		Search:<input type="text" onchange="search()"></input>
+		Search:<input type="text" oninput="search()"></input>
 	</form>
 	<table id="command_table">
   		<tr>
