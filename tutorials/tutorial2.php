@@ -187,11 +187,12 @@
 					<p>touch</p>
 				</div>
 				<p>
-					The mv command is used to delete  directories in the current working directory.
+					The touch command is used to create new empty files in the current working directory.
 				</p>
 				<p>
-					The name for the intended directory should follow the rmDir command.
+					The name for the intended file(s) should follow the touch command.
 				</p>
+				<h2> touch file1 file2 file3 </h2>
 				<div class="textColor">
 					<p>
 						Following is Output Example:
@@ -208,7 +209,7 @@
 				</div>
 				<hr>
 
-				<h2>text editer</h2>
+				<h2>Text Editor</h2>
 				<div class = "commBorder">
 					<p>vim</p>
 				</div>
@@ -216,7 +217,7 @@
 					The mv command is used to delete  directories in the current working directory.
 				</p>
 				<p>
-					The name for the intended directory should follow the rmDir command.
+					The name for the intended directory should follow the rmdir command.
 				</p>
 				<div class="textColor">
 					<p>
