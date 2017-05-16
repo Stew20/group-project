@@ -129,7 +129,7 @@
 			var query = input.value;
 			var filterd = table.filter(function(value){
 				console.log(value);
-				return value.innerHTML.indexof(query) !== -1;
+				return value.innerHTML.indexOf(query) !== -1;
 			});
 			table.forEach(function(value){
 				console.log("changing to none");
