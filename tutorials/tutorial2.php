@@ -135,64 +135,6 @@
 				</div>
 				<hr>
 
-				<h2>Touch</h2>
-				<div class = "commBorder">
-					<p>touch</p>
-				</div>
-				<p>
-					The touch command is used to create new empty files in the current working directory.
-				</p>
-				<p>
-					The name for the intended file(s) should follow the touch command.
-				</p>
-				<h2> touch file1 file2 file3 </h2>
-				<div class="textColor">
-					<p>
-						Following is Output Example:
-					</p>
-				</div>
-
-				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
-				</div>
-				<div id="backgrd" class="backColor">
-					<span class="close">&times;</span>
-					<img class="backColor-image" id="img1">
-					<div id="caption"></div>
-				</div>
-				<hr>
-
-				<h2>Text Editor</h2>
-				<div class = "commBorder">
-					<p>vim</p>
-				</div>
-				<p>
-					The vim command provides the user with a text editor to edit the desired file.
-				</p>
-				<p>
-					The name for the intended file should follow the vim command.
-				</p>
-				<p>
-					Once inside the text editor interface the user is able to press "I" to insert text.
-					If the user wants to leave, they can press escape and ":wq" to save their work and quit,
-					":q" to just quit without saving the changes, or ":w" to just save the changes.
-				</p>
-				<div class="textColor">
-					<p>
-						Following is Output Example:
-					</p>
-				</div>
-
-				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
-				</div>
-				<div id="backgrd" class="backColor">
-					<span class="close">&times;</span>
-					<img class="backColor-image" id="img1">
-					<div id="caption"></div>
-				</div>
-				<hr>
-
 				<h2>Delete</h2>
 				<div class = "commBorder">
 					<p>rm</p>
@@ -298,8 +240,6 @@
 					<div id="caption"></div>
 				</div>
 				<hr>
-
-
 
 				<h2>Summary</h2>
 				<div id="commTable">
