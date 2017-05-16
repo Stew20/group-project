@@ -15,54 +15,42 @@
 		include $path.'nav.php';
 	?>
 			<div class="border1">
-			<h1>Quiz1: OS Navigation</h1>
+			<h1>Quiz4: Package Manager</h1>
 			<div>
-				<h5>Question 1: What command is used to list a directories contents?</h5>
+				<h5>Question 1: How would I only update the httpd package?</h5>
 				<div class="textColor">
-				<input type="radio" name="1" class="1" value="A">ls</input><br/>
-				<input type="radio" name="1" class="1" value="B">cd</input><br/>
-				<input type="radio" name="1" class="1" value="C">pwd</input><br/>
-				<input type="radio" name="1" class="1" value="D">none of the above</input>
+				<input type="radio" name="1" class="1" value="A">yum update</input><br/>
+				<input type="radio" name="1" class="1" value="B">yum update httpd</input><br/>
+				<input type="radio" name="1" class="1" value="C">yum install httpd</input><br/>
+				<input type="radio" name="1" class="1" value="D">yum check-update httpd</input>
 				</div>
 
 			</div>
 			<div>
-				<h5>Question 2: What command is used to change directories?</h5>
+				<h5>Question 2: What is the difference between yum update and yum check-update?</h5>
 				<div class="textColor">
-				<input type="radio" name="2" class="2" value="A">ls</input><br/>
-				<input type="radio" name="2" class="2" value="B">cd</input><br/>
-				<input type="radio" name="2" class="2" value="C">pwd</input><br/>
-				<input type="radio" name="2" class="2" value="D">none of the above</input>
+				<input type="radio" name="2" class="2" value="A">yum update updates all packages without asking about each, yum check-update asks about each before updating</input><br/>
+				<input type="radio" name="2" class="2" value="B">yum update updates all packages, yum check-update only checks for updates but doesnt run them</input><br/>
+				<input type="radio" name="2" class="2" value="C">yum update only updates on package, yum check-update updates all packages</input><br/>
+				<input type="radio" name="2" class="2" value="D">They are the same</input>
 				</div>
 
 			</div>
 			<div>
 
-				<h5>Question 3: What command displays the current location in the filesystem?</h5>
+				<h5>Question 3: How many packages can be installed with yum install at one time?</h5>
 				<div class="textColor">
-				<input type="radio" name="3" class="3" value="A">ls</input><br/>
-				<input type="radio" name="3" class="3" value="B">cd</input><br/>
-				<input type="radio" name="3" class="3" value="C">pwd</input><br/>
-				<input type="radio" name="3" class="3" value="D">none of the above</input>
+				<input type="radio" name="3" class="3" value="A">One</input><br/>
+				<input type="radio" name="3" class="3" value="B">Ten</input><br/>
+				<input type="radio" name="3" class="3" value="C">There is no limit</input><br/>
 				</div>
 			</div>
 			<div>
-				<h5>Question 4: Select none of the above</h5>
+				<h5>Question 4: what does yum update do</h5>
 				<div class="textColor">
-				<input type="radio" name="4" class="4" value="A">ls</input><br/>
-				<input type="radio" name="4" class="4" value="B">cd</input><br/>
-				<input type="radio" name="4" class="4" value="C">pwd</input><br/>
-				<input type="radio" name="4" class="4" value="D">none of the above</input>
-				</div>
-
-			</div>
-			<div>
-				<h5>Question 5: How would change directory to my parent directory</h5>
-				<div class="textColor">
-				<input type="radio" name="5" class="5" value="A">cd ..</input><br/>
-				<input type="radio" name="5" class="5" value="B">cd ~ </input><br/>
-				<input type="radio" name="5" class="5" value="C">the full file path is needed</input><br/>
-				<input type="radio" name="5" class="5" value="D">cant be done</input>
+				<input type="radio" name="4" class="4" value="A">nothing, you need to enter a package name after update to complete the command</input><br/>
+				<input type="radio" name="4" class="4" value="B">checks for updateable packages</input><br/>
+				<input type="radio" name="4" class="4" value="C">updates all packages</input><br/>
 				</div>
 
 			</div>
@@ -75,7 +63,7 @@
 	</body>
 	<script>
 		var answers = [];
-		var answerKey = ["A","B","C","D","A"];
+		var answerKey = ["B","B","C","C"];
 		var results = [];
 		function verify(){
 			for (var i = 0; i < answers.length; i++)
