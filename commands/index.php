@@ -58,58 +58,78 @@
   		</tr>
 
   		<tr>
-            <td><a href="cat.php" class="command">Cat</a></td>
+            <td><a href="cat.php" class="command">cat</a></td>
     			<td>Prints out the content of a file to the command line without opening the file</td>
   		</tr>
 
   		<tr>
-            <td><a href="touch.php" class="command">Touch</a></td>
+            <td><a href="touch.php" class="command">touch</a></td>
     			<td>Used to update both the access and the modification date of a directory or file. Allows you to edit the file on the command line without having to open the file.</td>
   		</tr>
 
   		<tr>
-            <td><a href="tail.php" class="command">Tail</a></td>
+            <td><a href="tail.php" class="command">tail</a></td>
     			<td>Outputs the last 10 lines of a file to the command line. Very useful to keep track of your recent activity, or for monitoring a log file.</td>
   		</tr>
 
 		<tr>
-            <td><a href="chmod.php" class="command">Chmod</a></td>
+            <td><a href="chmod.php" class="command">chmod</a></td>
     			<td>"Change Mode" - Changes the permission of a file or directory.</td>
 		</tr>
 
 		<tr>
-            <td><a href="groups.php" class="command">Groups</a></td>
+            <td><a href="groups.php" class="command">groups</a></td>
    		 	<td>Prints out the groups that the current user is a part of.</td>
 		</tr>
 
 		<tr>
-            <td><a href="useradd.php" class="command">Useradd/adduser</a></td>
+            <td><a href="useradd.php" class="command">useradd</a></td>
     			<td>Creates a new user with the default permission set. Can also be used to reset the permissions of a user to the default set.</td>
     	</tr>
 
 		<tr>
-            <td><a href="su.php" class="command">Su</a></td>
+            <td><a href="su.php" class="command">su</a></td>
     			<td>"Switch User" - Changes the current user from the command line. Even though the user is chanegd, the current working directory will not.</td>
 		</tr>
 
 		<tr>
-            <td><a href="sudo.php" class="command">Sudo</a></td>
+            <td><a href="sudo.php" class="command">sudo</a></td>
     			<td>Runs a program or command as another user, or as the super user. Very helpful when the current user doesn't have the right permissions to access a file or directory.</td>
     	</tr>
 
 		<tr>
-            <td><a href="yum.php" class="command">Yum</a></td>
+            <td><a href="yum.php" class="command">yum</a></td>
     			<td>Updates the existing software or installs new software from the command line.</td>
 		</tr>
 
 		<tr>
-            <td><a href="ssh.php" class="command">SSH</a></td>
+            <td><a href="ssh.php" class="command">ssh</a></td>
     			<td>Allows the user to access a remote computer to execute commands from the terminal.</td>
 		</tr>
 
 		<tr>
-            <td><a href="sftp.php" class="command">SFTP</a></td>
-    			<td>"Secure File Transfer Protocol" - Used for transferring files over the internet through a secure connection</td>
+            <td><a href="head.php" class="command">head</a></td>
+    			<td>MISSING</td>
+		</tr>
+		<tr>
+            <td><a href="chown.php" class="command">chown</a></td>
+    			<td>MISSING</td>
+		</tr>
+		<tr>
+            <td><a href="find.php" class="command">find</a></td>
+    			<td>MISSING</td>
+		</tr>
+		<tr>
+            <td><a href="mkdir.php" class="command">mkdir</a></td>
+    			<td>MISSING</td>
+		</tr>
+		<tr>
+            <td><a href="rm.php" class="command">rm</a></td>
+    			<td>MISSING</td>
+		</tr>
+		<tr>
+            <td><a href="users.php" class="command">users</a></td>
+    			<td>MISSING</td>
 		</tr>
     </table>
     </div>
