@@ -19,7 +19,6 @@
 		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
 
 		<h1> Common Commands </h1>
- 	    <div id="page">
 			<div class="border1">
 					<div class="box1">
 
@@ -98,7 +97,7 @@
 
 					</div>
 			</div>
-         </div>
+
    	<div id="push"> </div>
 	<?php
 		include $path."footer.php";
