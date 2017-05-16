@@ -112,11 +112,12 @@
 				return;
 			}
 			verify();
-			console.log(results.length);
+			var strResults;
 			for(var i = 0; i < results.length; i++)
 			{
-				console.log(results[i]);
+				strResult += (i.toString() + ": " + results[i] + "\n");
 			}
+			console.log(strResults);
 			return false;
 		}
 	</script>
