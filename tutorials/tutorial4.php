@@ -37,12 +37,6 @@
 			</div>
 			<p>
 				yum check-update will check for any updates for currently installed applications and libraries and list the packages that have updates that can be installed. 
-				<div class="textColor">
-					<p>
-						Following is Output Example:
-					<p>
-				</div>
-				<?php echo('<img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 			</p>
 			<hr>
 			
@@ -52,13 +46,6 @@
 			</div>
 			<p>
 				yum update will update all available packages that have updates available. yum update [package name] will only update that specific package instead of all available. 
-			<div class="textColor">
-				<p>
-				Following is Output Example:
-				<p>
-			</div>
-			
-			<?php echo('<img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 			</p>
 			<hr>
 			
@@ -67,12 +54,6 @@
 			</div>
 			<p>
 				yum install will install a specified package or white space delimitered list of packages. 
-				<div class="textColor">
-					<p>
-					Following is Output Example:
-					<p>
-				</div>
-				<?php echo('<img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 			</p>
 			<hr>
 		
