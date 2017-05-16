@@ -5,7 +5,7 @@
 		include''.$path.'header.php';
 	?>
 	<head>
-	<title>Command</title>
+	<title>Sudo</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">	
 	</head>
@@ -20,43 +20,16 @@
 	?>
 	
 
-	<h1>Unix - Package Manager </h1>
+	<h1>Unix - Sudo </h1>
 	<div class="border1">
 		<div class="box1">
-			<h2>Listing File</h2>
+			<h2>sudo</h2>
 			<div class = "commBorder">
-				<p>ls</p>
+				<p>sudo</p>
 			</div>
 		<p>
-			(Describe what is 'ls' function)
-			xxx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx
-			xx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx 
-			<div class="textColor">
-				<p>
-				Following is Output Example:
-				<p>
-			</div>
-			
-			<?php echo('<img src="'.$path.'assets/images/ScreenShot.png" alt="picture" style="width:45vw;height:300px;">'); ?>
-		</p>
-		
-		<hr>
-
-		<div class = "commBorder">
-		<p>ls -a</p>
-		</div>
-		
-		<p>
-		(Describe what is 'ls -a' function)
-		xxx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx xx xxx xx xxx xx xxxx 
-			<div class="textColor">
-				<p>
-				Following is Output Example:
-				<p>
-			</div>
-			<?php echo('<img src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
-		</p>
-		
+			adding sudo before any command elevates that command to run as the root user which is the highest level admistrator on the linux system. Some commands cannot be run without being run as a root user so they
+			need to have sudo added before the command to be able to run properly. If a command fails with an error that says permission denied, it probably needs to have sudo in front of it to be run. 
 		<hr>
 		
 		<h2>Summary</h2>
@@ -66,12 +39,8 @@
 			<th>Function</th>
 		  </tr>
 		  <tr>
-			<td>ls</td>
-			<td>simple description function</td>
-		  </tr>
-		  <tr>
-			<td>ls -a</td>
-			<td>simple description function</td>
+			<td>sudo</td>
+			<td>elevates the following command to be run as the root user (with administrator privileges)</td>
 		  </tr>
 		</table>
 		

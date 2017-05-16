@@ -31,9 +31,9 @@
                     <li> <a href="tutorial2.php"> 2. File Manipulation </a></li>
                     <li> <a href="tutorial3.php"> 3. File Permissions </a></li>
                     <li> <a href="tutorial4.php"> 4. Package Manager </a></li>
-                    <li> <a href="tutorial5.php"> 5. Users and User Variables</a></li>
-                    <li> <a href="tutorial6.php"> 6. Using Sudo </a></li>
-                    <li> <a href="tutorial7.php"> 7. Services </a></li>
+                    <li> <a href="tutorial5.php"> 5. Using Sudo </a></li>
+                    <li> <a href="tutorial6.php"> 6. Services </a></li>
+					<li> <a href="tutorial7.php"> 7. Setting up a webserver</a></li>
                 </ul>            
             </div>
         </div>
