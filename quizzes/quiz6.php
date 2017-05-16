@@ -15,7 +15,7 @@
 		include $path.'nav.php';
 	?>
 			<div class="border1">
-			<h1>Quiz5: Services</h1>
+			<h1>Quiz6: Services</h1>
 			<div>
 				<h5>Question 1: What does service foo stop do?</h5>
 				<div class="textColor">
