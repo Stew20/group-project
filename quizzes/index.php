@@ -33,7 +33,7 @@
  					<li> <a href="quiz4.php"> Package Manager </a></li>
  					<li> <a href="quiz5.php"> Using Sudo </a></li>
  					<li> <a href="quiz6.php"> Services </a></li>
- 					<li> <a href="quiz8.php"> Setting up a webserver </a></li>
+ 					<li> <a href="quiz7.php"> Setting up a webserver </a></li>
                 </ul>            
             </div>
         </div>
