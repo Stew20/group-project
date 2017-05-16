@@ -100,7 +100,7 @@
             <td><a href="sudo.php" class="command">sudo</a></td>
     			<td>Runs a program or command as another user, or as the super user. Very helpful when the current user doesn't have the right permissions to access a file or directory.</td>
     	</tr>
-
+<!--
 		<tr>
             <td><a href="yum.php" class="command">yum</a></td>
     			<td>Updates the existing software or installs new software from the command line.</td>
@@ -134,6 +134,7 @@
             <td><a href="users.php" class="command">users</a></td>
     			<td>MISSING</td>
 		</tr>
+		-->
     </table>
     </div>
     </div>
