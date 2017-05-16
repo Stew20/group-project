@@ -60,14 +60,14 @@
                             <p>One window will pop-up, and here you'll enter the host server name, along with your username and password to the server. Once you've successfully logged in, you'll be able to simply drag and drop files from the server (right) to your machine (left) and vice-versa.</p>
 
 							<div class = "patImg">
-                            	<p><img src="../assets/images/zilla.JPG" alt="picture" ></p>
+                            	<p><img class = "patImg" src="../assets/images/zilla.JPG" alt="picture" ></p>
 							</div>
                             <p>The second client is WinSCP - which you can download <a href="https://winscp.net/eng/download.php">here.</a></p>
 
                             <p>When you open WinSCP, there will be two windows that pop-up. One the login window where you enter the server name along with your username and password. Once you've successfully logged in, you'll be able to access that second window where you transfer files from your machine (left) to the server (right) and vice-versa.</p>
 
 							<div class = "patImg">
-                            	<p><img src="../assets/images/winActual.JPG" alt="picture" ></p>
+                            	<p><img class = "patImg" src="../assets/images/winActual.JPG" alt="picture" ></p>
 							</div>
                     </div>
                     </div>
