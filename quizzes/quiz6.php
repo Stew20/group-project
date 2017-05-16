@@ -15,54 +15,42 @@
 		include $path.'nav.php';
 	?>
 			<div class="border1">
-			<h1>Quiz1: OS Navigation</h1>
+			<h1>Quiz5: Services</h1>
 			<div>
-				<h5>Question 1: What command is used to list a directories contents?</h5>
+				<h5>Question 1: What does service foo stop do?</h5>
 				<div class="textColor">
-				<input type="radio" name="1" class="1" value="A">ls</input><br/>
-				<input type="radio" name="1" class="1" value="B">cd</input><br/>
-				<input type="radio" name="1" class="1" value="C">pwd</input><br/>
-				<input type="radio" name="1" class="1" value="D">none of the above</input>
+				<input type="radio" name="1" class="1" value="A">stops foo if it is running</input><br/>
+				<input type="radio" name="1" class="1" value="B">stops foo if it is running, starts then stops foo if it is not running</input><br/>
+				<input type="radio" name="1" class="1" value="C">tells you if foo is stopped</input><br/>
+				<input type="radio" name="1" class="1" value="D">prevents foo from ever running again</input>
 				</div>
 
 			</div>
 			<div>
-				<h5>Question 2: What command is used to change directories?</h5>
+				<h5>Question 2: What does service foo start do?</h5>
 				<div class="textColor">
-				<input type="radio" name="2" class="2" value="A">ls</input><br/>
-				<input type="radio" name="2" class="2" value="B">cd</input><br/>
-				<input type="radio" name="2" class="2" value="C">pwd</input><br/>
-				<input type="radio" name="2" class="2" value="D">none of the above</input>
+				<input type="radio" name="2" class="2" value="A">starts foo if it is not running</input><br/>
+				<input type="radio" name="2" class="2" value="B">restarts foo if it is already running, otherwise it starts foo</input><br/>
+				<input type="radio" name="2" class="2" value="C">enables foo so that it is always running</input><br/>
+				<input type="radio" name="2" class="2" value="D">tells you if foo is running</input>
 				</div>
 
 			</div>
 			<div>
 
-				<h5>Question 3: What command displays the current location in the filesystem?</h5>
+				<h5>Question 3: What does service foo status do?</h5>
 				<div class="textColor">
-				<input type="radio" name="3" class="3" value="A">ls</input><br/>
-				<input type="radio" name="3" class="3" value="B">cd</input><br/>
-				<input type="radio" name="3" class="3" value="C">pwd</input><br/>
-				<input type="radio" name="3" class="3" value="D">none of the above</input>
+				<input type="radio" name="3" class="3" value="A">tells you if foo is running or not along with any possible errors foo might have encountered</input><br/>
+				<input type="radio" name="3" class="3" value="B">nothing</input><br/>
+				<input type="radio" name="3" class="3" value="C">if foo is running it stops foo, if foo is not running it starts foo</input><br/>
 				</div>
 			</div>
 			<div>
-				<h5>Question 4: Select none of the above</h5>
+				<h5>Question 4: What does service foo restart do?</h5>
 				<div class="textColor">
-				<input type="radio" name="4" class="4" value="A">ls</input><br/>
-				<input type="radio" name="4" class="4" value="B">cd</input><br/>
-				<input type="radio" name="4" class="4" value="C">pwd</input><br/>
-				<input type="radio" name="4" class="4" value="D">none of the above</input>
-				</div>
-
-			</div>
-			<div>
-				<h5>Question 5: How would change directory to my parent directory</h5>
-				<div class="textColor">
-				<input type="radio" name="5" class="5" value="A">cd ..</input><br/>
-				<input type="radio" name="5" class="5" value="B">cd ~ </input><br/>
-				<input type="radio" name="5" class="5" value="C">the full file path is needed</input><br/>
-				<input type="radio" name="5" class="5" value="D">cant be done</input>
+				<input type="radio" name="4" class="4" value="A">if foo is not running it starts foo, otherwise it stops then starts foo</input><br/>
+				<input type="radio" name="4" class="4" value="B">if foo is stopped, it starts then stops foo again otherwise it does nothing</input><br/>
+				<input type="radio" name="4" class="4" value="C">restarts the computer</input><br/>
 				</div>
 
 			</div>
@@ -75,7 +63,7 @@
 	</body>
 	<script>
 		var answers = [];
-		var answerKey = ["A","B","C","D","A"];
+		var answerKey = ["A","A","A","A"];
 		var results = [];
 		function verify(){
 			for (var i = 0; i < answers.length; i++)
