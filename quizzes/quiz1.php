@@ -67,7 +67,7 @@
 				</div>
 
 			</div>
-			<input type="submit" class="button">Submit</input>
+			<input type="submit" class="button"></input>
 		</form>
 		</div>
 	<div id="push"> </div>
@@ -114,12 +114,10 @@
 				return;
 			}
 			verify();
-			var strResult;
 			for(var i = 0; i < results.length; i++)
 			{
-				strResult += (i.toString() + ": " + results[i] + "\n");
+				console.log(results[i]);
 			}
-			console.log(strResult);
 			return false;
 		}
 	</script>
