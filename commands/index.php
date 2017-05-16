@@ -121,7 +121,7 @@
 	<script>
 		var table;
 		window.onload = function(){
-			table = window.document.getElementsByTagName("td");
+			table = Array.prototype.slice.call(window.document.getElementsByTagName("td"));
 		}
 		function search(input){
 			console.log("running");
