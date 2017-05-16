@@ -107,7 +107,7 @@
     			<td>Allows the user to access a remote computer to execute commands from the terminal.</td>
 		</tr>
 		<tr>
-			<td><a href="sftp.php" class="command">SFTP</a></td>
+			<td><a href="sftp.php" class="command">sftp</a></td>
      			<td>"Secure File Transfer Protocol" - Used for transferring files over the internet through a secure connection</td>
 		</tr>
 		<tr>
