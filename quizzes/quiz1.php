@@ -14,7 +14,7 @@
 	<?php
 		include $path.'nav.php';
 	?>
-		<form onsubmit="return checkAnswers()">
+		<form action="quiz1.php" method="post" onsubmit="return checkAnswers()">
 			<div class="border1">
 			<h1>Quiz1: OS Navigation</h1>
 			<div>
@@ -67,7 +67,7 @@
 				</div>
 
 			</div>
-			<input type="submit" class="button"></input>
+			<input type="submit" value="submit" class="button"></input>
 		</form>
 		</div>
 	<div id="push"> </div>
