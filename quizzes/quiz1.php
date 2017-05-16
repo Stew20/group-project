@@ -76,7 +76,7 @@
 	<script>
 		var answers = [];
 		var answerKey = ["A","B","C","D","A"];
-		var results = {};
+		var results = [];
 		function verify(){
 			for (var i = 0; i < answers.length; i++)
 			{
