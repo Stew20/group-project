@@ -112,10 +112,10 @@
 				return;
 			}
 			verify();
-			var strResults;
+			var strResults = "";
 			for(var i = 0; i < results.length; i++)
 			{
-				strResults += (i.toString() + ": " + results[i] + "\n");
+				strResults += ((i+1).toString() + ": " + results[i] + "\n");
 			}
 			console.log(strResults);
 			return false;
