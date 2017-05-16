@@ -54,7 +54,7 @@
 				Make sure Apache is running. This command should display Active:Active. If it shows Active: Dead(inactive) then fix the error displayed in the status message or retry the previous step. 
 			</p>
 			<div class = "commBorder">
-				<p>sudo systemctl enable httpd.service</p>
+				<p>sudo service httpd status</p>
 			</div>
 			<p>
 				Set Apache to start on server boot. 
