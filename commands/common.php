@@ -51,12 +51,12 @@ $_SESSION["sidenav"] = "home";
   								</tr>
 
   								<tr>
-                                    <td><a href="mkdir.php"> mkdir</a> </td>
+                                    <td> mkdir </td>
     								<td>"Make a Directory". Create a new, empty directory at the given point in the hierarchy</td>
   								</tr>
 
   								<tr>
-  									<td><a href="rm.php"> rmdir </a></td>
+  									<td> rmdir </td>
   									<td>"Remove a Directory". Removes the empty directory</td>
   								</tr>
   							</table>
@@ -80,22 +80,22 @@ $_SESSION["sidenav"] = "home";
 
 
  								<tr>
-  									<td>mv</td>
+  									<td><a href="mv.php"> mv </a></td>
   									<td>"Moves". Move or rename the file.</td>
   								</tr>
 
   								<tr>
-  									<td><a href="rm.php"> rm </a></td>
+  									<td> rm </td>
   									<td>"Remove". Deletes the file.</td>
   								</tr>
 
     							<tr>
-  									<td><a href="cp.php"> cp </a></td>
+  									<td> cp </td>
   									<td>"Copy". Copy the file to another file.</td>
   								</tr>
 
 								<tr>
-  									<td><a href="chmod"> chmod</a> </td>
+  									<td> chmod </td>
   									<td>"Change Mode". Change File/Directory Permissions.</td>
   								</tr>
   							</table>
