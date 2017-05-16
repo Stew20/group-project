@@ -31,9 +31,9 @@
                     <li> <a href="quiz2.php"> File Manipulation </a></li>
                     <li> <a href="quiz3.php"> File Permissions </a></li>
  					<li> <a href="quiz4.php"> Package Manager </a></li>
- 					<li> <a href="quiz5.php"> Users and User Variables </a></li>
- 					<li> <a href="quiz6.php"> Using Sudo </a></li>
- 					<li> <a href="quiz8.php"> Daemons </a></li>
+ 					<li> <a href="quiz5.php"> Using Sudo </a></li>
+ 					<li> <a href="quiz6.php"> Services </a></li>
+ 					<li> <a href="quiz8.php"> Setting up a webserver </a></li>
                 </ul>            
             </div>
         </div>
