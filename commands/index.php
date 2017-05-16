@@ -29,7 +29,7 @@
 	<div class="box1">
 	<h2>All Commands</h2>
 	<form>
-		Search:<input type="text" oninput="search()"></input>
+		Search:<input type="text" oninput="search(this)"></input>
 	</form>
 	<table id="command_table">
   		<tr>
@@ -123,10 +123,10 @@
 		window.onload = function(){
 			table = window.document.getElementsByTagName("td");
 		}
-		function search(event){
+		function search(input){
 			console.log("running");
-			console.log(event);
-			var query = event.target.value;
+			console.log(input);
+			var query = input.value;
 			var filterd = table.filter(function(value){
 				console.log(value);
 				return value.innerHTML.indexof(query) !== -1;
