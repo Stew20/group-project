@@ -1,19 +1,22 @@
+<?php
+session_start();
+$_SESSION["sidenav"] = "home";
+?>
 <!DOCTYPE html>
 <html lang="en">
-
-<?php
-	$path = "../";
-	include $path."header.php";
-?>
+	<?php
+		$path = "../";
+		include $path.'header.php';
+	?>
 	<body>
-		<div class = "background">
-			<div class="imgContainer" >
-					<img class="imgResp" src="../assets/images/banner_words.png" alt="picture">
-			 </div>
+		<div class = "background" style ="height: 10em;">
+			<div style="text-align: center;" >
+	 	      <img class="imgResp" src="../assets/images/banner_words.png" alt="picture" style="top:39px;">
+		   </div>
 		</div>
 
 	<?php
-		include $path.'nav.php';
+		include '../nav.php';
 	?>
 
 		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
