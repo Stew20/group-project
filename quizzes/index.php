@@ -33,9 +33,7 @@
  					<li> <a href="quiz4.php"> Package Manager </a></li>
  					<li> <a href="quiz5.php"> Users and User Variables </a></li>
  					<li> <a href="quiz6.php"> Using Sudo </a></li>
- 					<li> <a href="quiz7.php"> The File System </a></li>
  					<li> <a href="quiz8.php"> Daemons </a></li>
- 					<li> <a href="quiz9.php"> Manual Commands </a></li>
                 </ul>            
             </div>
         </div>
