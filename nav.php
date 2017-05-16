@@ -18,7 +18,7 @@
 		<ul class="commandsWidth">
 				<li><a class="nav_bar_button" sqlid="commands" id="commands/index.php"       onclick="nav_button_clicked(this)" >All Commands</a></li>
 				<li><a class="nav_bar_button" sqlid="commands" id="commands/common.php"      onclick="nav_button_clicked(this)" >Common Commands</a></li>
-				<li><a class="nav_bar_button" sqlid="commands" id="commands/navCommands.php" onclick="nav_button_clicked(this)" >Navigation Commands</a></li>
+				<li><a class="nav_bar_button" sqlid="commands" id="commands/navigation.php" onclick="nav_button_clicked(this)" >Navigation Commands</a></li>
 		</ul>
 	</li>
 	<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Quizzes</a>
