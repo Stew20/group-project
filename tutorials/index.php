@@ -33,7 +33,7 @@
                     <li> <a href="tutorial4.php"> 4. Package Manager </a></li>
                     <li> <a href="tutorial5.php"> 5. Users and User Variables</a></li>
                     <li> <a href="tutorial6.php"> 6. Using Sudo </a></li>
-                    <li> <a href="tutorial8.php"> 8. Daemons </a></li>
+                    <li> <a href="tutorial8.php"> 7. Services </a></li>
                 </ul>            
             </div>
         </div>
