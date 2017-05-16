@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
 	var btn = window.document.getElementById("myBtn");
-	if( typeof btn == null)
+	if(btn == null)
 	{
 		// intentionally left blank
 	}
