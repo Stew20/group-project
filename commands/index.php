@@ -124,14 +124,19 @@
 			table = window.document.getElementsByTagName("td");
 		}
 		function search(event){
+			console.log("running");
+			console.log(event);
 			var query = event.target.value;
 			var filterd = table.filter(function(value){
+				console.log(value);
 				return value.innerHTML.indexof(query) !== -1;
 			});
 			table.forEach(function(value){
+				console.log("changing to none");
 				value.style.display="none";
 			});
 			filtered.forEach(function(value){
+				console.log("changing to block");
 				value.style.display="block";
 			});
 		}
