@@ -26,11 +26,11 @@
 					<p>mkdir</p>
 				</div>
 				<p>
-					The mkdir command is used to create the directory(ies) if they don't already exist
+					The mkdir command is used to create the directory(ies) if they don't already exist.
 				</p>
 
 				<p>
-					A name for the directory should follow the mkdir command
+					A name for the directory should follow the mkdir command.
 				</p>
 
 				<div class="textColor">
@@ -73,17 +73,6 @@
 					}
 				</script>
 
-
-				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot2.png" alt="picture" style="width:45vw;height:300px;">'); ?>
-				</div>
-
-				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
-				</div>
-
 				<hr>
 
 				<h2>Delete</h2>
@@ -95,7 +84,7 @@
 				</p>
 
 				<p>
-					The name for the intended file should follow the rm command
+					The name for the intended file should follow the rm command.
 				</p>
 
 				<div class="textColor">
@@ -133,15 +122,15 @@
 				<hr>
 
 
-				<h2>Remove directory</h2>
+				<h2>Remove Directory</h2>
 				<div class = "commBorder">
 					<p>rmdir</p>
 				</div>
 				<p>
-					The rmDir command is used to delete  directories in the current working directory.
+					The rmdir command is used to delete  directories in the current working directory.
 				</p>
 				<p>
-					The name for the intended directory should follow the rm command
+					The name for the intended directory should follow the rmdir command.
 				</p>
 				<div class="textColor">
 					<p>
@@ -156,6 +145,84 @@
 				  	<span class="close">&times;</span>
 				  	<img class="backColor-image" id="img1">
 				  	<div id="caption"></div>
+				</div>
+				<hr>
+
+				<h2>Move</h2>
+				<div class = "commBorder">
+					<p>mv</p>
+				</div>
+				<p>
+					The mv command is used to move or rename files.
+				</p>
+				<p>
+					The name for the intended directory should follow the rmDir command.
+				</p>
+				<div class="textColor">
+					<p>
+						Following is Output Example:
+					</p>
+				</div>
+
+				<div class="ridge">
+					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+				</div>
+				<div id="backgrd" class="backColor">
+					<span class="close">&times;</span>
+					<img class="backColor-image" id="img1">
+					<div id="caption"></div>
+				</div>
+				<hr>
+
+				<h2>Touch</h2>
+				<div class = "commBorder">
+					<p>touch</p>
+				</div>
+				<p>
+					The mv command is used to delete  directories in the current working directory.
+				</p>
+				<p>
+					The name for the intended directory should follow the rmDir command.
+				</p>
+				<div class="textColor">
+					<p>
+						Following is Output Example:
+					</p>
+				</div>
+
+				<div class="ridge">
+					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+				</div>
+				<div id="backgrd" class="backColor">
+					<span class="close">&times;</span>
+					<img class="backColor-image" id="img1">
+					<div id="caption"></div>
+				</div>
+				<hr>
+
+				<h2>text editer</h2>
+				<div class = "commBorder">
+					<p>vim</p>
+				</div>
+				<p>
+					The mv command is used to delete  directories in the current working directory.
+				</p>
+				<p>
+					The name for the intended directory should follow the rmDir command.
+				</p>
+				<div class="textColor">
+					<p>
+						Following is Output Example:
+					</p>
+				</div>
+
+				<div class="ridge">
+					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+				</div>
+				<div id="backgrd" class="backColor">
+					<span class="close">&times;</span>
+					<img class="backColor-image" id="img1">
+					<div id="caption"></div>
 				</div>
 				<hr>
 
