@@ -116,7 +116,7 @@
 			}
 			verify();
 			var strResult;
-			for(int i = 0; i < results.length; i++)
+			for(var i = 0; i < results.length; i++)
 			{
 				strResult += (i.toString() + ": " + results[i] + "\n");
 			}
