@@ -116,7 +116,7 @@
 			verify();
 			for(var i = 0; i < results.length; i++)
 			{
-				console.log(results[i]);
+				alert.log(results[i]);
 			}
 			return false;
 		}
