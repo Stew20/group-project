@@ -80,7 +80,7 @@ $_SESSION["sidenav"] = "home";
 
 
  								<tr>
-  									<td><a href="mv.php"> mv </a></td>
+  									<td> mv </td>
   									<td>"Moves". Move or rename the file.</td>
   								</tr>
 
