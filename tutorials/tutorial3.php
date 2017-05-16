@@ -22,13 +22,13 @@
 	<div class="border1">
 	<div class="box1">
 	
-	<div class="textColor">Permission are assigned to files in three categories:</div>
+	<p style="color:#33334d;font-size:25px;">Permission are assigned to files in three categories:</p>
 	• Owner- The username to which the file belong.<br>
 	• Group - Who is a member of the group that a file belong to, can perform on the file.<br>
 	• Others - Everyone else on the system.
 		
 		
-	<div class="textColor">Permissions for each of these categories:</div>
+	<p style="color:#33334d;font-size:25px;">Permissions for each of these categories:</p>
 	• r(read)- Username can read the contents.<br>
 	• w(write)- Username can add or delete contents.<br>
 	• x(execute)- Can execute the file.
@@ -43,7 +43,7 @@
 	</p>
 	
 	<h2>Permissions Table</h2>
-	<div class="textColor">Symbolic Mode</div>
+	<p style="color:#33334d;font-size:25px;">Symbolic Mode</p>
 		<div id="commTable">
 	<table>
   		<tr>
@@ -69,7 +69,7 @@
 	</table>
 		</div>	
 		 
-	<div class="textColor">Numerical Mode</div>	 
+	<p style="color:#33334d;font-size:25px;padding-top:20p;">Numerical Mode</p>	 
 	<div id="commTable">
 	<table>
   		<tr>
