@@ -214,7 +214,7 @@
 					<p>vim</p>
 				</div>
 				<p>
-					vim command provides the user with a text editor to edit the desired file.
+					The vim command provides the user with a text editor to edit the desired file.
 				</p>
 				<p>
 					The name for the intended file should follow the vim command.
@@ -272,19 +272,23 @@
 				  		</tr>
 						<tr>
 				    		<td>vim</td>
-				    		<td>text Editor</td>
+				    		<td>Text Editor</td>
 				  		</tr>
 						<tr>
-				    		<td> ESC + :w</td>
-				    		<td>save</td>
+				    		<td>i</td>
+				    		<td>Insert</td>
 				  		</tr>
 						<tr>
-				    		<td> ESC + :q</td>
-				    		<td>quit text editor</td>
+				    		<td>esc + :w</td>
+				    		<td>Save</td>
 				  		</tr>
 						<tr>
-				    		<td>ESC + :wq</td>
-				    		<td>save amd quit text editor</td>
+				    		<td>esc + :q</td>
+				    		<td>Quit Text Editor</td>
+				  		</tr>
+						<tr>
+				    		<td>esc + :wq</td>
+				    		<td>Save and Quit Text Editor</td>
 				  		</tr>
 					</table>
 

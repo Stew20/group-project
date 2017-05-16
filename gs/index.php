@@ -48,7 +48,7 @@
 
                             <p>*IMPORTANT NOTE - If you don't see your passowrd as you're typing it, that's perfectly ok. By design, you don't see the characters of your password for security reasons.*</p>
 
-                            <p><img src="../assets/images/putty.JPG" alt="picture" style="width:45vw;height:676px;"></p>
+                            <p><img class = "patImg" src="../assets/images/putty.JPG" alt="picture" ></p>
 
 
                         <p>- Transferring Files with a SFTP client -</p>
@@ -59,13 +59,13 @@
 
                             <p>One window will pop-up, and here you'll enter the host server name, along with your username and password to the server. Once you've successfully logged in, you'll be able to simply drag and drop files from the server (right) to your machine (left) and vice-versa.</p>
 
-                            <p><img src="../assets/images/zilla.JPG" alt="picture" style="width:45vw;height:650px;"></p>
+                            <p><img class = "patImg"  src="../assets/images/zilla.JPG" alt="picture" ></p>
 
                             <p>The second client is WinSCP - which you can download <a href="https://winscp.net/eng/download.php">here.</a></p>
 
                             <p>When you open WinSCP, there will be two windows that pop-up. One the login window where you enter the server name along with your username and password. Once you've successfully logged in, you'll be able to access that second window where you transfer files from your machine (left) to the server (right) and vice-versa.</p>
 
-                            <p><img src="../assets/images/winActual.JPG" alt="picture" style="width:45vw;height:650px;"></p>
+                            <p><img class = "patImg"  src="../assets/images/winActual.JPG" alt="picture" ></p>
 
                     </div>
                     </div>

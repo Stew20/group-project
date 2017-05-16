@@ -737,12 +737,20 @@ tr:nth-child(even){background-color: #e6e6e6}
     color: #ccc;
 }
 
+.patImg{
+	width: 45vw;
+	height: 650px;
+}
+
 
 /* 100% image Width on smaller screens */
 @media only screen and (max-width: 700px){
     .backColor-image {
         width: 100%;
     }
+	.patImg{
+		height: 20em;
+	}
 }
 
 
