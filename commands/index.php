@@ -106,7 +106,10 @@
             <td><a href="ssh.php" class="command">ssh</a></td>
     			<td>Allows the user to access a remote computer to execute commands from the terminal.</td>
 		</tr>
-
+		<tr>
+			<td><a href="sftp.php" class="command">SFTP</a></td>
+     			<td>"Secure File Transfer Protocol" - Used for transferring files over the internet through a secure connection</td>
+		</tr>
 		<tr>
             <td><a href="head.php" class="command">head</a></td>
     			<td>MISSING</td>
