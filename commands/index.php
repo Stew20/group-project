@@ -98,7 +98,7 @@
     	</tr>
 
 		<tr>
-            <td><a href="apt.php" class="command">Apt-get/aptitude</a></td>
+            <td><a href="yum.php" class="command">Yum</a></td>
     			<td>Updates the existing software or installs new software from the command line.</td>
 		</tr>
 
