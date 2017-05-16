@@ -135,7 +135,7 @@
 				console.log("changing to none");
 				value.style.display="none";
 			});
-			filtered.forEach(function(value){
+			filterd.forEach(function(value){
 				console.log("changing to block");
 				value.style.display="block";
 			});
