@@ -137,7 +137,7 @@
 			});
 			filterd.forEach(function(value){
 				console.log("changing to block");
-				value.parentElement.style.display="block";
+				value.parentElement.style.display="";
 			});
 		}
 	</script>
