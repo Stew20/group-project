@@ -28,7 +28,10 @@
 	<div class="border1">
 	<div class="box1">
 	<h2>All Commands</h2>
-	<table>
+	<form>
+		Search:<input type="text" onchange="search()"></input>
+	</form>
+	<table id="command_table">
   		<tr>
     			<th>Command</th>
     			<th>Description</th>
@@ -82,7 +85,7 @@
 		<tr>
             <td><a href="useradd.php">Useradd/adduser</a></td>
     			<td>Creates a new user with the default permission set. Can also be used to reset the permissions of a user to the default set.</td>
-    		</tr>
+    	</tr>
 
 		<tr>
             <td><a href="su.php">Su</a></td>
@@ -92,7 +95,7 @@
 		<tr>
             <td><a href="sudo.php">Sudo</a></td>
     			<td>Runs a program or command as another user, or as the super user. Very helpful when the current user doesn't have the right permissions to access a file or directory.</td>
-    		</tr>
+    	</tr>
 
 		<tr>
             <td><a href="apt.php">Apt-get/aptitude</a></td>
@@ -107,7 +110,6 @@
 		<tr>
             <td><a href="sftp.php">SFTP</a></td>
     			<td>"Secure File Transfer Protocol" - Used for transferring files over the internet through a secure connection</td>
-
 		</tr>
     </table>
     </div>
@@ -116,5 +118,23 @@
 	<?php
 		include $path."footer.php";
 	?>
+	<script>
+		var table;
+		window.onload = function(){
+			table = window.document.getElementsByTagName("td");
+		}
+		function search(event){
+			var query = event.target.value;
+			var filterd = table.filter(function(value){
+				return value.innerHTML.indexof(query) !== -1;
+			});
+			table.forEach(function(value){
+				value.style.display="none";
+			});
+			filtered.forEach(function(value){
+				value.style.display="block";
+			});
+		}
+	</script>
 	</body>
 </html>

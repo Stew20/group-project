@@ -27,15 +27,15 @@
                 <h1> Other Tutorials </h1>
                 
                 <ul>
-                    <li> <a href="quiz1.php"> Quiz 1 </a> </li>
-                    <li> <a href="quiz2.php"> Quiz 2 </a></li>
-                    <li> <a href="quiz3.php"> Quiz 3 </a></li>
-					<li> <a href="quiz4.php"> Quiz 4 </a></li>
-					<li> <a href="quiz5.php"> Quiz 5 </a></li>
-					<li> <a href="quiz6.php"> Quiz 6 </a></li>
-					<li> <a href="quiz7.php"> Quiz 7 </a></li>
-					<li> <a href="quiz8.php"> Quiz 8 </a></li>
-					<li> <a href="quiz9.php"> Quiz 9 </a></li>
+                    <li> <a href="quiz1.php"> OS Navigation </a> </li>
+                    <li> <a href="quiz2.php"> File Manipulation </a></li>
+                    <li> <a href="quiz3.php"> File Permissions </a></li>
+					<li> <a href="quiz4.php"> Package Manager </a></li>
+					<li> <a href="quiz5.php"> Users and User Variables </a></li>
+					<li> <a href="quiz6.php"> Using Sudo </a></li>
+					<li> <a href="quiz7.php"> The File System </a></li>
+					<li> <a href="quiz8.php"> Daemons </a></li>
+					<li> <a href="quiz9.php"> Manual Commands </a></li>
                 </ul>            
             </div>
         </div>
