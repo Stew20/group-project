@@ -15,54 +15,51 @@
 		include $path.'nav.php';
 	?>
 			<div class="border1">
-			<h1>Quiz1: OS Navigation</h1>
+			<h1>Quiz3: File Permissions</h1>
 			<div>
-				<h5>Question 1: What command is used to list a directories contents?</h5>
+				<h5>Question 1: How do you set the owner and group to read, write, and execute a file (foo) and others to only read and execute?</h5>
 				<div class="textColor">
-				<input type="radio" name="1" class="1" value="A">ls</input><br/>
-				<input type="radio" name="1" class="1" value="B">cd</input><br/>
-				<input type="radio" name="1" class="1" value="C">pwd</input><br/>
-				<input type="radio" name="1" class="1" value="D">none of the above</input>
+				<input type="radio" name="1" class="1" value="A">chmod 755 foo</input><br/>
+				<input type="radio" name="1" class="1" value="B">chmod 644</input><br/>
+				<input type="radio" name="1" class="1" value="C">chmod 777</input><br/>
+				<input type="radio" name="1" class="1" value="D">chmod 123</input>
 				</div>
 
 			</div>
 			<div>
-				<h5>Question 2: What command is used to change directories?</h5>
+				<h5>Question 2: What command is used to change ownership?</h5>
 				<div class="textColor">
-				<input type="radio" name="2" class="2" value="A">ls</input><br/>
-				<input type="radio" name="2" class="2" value="B">cd</input><br/>
-				<input type="radio" name="2" class="2" value="C">pwd</input><br/>
-				<input type="radio" name="2" class="2" value="D">none of the above</input>
+				<input type="radio" name="2" class="2" value="A">chown</input><br/>
+				<input type="radio" name="2" class="2" value="B">chgrp</input><br/>
+				<input type="radio" name="2" class="2" value="C">chmod</input><br/>
 				</div>
 
 			</div>
 			<div>
 
-				<h5>Question 3: What command displays the current location in the filesystem?</h5>
+				<h5>Question 3: What command is used to change group?</h5>
 				<div class="textColor">
-				<input type="radio" name="3" class="3" value="A">ls</input><br/>
-				<input type="radio" name="3" class="3" value="B">cd</input><br/>
-				<input type="radio" name="3" class="3" value="C">pwd</input><br/>
-				<input type="radio" name="3" class="3" value="D">none of the above</input>
+				<input type="radio" name="3" class="3" value="A">chown</input><br/>
+				<input type="radio" name="3" class="3" value="B">chmod</input><br/>
+				<input type="radio" name="3" class="3" value="C">chgrp</input><br/>
 				</div>
 			</div>
 			<div>
-				<h5>Question 4: Select none of the above</h5>
+				<h5>Question 4: What permissions should be used for public facing directories?</h5>
 				<div class="textColor">
-				<input type="radio" name="4" class="4" value="A">ls</input><br/>
-				<input type="radio" name="4" class="4" value="B">cd</input><br/>
-				<input type="radio" name="4" class="4" value="C">pwd</input><br/>
-				<input type="radio" name="4" class="4" value="D">none of the above</input>
+				<input type="radio" name="4" class="4" value="A">chmod 755</input><br/>
+				<input type="radio" name="4" class="4" value="B">chmod 777</input><br/>
+				<input type="radio" name="4" class="4" value="C">chmod 666</input><br/>
+				<input type="radio" name="4" class="4" value="D">chmod 644</input>
 				</div>
 
 			</div>
 			<div>
-				<h5>Question 5: How would change directory to my parent directory</h5>
+				<h5>Question 5: what do rwx stand for in the permissions table?</h5>
 				<div class="textColor">
-				<input type="radio" name="5" class="5" value="A">cd ..</input><br/>
-				<input type="radio" name="5" class="5" value="B">cd ~ </input><br/>
-				<input type="radio" name="5" class="5" value="C">the full file path is needed</input><br/>
-				<input type="radio" name="5" class="5" value="D">cant be done</input>
+				<input type="radio" name="5" class="5" value="A">red, white, enable</input><br/>
+				<input type="radio" name="5" class="5" value="B">read, write, execute</input><br/>
+				<input type="radio" name="5" class="5" value="C">right, write, enable</input><br/>
 				</div>
 
 			</div>
@@ -75,7 +72,7 @@
 	</body>
 	<script>
 		var answers = [];
-		var answerKey = ["A","B","C","D","A"];
+		var answerKey = ["A","A","C","D","B"];
 		var results = [];
 		function verify(){
 			for (var i = 0; i < answers.length; i++)
