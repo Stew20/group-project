@@ -6,10 +6,10 @@
 	include $path."header.php";
 ?>
 	<body>
-		<div class = "background">
-			<div class="imgContainer" >
-					<img class="imgResp" src="../assets/images/banner_words.png" alt="picture">
-			 </div>
+		<div class = "background" style ="height: 10em;">
+			<div style="text-align: center;" >
+	 	      <img class="imgResp" src="assets/images/banner_words.png" alt="picture" style="top:39px;">
+		   </div>
 		</div>
 
 		<?php
@@ -110,7 +110,7 @@
 				<span class="close">&times;</span>
 				<img class="backColor-image" id="img44">
 				<div id="caption4"></div>
-				</div>	
+				</div>
 				<hr>
 
 
@@ -138,7 +138,7 @@
   				<img class="backColor-image" id="img55">
   				<div id="caption5"></div>
 				</div>
-				
+
 				<script>
 					// Get the background modal
 					var modal = document.getElementById('backgrd');
@@ -157,7 +157,7 @@
 					var span = document.getElementsByClassName("close")[0];
 
 					//close the modal
-					span.onclick = function() { 
+					span.onclick = function() {
 					modal.style.display = "none";
 					}
 
@@ -182,7 +182,7 @@
 
 
 					//close the modal
-					span.onclick = function() { 
+					span.onclick = function() {
 					modal.style.display = "none";
 					}
 
@@ -206,7 +206,7 @@
 
 
 					//close the modal
-					span.onclick = function() { 
+					span.onclick = function() {
 					modal.style.display = "none";
 					}
 
@@ -223,13 +223,13 @@
 					captionText.innerHTML = this.alt;
 					}
 					// closes the modal
-					var span = document.getElementsByClassName("close")[3];	
+					var span = document.getElementsByClassName("close")[3];
 
 
 					//close the modal
-					span.onclick = function() { 
+					span.onclick = function() {
 					modal.style.display = "none";
-					}	
+					}
 					// Get the background modal
 					var modal = document.getElementById('backgrd5');
 
@@ -249,7 +249,7 @@
 					// closes the modal
 					var span = document.getElementsByClassName("close")[4];
 
-					span.onclick = function() { 
+					span.onclick = function() {
 					modal.style.display = "none";
 					}
 				</script>
@@ -286,9 +286,9 @@
 			</div>
 
 		</div>
-		
-		
-		
+
+
+
 
 
 		<div id="push"> </div>
