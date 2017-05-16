@@ -32,17 +32,17 @@
 				<th>Description</th>
 			</tr>
 			<tr>
-				<td>cd</td>
+				<td><a href="cd.php"> cd </a></td>
 				<td>“Change Directory”. Changes the current working directory in the command line</td>
 			</tr>
 			<tr>
-				<td>ls</td>
+				<td> <a href="ls.php"> ls </a> </td>
 				<td>“List”. This is used for listing the contents of a directory as well as properties of files
 				and folder. It can be used with arguments to provide details such as location, permissions, and
 				creation and access dates.</td>
 			</tr>
 			<tr>
-				<td>pwd</td>
+				<td><a href="pwd.php"> pwd </a></td>
 				<td>“Print Working Directory”. Prints out the current working directory to the terminal.</td>
 
 			</tr>
