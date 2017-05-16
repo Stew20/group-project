@@ -23,14 +23,14 @@
 			<div class="box1">
 				<h2>Change Permissions</h2>
 				<div class = "commBorder">
-					<p>Chmod</p>
+					<p>mkdir</p>
 				</div>
 				<p>
-					The Chmod command is used to change the access permissions of files and directories/folders. It can also alter special mode flags.
+					The mkdir command is used to create the directory(ies) if they don't already exist
 				</p>
 
 				<p>
-					Just Typing “Chmod” in the terminal will provide many
+					A name for the directory should follow the mkdir command
 				</p>
 
 				<div class="textColor">
@@ -95,14 +95,18 @@
 
 				<hr>
 
-				<h2>Change Group Owner</h2>
+				<h2>Change Delete</h2>
 				<div class = "commBorder">
-					<p>Chgrp</p>
+					<p>rm</p>
 				</div>
 				<p>
-					cd is used to change the current working directory. A working directory is where the user
-					is currently working from the command line.
+					rm is used to delete files or directoriesrrent working directory.
 				</p>
+
+				<p>
+					A name for the file should follow the rm command 
+				</p>
+
 				<div class="textColor">
 					<p>
 						Following is Output Example:
