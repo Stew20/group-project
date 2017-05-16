@@ -43,7 +43,7 @@
 	</p>
 	
 	<h2>Permissions Table</h2>
-	<p style="color:#33334d;font-size:25px;">Symbolic Mode</p>
+	<p style="color:#33334d;font-size:22px;">Symbolic Mode</p>
 		<div id="commTable">
 	<table>
   		<tr>
@@ -69,7 +69,7 @@
 	</table>
 		</div>	
 		 
-	<p style="color:#33334d;font-size:25px;padding-top:20p;">Numerical Mode</p>	 
+	<p style="color:#33334d;font-size:22px;padding-top:35px;">Numerical Mode</p>	 
 	<div id="commTable">
 	<table>
   		<tr>
