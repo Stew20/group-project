@@ -115,10 +115,6 @@
      			<td>"Secure File Transfer Protocol" - Used for transferring files over the internet through a secure connection</td>
 		</tr>
 		<tr>
-            <td><a href="head.php" class="command">head</a></td>
-    			<td>MISSING</td>
-		</tr>
-		<tr>
             <td><a href="chown.php" class="command">chown</a></td>
     			<td>MISSING</td>
 		</tr>
