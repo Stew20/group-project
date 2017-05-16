@@ -253,44 +253,44 @@
 				    		<td>mkdir</td>
 				    		<td>Create Directory(ies)</td>
 				  		</tr>
-
+						<tr>
+							<td>touch</td>
+							<td>Create Empty Files</td>
+						</tr>
+						<tr>
+							<td>vim</td>
+							<td>Text Editor</td>
+						</tr>
+						<tr>
+							<td>i</td>
+							<td>Insert</td>
+						</tr>
+						<tr>
+							<td>esc + :w</td>
+							<td>Save</td>
+						</tr>
+						<tr>
+							<td>esc + :q</td>
+							<td>Quit Text Editor</td>
+						</tr>
+						<tr>
+							<td>esc + :wq</td>
+							<td>Save and Quit Text Editor</td>
+						</tr>
 				  		<tr>
 				    		<td>rm</td>
 				    		<td>Delete Files</td>
 				  		</tr>
-
+						<tr>
+							<td>mv</td>
+							<td>Move Or Rename Files</td>
+						</tr>
 						<tr>
 							<td>rmdir</td>
 							<td>Deletes Directories</td>
 				 	 	</tr>
-						<tr>
-				    		<td>mv</td>
-				    		<td>Move Or Rename Files</td>
-				  		</tr>
-						<tr>
-				    		<td>touch</td>
-				    		<td>Create Empty Files</td>
-				  		</tr>
-						<tr>
-				    		<td>vim</td>
-				    		<td>Text Editor</td>
-				  		</tr>
-						<tr>
-				    		<td>i</td>
-				    		<td>Insert</td>
-				  		</tr>
-						<tr>
-				    		<td>esc + :w</td>
-				    		<td>Save</td>
-				  		</tr>
-						<tr>
-				    		<td>esc + :q</td>
-				    		<td>Quit Text Editor</td>
-				  		</tr>
-						<tr>
-				    		<td>esc + :wq</td>
-				    		<td>Save and Quit Text Editor</td>
-				  		</tr>
+
+
 					</table>
 
 				</div>
