@@ -15,54 +15,43 @@
 		include $path.'nav.php';
 	?>
 			<div class="border1">
-			<h1>Quiz1: OS Navigation</h1>
+			<h1>Quiz7: Setting up a Webserver</h1>
 			<div>
-				<h5>Question 1: What command is used to list a directories contents?</h5>
+				<h5>Question 1: What does LAMP stand for?</h5>
 				<div class="textColor">
-				<input type="radio" name="1" class="1" value="A">ls</input><br/>
-				<input type="radio" name="1" class="1" value="B">cd</input><br/>
-				<input type="radio" name="1" class="1" value="C">pwd</input><br/>
-				<input type="radio" name="1" class="1" value="D">none of the above</input>
+				<input type="radio" name="1" class="1" value="A">Linux, Apache, Minesweeper, Program</input><br/>
+				<input type="radio" name="1" class="1" value="B">Lazers Are Making Pizzas</input><br/>
+				<input type="radio" name="1" class="1" value="C">Linux, Apache, MySQL, PHP</input><br/>
+				<input type="radio" name="1" class="1" value="D">LAMP is LAMP, it gives us light when we turn it on</input>
 				</div>
 
 			</div>
 			<div>
-				<h5>Question 2: What command is used to change directories?</h5>
+				<h5>Question 2: How do you check if apache is working correctly?</h5>
 				<div class="textColor">
-				<input type="radio" name="2" class="2" value="A">ls</input><br/>
-				<input type="radio" name="2" class="2" value="B">cd</input><br/>
-				<input type="radio" name="2" class="2" value="C">pwd</input><br/>
-				<input type="radio" name="2" class="2" value="D">none of the above</input>
+				<input type="radio" name="2" class="2" value="A">sudo systemctl enable httpd.service</input><br/>
+				<input type="radio" name="2" class="2" value="B">enter HttP://[your servers ip address] in the url bar of a web browser</input><br/>
+				<input type="radio" name="2" class="2" value="C">sudo yum install httpd</input><br/>
+				<input type="radio" name="2" class="2" value="D">sudo yum update</input>
 				</div>
 
 			</div>
 			<div>
 
-				<h5>Question 3: What command displays the current location in the filesystem?</h5>
+				<h5>Question 3: What command starts MariaDB/MySQL?</h5>
 				<div class="textColor">
-				<input type="radio" name="3" class="3" value="A">ls</input><br/>
-				<input type="radio" name="3" class="3" value="B">cd</input><br/>
-				<input type="radio" name="3" class="3" value="C">pwd</input><br/>
-				<input type="radio" name="3" class="3" value="D">none of the above</input>
+				<input type="radio" name="3" class="3" value="A">sudo mysql_secure_installation</input><br/>
+				<input type="radio" name="3" class="3" value="B">sudo systemctl enable mariadb.service</input><br/>
+				<input type="radio" name="3" class="3" value="C">sudo service mariadb start</input><br/>
 				</div>
 			</div>
 			<div>
-				<h5>Question 4: Select none of the above</h5>
+				<h5>Question 4: Which of these is not a step in writing the PHP test file?</h5>
 				<div class="textColor">
-				<input type="radio" name="4" class="4" value="A">ls</input><br/>
-				<input type="radio" name="4" class="4" value="B">cd</input><br/>
-				<input type="radio" name="4" class="4" value="C">pwd</input><br/>
-				<input type="radio" name="4" class="4" value="D">none of the above</input>
-				</div>
-
-			</div>
-			<div>
-				<h5>Question 5: How would change directory to my parent directory</h5>
-				<div class="textColor">
-				<input type="radio" name="5" class="5" value="A">cd ..</input><br/>
-				<input type="radio" name="5" class="5" value="B">cd ~ </input><br/>
-				<input type="radio" name="5" class="5" value="C">the full file path is needed</input><br/>
-				<input type="radio" name="5" class="5" value="D">cant be done</input>
+				<input type="radio" name="4" class="4" value="A">sudo vim /var/www/html/info.php</input><br/>
+				<input type="radio" name="4" class="4" value="B">sudo yum update</input><br/>
+				<input type="radio" name="4" class="4" value="C">&#60;&#63;php phpinfo(); &#63;&#62;</input><br/>
+				<input type="radio" name="4" class="4" value="D">:wq</input>
 				</div>
 
 			</div>
@@ -75,7 +64,7 @@
 	</body>
 	<script>
 		var answers = [];
-		var answerKey = ["A","B","C","D","A"];
+		var answerKey = ["C","B","C","B"];
 		var results = [];
 		function verify(){
 			for (var i = 0; i < answers.length; i++)
