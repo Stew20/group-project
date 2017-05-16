@@ -117,7 +117,7 @@
 			{
 				strResults += ((i+1).toString() + ": " + results[i] + "\n");
 			}
-			console.log(strResults);
+			alert(strResults);
 			return false;
 		}
 	</script>
