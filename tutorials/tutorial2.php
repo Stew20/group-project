@@ -42,7 +42,7 @@
 				</div>
 
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot.png" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img" src="'.$path.'assets/images/mkdir_img.png" style="width:45vw;height:300px;">'); ?>
 			    </div>
 
 				<div id="backgrd" class="backColor">
@@ -95,7 +95,7 @@
 				</div>
 
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img" src="'.$path.'assets/images/touch_img.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
 				<div id="backgrd" class="backColor">
 					<span class="close">&times;</span>
@@ -153,7 +153,7 @@
 					</p>
 				</div>
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot3.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img" src="'.$path.'assets/images/rm_img.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
 
 				<div id="backgrd" class="backColor">
@@ -161,25 +161,6 @@
 				  	<img class="backColor-image" id="img1">
 				  	<div id="caption"></div>
 				</div>
-
-				<p>
-					rm followed by -d allows the user to delete directories.
-				</p>
-				<div class="textColor">
-					<p>
-						Following is Output Example:
-					</p>
-				</div>
-				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot4.png" alt="picture" style="width:45vw;height:300px;">'); ?>
-				</div>
-
-				<div id="backgrd" class="backColor">
-				  	<span class="close">&times;</span>
-				  	<img class="backColor-image" id="img1">
-				  	<div id="caption"></div>
-				</div>
-				<hr>
 
 				<h2>Move</h2>
 				<div class = "commBorder">
@@ -232,7 +213,7 @@
 				</div>
 
 				<div class="ridge">
-					<?php echo('<img id="Img" src="'.$path.'assets/images/ScreenShot5.png" alt="picture" style="width:45vw;height:300px;">'); ?>
+					<?php echo('<img id="Img" src="'.$path.'assets/images/rmdir_img.png" alt="picture" style="width:45vw;height:300px;">'); ?>
 				</div>
 				<div id="backgrd" class="backColor">
 					<span class="close">&times;</span>
