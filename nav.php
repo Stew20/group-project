@@ -24,8 +24,10 @@
 	<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Quizzes</a>
 		<ul class="quizzesWidth	">
 				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/quiz1.php" onclick="nav_button_clicked(this)" >Q1. Navigation</a></li>
-				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q2. Files</a></li>
-				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >Q3. Overview</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/quiz2.php" onclick="nav_button_clicked(this)" >Q2. File Manipulation</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/quiz3.php" onclick="nav_button_clicked(this)" >Q3. File Permissions</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/quiz4.php" onclick="nav_button_clicked(this)" >Q4. Package Manager</a></li>
+				<li><a class="nav_bar_button" sqlid="quizzes" id="quizzes/index.php" onclick="nav_button_clicked(this)" >More Quizzes</a></li>
 		</ul>
 	</li>
 	<li><a class="nav_bar_button" sqlid="resources" id="resources/index.php" onclick="nav_button_clicked(this)" > Resources </a>
