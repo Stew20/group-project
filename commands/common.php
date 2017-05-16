@@ -31,28 +31,28 @@
   								</tr>
 
   								<tr>
-    								<td>cd</td>
+    								<td><a href="cd.php"> cd </a></td>
     								<td>"Change Directory". Changes the current working directory in the command line</td>
   								</tr>
 
   								<tr>
-    								<td>ls</td>
+    								<td> <a href="ls.php"> ls </a></td>
     								<td>“List”. This is used for listing the contents of a directory as well as properties of files and folder. It can be used with arguments to provide details such as location, permissions, and creation and access dates.</td>
 
   								</tr>
 
   								<tr>
-    								<td>pwd</td>
+    								<td> <a href="pwd.php"> pwd </a></td>
     								<td>“Print Working Directory”. Prints out the current working directory to the terminal</td>
   								</tr>
 
   								<tr>
-    								<td>mkdir</td>
+                                    <td><a href="mkdir.php"> mkdir</a> </td>
     								<td>"Make a Directory". Create a new, empty directory at the given point in the hierarchy</td>
   								</tr>
 
   								<tr>
-  									<td>rmdir</td>
+  									<td><a href="rm.php"> rmdir </a></td>
   									<td>"Remove a Directory". Removes the empty directory</td>
   								</tr>
   							</table>
@@ -70,7 +70,7 @@
   								</tr>
 
  								<tr>
-  									<td>touch</td>
+  									<td><a href="touch.php"> touch </a></td>
   									<td>Create an empty file or updates modifican/access date.</td>
   								</tr>
 
@@ -81,17 +81,17 @@
   								</tr>
 
   								<tr>
-  									<td>rm</td>
+  									<td><a href="rm.php"> rm </a></td>
   									<td>"Remove". Deletes the file.</td>
   								</tr>
 
     							<tr>
-  									<td>cp</td>
+  									<td><a href="cp.php"> cp </a></td>
   									<td>"Copy". Copy the file to another file.</td>
   								</tr>
 
 								<tr>
-  									<td>chmod</td>
+  									<td><a href="chmod"> chmod</a> </td>
   									<td>"Change Mode". Change File/Directory Permissions.</td>
   								</tr>
   							</table>
