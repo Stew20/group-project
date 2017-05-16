@@ -5,7 +5,8 @@
 	include $path."header.php";
 ?>
 
-
+	<title>Stew20 Navigation commands</title>
+	</head>
 	<body>
 		<div class = "background" style ="height: 10em;">
 			<div style="text-align: center;" >

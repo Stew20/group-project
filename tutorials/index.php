@@ -4,12 +4,8 @@
 		$path = "../";
 		include''.$path.'header.php';
 	?>
-	<head>
-	<title>Command</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<title>Stew20 Tutorials</title>
 	</head>
-
 	<body>
 		<div class = "background" style ="height: 10em;">
 			<div style="text-align: center;" >

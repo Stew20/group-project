@@ -8,6 +8,8 @@ $_SESSION["sidenav"] = "home";
 		$path = "../";
 		include $path.'header.php';
 	?>
+	<title>Stew20 cd command</title>
+	</head>
 	<body>
 		<div class = "background" style ="height: 10em;">
 			<div style="text-align: center;" >
@@ -50,7 +52,7 @@ $_SESSION["sidenav"] = "home";
             <td>This extension instructs the cd to change with a symbolic link.</td>
         </tr>
                         </table>
-                        
+
                     </div>
 				</div>
         </div>

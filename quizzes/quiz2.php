@@ -4,6 +4,8 @@
 	$path = "../";
 	include $path."header.php";
 ?>
+	<title>Stew20 File Manipulation Quiz</title>
+	</head>
 	<body>
 		<div class = "background" style ="height: 10em;">
 			<div style="text-align: center;" >

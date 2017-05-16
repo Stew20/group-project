@@ -4,23 +4,19 @@
 		$path = "../";
 		include''.$path.'header.php';
 	?>
-	<head>
-	<title>Command</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">	
+	<title>Stew20 Webserver Set Up Tutorial </title>
 	</head>
-	
 	<body>
 		<div class = "background" style ="height: 10em;">
 			<div style="text-align: center;" >
 	 	      <img class="imgResp" src="../assets/images/banner_words.png" alt="picture" style="top:39px;">
 		   </div>
 		</div>
-	
+
 	<?php
 		include''.$path.'nav.php';
 	?>
-	
+
 
 	<h1>Unix - Setting up a webserver </h1>
 	<div class="border1">
@@ -28,20 +24,20 @@
 			<h2>Introduction</h2>
 		<p>
 			This tutorial will guide you through the basic steps of setting up a webserver using a LAMP stack. LAMP stands for Linux, Apache, MySQL, PHP. This tutorial does build off of the previous tutorials on this site
-			and it is recommended that those are read through before proceeding with this tutorial. In the LAMP stack, Apache is the service that runs the webserver itself, MySQL is a database used for storing information for 
-			the webserver, and PHP is used as a backend language further extending the capabilities of the webserver. 
+			and it is recommended that those are read through before proceeding with this tutorial. In the LAMP stack, Apache is the service that runs the webserver itself, MySQL is a database used for storing information for
+			the webserver, and PHP is used as a backend language further extending the capabilities of the webserver.
 		</p>
-		
+
 		<hr>
 			<h2>Install Apache</h2>
 			<p>
-				First we should install make sure the system is up to date and all currently install packages are at the most recent version. 
+				First we should install make sure the system is up to date and all currently install packages are at the most recent version.
 			</p>
 			<div class = "commBorder">
 				<p>sudo yum update</p>
 			</div>
 			<p>
-				Next install Apache. 
+				Next install Apache.
 			</p>
 			<div class = "commBorder">
 				<p>sudo yum install httpd</p>
@@ -53,13 +49,13 @@
 				<p>sudo service httpd start</p>
 			</div>
 			<p>
-				Make sure Apache is running. This command should display Active:Active. If it shows Active: Dead(inactive) then fix the error displayed in the status message or retry the previous step. 
+				Make sure Apache is running. This command should display Active:Active. If it shows Active: Dead(inactive) then fix the error displayed in the status message or retry the previous step.
 			</p>
 			<div class = "commBorder">
 				<p>sudo service httpd status</p>
 			</div>
 			<p>
-				Set Apache to start on server boot. 
+				Set Apache to start on server boot.
 			</p>
 			<div class = "commBorder">
 				<p>sudo systemctl enable httpd.service</p>
@@ -70,7 +66,7 @@
 			<div class = "commBorder">
 				<p>http://[your servers ip address]</p>
 			</div>
-			
+
 		<hr>
 					<h2>Install MySQL</h2>
 			<p>
@@ -107,9 +103,9 @@
 				Enter and confirm the new root password
 			</p>
 			<p>
-				For the remaining questions respond with Y for best practice. 
+				For the remaining questions respond with Y for best practice.
 			</p>
-		
+
 		<hr>
 		<h2>Install PHP</h2>
 		<p>
@@ -140,18 +136,18 @@
 			<p>:wq</p>
 		</div>
 		<p>
-			verify that it worked by opening a web browser and entering the following into the URL bar where [your servers ip address] is replaced with the ip address of your server. a PHP page should display when the page loads. this verifies that PHP is working. 
+			verify that it worked by opening a web browser and entering the following into the URL bar where [your servers ip address] is replaced with the ip address of your server. a PHP page should display when the page loads. this verifies that PHP is working.
 		</p>
 		<div class = "commBorder">
 			<p>http://[your servers ip address]/info.php</p>
 		</div>
-		<hr>		
+		<hr>
 		</div>
 	</div>
-	
+
 	<?php
 		include''.$path.'footer.php';
 	?>
-        
+
 	</body>
 </html>

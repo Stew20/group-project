@@ -5,6 +5,8 @@
 		$path = "../";
 		include $path.'header.php';
 	?>
+	<title>Stew20 Getting Started</title>
+	</head>
 	<body>
 		<div class = "background" style ="height: 10em;">
 			<div style="text-align: center;" >
