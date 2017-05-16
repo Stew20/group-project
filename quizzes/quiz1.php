@@ -115,7 +115,7 @@
 			var strResults;
 			for(var i = 0; i < results.length; i++)
 			{
-				strResult += (i.toString() + ": " + results[i] + "\n");
+				strResults += (i.toString() + ": " + results[i] + "\n");
 			}
 			console.log(strResults);
 			return false;
