@@ -4,13 +4,15 @@
 	$path = "../";
 	include $path."header.php";
 ?>
-	
-	
+
+
 	<body>
-	<div class="tran">
- 	   <?php echo('<img src="'.$path.'assets/images/code3.jpg" alt="picture" style="width:100vw;height:400px;">'); ?>
-	</div>
-	
+		<div class = "background" style ="height: 10em;">
+			<div style="text-align: center;" >
+	 	      <img class="imgResp" src="../assets/images/banner_words.png" alt="picture" style="top:39px;">
+		   </div>
+		</div>
+
 	<?php
 		include $path.'nav.php';
 	?>
@@ -23,9 +25,9 @@
 			</p>
 		</div>
 	</div>
-	
-	
-	
+
+
+
 	<div class="border1">
 		<div class="box1">
 
@@ -35,15 +37,15 @@
 			<tr>
 				<th>Command</th>
 				<th>Description</th>
-			</tr>		
+			</tr>
 			<tr>
 				<td>cd</td>
 				<td>“Change Directory”. Changes the current working directory in the command line</td>
 			</tr>
 			<tr>
 				<td>ls</td>
-				<td>“List”. This is used for listing the contents of a directory as well as properties of files 
-				and folder. It can be used with arguments to provide details such as location, permissions, and 
+				<td>“List”. This is used for listing the contents of a directory as well as properties of files
+				and folder. It can be used with arguments to provide details such as location, permissions, and
 				creation and access dates.</td>
 			</tr>
 			<tr>
@@ -60,7 +62,7 @@
 				<td>xxxxxxx</td>
 			</tr>
 		</table>
-		</div>		
+		</div>
 	</div>
 
 	<div class="border1">
@@ -78,10 +80,10 @@
 				<td>“Change Directory”. Changes the current working directory in the command line.</td>
 			</tr>
 		</table>
-		</div>		
-	</div>	
+		</div>
+	</div>
 
-	
+
 	<div class="border1">
 		<div class="box1">
 
@@ -94,14 +96,14 @@
 			</tr>
 			<tr>
 				<td>ls</td>
-				<td>“List”. This is used for listing the contents of a directory as well as properties of files 
-				and folder. It can be used with arguments to provide details such as location, permissions, and 
+				<td>“List”. This is used for listing the contents of a directory as well as properties of files
+				and folder. It can be used with arguments to provide details such as location, permissions, and
 				creation and access dates.</td>
 			</tr>
 		</table>
-		</div>		
-	</div>	
-  
+		</div>
+	</div>
+
 	<div class="border1">
 		<div class="box1">
 
@@ -114,15 +116,15 @@
 			</tr>
 			<tr>
 				<td>pwd</td>
-				<td>“List”. This is used for listing the contents of a directory as well as properties of files 
-				and folder. It can be used with arguments to provide details such as location, permissions, and 
+				<td>“List”. This is used for listing the contents of a directory as well as properties of files
+				and folder. It can be used with arguments to provide details such as location, permissions, and
 				creation and access dates.</td>
 			</tr>
 		</table>
-		</div>		
-	</div>	
-   
-   
+		</div>
+	</div>
+
+
    	<div class="border1">
 	<div class="box1">
 	<!--  Category command-->
@@ -150,12 +152,12 @@
     <td>xxxxxxx</td>
   </tr>
    </table>
-   </div>		
-   </div>	
-      
-      
-      
-      
+   </div>
+   </div>
+
+
+
+
      <div class="border1">
 	<div class="box1">
 	<!--  Category command-->
@@ -183,11 +185,11 @@
     <td>xxxxxxx</td>
   </tr>
    </table>
-   </div>		
-   </div>	   
+   </div>
+   </div>
 
 	<?php
 		include $path."footer.php";
-	?>		
+	?>
 	</body>
 </html>

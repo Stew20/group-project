@@ -17,8 +17,8 @@
 
 		<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
 
-	<h1>Unix commands </h1>	
-	
+	<h1>Unix commands </h1>
+
 	<div class="border1">
 		<div class="box1">
 
@@ -28,15 +28,15 @@
 			<tr>
 				<th>Command</th>
 				<th>Description</th>
-			</tr>		
+			</tr>
 			<tr>
 				<td>cd</td>
 				<td>“Change Directory”. Changes the current working directory in the command line</td>
 			</tr>
 			<tr>
 				<td>ls</td>
-				<td>“List”. This is used for listing the contents of a directory as well as properties of files 
-				and folder. It can be used with arguments to provide details such as location, permissions, and 
+				<td>“List”. This is used for listing the contents of a directory as well as properties of files
+				and folder. It can be used with arguments to provide details such as location, permissions, and
 				creation and access dates.</td>
 			</tr>
 			<tr>
@@ -50,18 +50,18 @@
 		  </tr>
 
 		</table>
-		</div>		
+		</div>
 	</div>
 
 	<div id="push"> </div>
-	
-  
-	
-	
-         
+
+
+
+
+
 
 	<?php
 		include $path."footer.php";
-	?>		
+	?>
 	</body>
 </html>
