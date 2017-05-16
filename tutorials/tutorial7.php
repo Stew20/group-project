@@ -129,7 +129,7 @@
 			add the following code to the file
 		</p>
 		<div class = "commBorder">
-			<p><?php phpinfo(); ?></p>
+			<p>&#60;&#63;php phpinfo(); &#63;&#62;</p>
 		</div>
 		<p>
 			save and close the file
