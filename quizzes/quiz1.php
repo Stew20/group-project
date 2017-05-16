@@ -67,7 +67,7 @@
 				</div>
 
 			</div>
-			<input type="submit" value="submit" class="button" onclick="checkAnswers()"></input>
+			<button class="button" onclick="checkAnswers()">Submit</button>
 		</form>
 		</div>
 	<div id="push"> </div>
@@ -116,7 +116,7 @@
 			verify();
 			for(var i = 0; i < results.length; i++)
 			{
-				alert.log(results[i]);
+				console.log(results[i]);
 			}
 			return false;
 		}
