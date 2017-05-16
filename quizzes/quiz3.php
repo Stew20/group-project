@@ -20,9 +20,9 @@
 				<h5>Question 1: How do you set the owner and group to read, write, and execute a file (foo) and others to only read and execute?</h5>
 				<div class="textColor">
 				<input type="radio" name="1" class="1" value="A">chmod 755 foo</input><br/>
-				<input type="radio" name="1" class="1" value="B">chmod 644</input><br/>
-				<input type="radio" name="1" class="1" value="C">chmod 777</input><br/>
-				<input type="radio" name="1" class="1" value="D">chmod 123</input>
+				<input type="radio" name="1" class="1" value="B">chmod 644 foo</input><br/>
+				<input type="radio" name="1" class="1" value="C">chmod 777 foo </input><br/>
+				<input type="radio" name="1" class="1" value="D">chmod 123 foo</input>
 				</div>
 
 			</div>
