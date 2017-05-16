@@ -14,7 +14,7 @@
 	<?php
 		include $path.'nav.php';
 	?>
-		<form>
+		<form onsubmit="return checkAnswers()">
 			<div class="border1">
 			<h1>Quiz1: OS Navigation</h1>
 			<div>
@@ -67,9 +67,8 @@
 				</div>
 
 			</div>
-
+			<input type="submit" class="button">Submit</input>
 		</form>
-		<button class="button" onClick="checkAnswers()">Submit</button>
 		</div>
 	<div id="push"> </div>
 	<?php
@@ -121,6 +120,7 @@
 				strResult += (i.toString() + ": " + results[i] + "\n");
 			}
 			console.log(strResult);
+			return false;
 		}
 	</script>
 </html>
